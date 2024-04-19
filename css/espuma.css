@@ -424,12 +424,6 @@ footer img{
         font-size: 1.8em;
         margin-top: 2em; 
     }
-    #section{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
     #importancia h2{
         font-size: 4em;
         width: 30em;
@@ -484,5 +478,56 @@ footer img{
     }
     #componentes h2{
         font-size: 4em;
+        color: rgb(14, 14, 58);
+        width: 35em;
+        margin-left: 0px;
+        text-align: center;
+    }
+    #componentes .box-body{
+        display: flex;
+        flex-direction: row;
+    }
+    #componentes .box-inside{
+        margin-left: 3em;
+        width: 40em;
+        padding: 1em;
+        text-align: center;
+        box-shadow: 2em 2em 2em black;
+        margin-bottom: 5em;
+    }
+    #componentes h3{
+        font-size: 2.5em;
+    }
+    #componentes p{
+        font-size: 1.7em;
+    }
+    #componentes .button1{
+        padding: 1.5em 3em; 
+        width: 40em;
+    }
+    #componentes a{
+        font-size: 1.8em;
+    }
+    #efectividad{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #efectividad h2{
+        font-size: 4em;
+        color: rgb(14, 14, 58);
+        text-align: center;
+    }
+    #efectividad .box-head p{
+        font-size: 2.3em;
+        width: 45em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #efectividad .box-body{
+        display: flex;
+        flex-direction: row;
     }
 }
