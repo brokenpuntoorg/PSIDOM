@@ -522,12 +522,25 @@ footer img{
     }
     #efectividad .box-head p{
         font-size: 2.3em;
-        width: 45em;
+        width: 40em;
         margin-left: auto;
         margin-right: auto;
     }
     #efectividad .box-body{
         display: flex;
         flex-direction: row;
+    }
+    #efectividad .box-inside{
+        padding: 2em;
+        width: 50em;
+        margin-left: 2em;
+        box-shadow: 5em 5em 5em black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #efectividad .box-inside h3{
+        font-size: 2.3em;
     }
 }
