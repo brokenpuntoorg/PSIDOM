@@ -424,10 +424,29 @@ footer img{
         font-size: 1.8em;
         margin-top: 2em; 
     }
-    #importancia .container h2{
+    #section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #importancia h2{
         font-size: 4em;
         width: 30em;
-        text-align: center;
-        margin-left: -500;
+        color: rgb(14, 14, 58);
+    }
+    #importancia .box-head{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #importancia .box-head p{
+        font-size: 2em;
+        width: 70em;
+    }
+    b{
+        font-size: 1.1em;
+        font-weight: bold;
     }
 }
