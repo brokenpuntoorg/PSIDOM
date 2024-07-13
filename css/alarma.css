@@ -622,11 +622,22 @@ footer img{
     }
     #form .box-button{
         position: relative;
-        left: 0em;
+        right: 20em;
     }
-
-
     footer .div-footer{
+        display: flex;
+        flex-direction: row;
+    }
+    footer a{
+        font-size: 1.8em;
+    }
+    footer .div-footer p{
+        font-size: 1.8em;
+    }
+    footer .adress{
+        margin-left: 15em;
+    }
+    footer .cartas{
         display: flex;
         flex-direction: row;
     }
