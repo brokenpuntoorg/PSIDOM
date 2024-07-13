@@ -582,7 +582,48 @@ footer img{
     #mantenimiento li{
         font-size: 1.4em;
     }
-
+    #form h2{
+        font-size: 4em;
+    }
+    #form .box-head p{
+        font-size: 1.5em;
+        width: 1500px;
+    }
+    #form .box-body{
+        display: flex;
+        flex-direction: row;
+    }
+    #form .box-right{
+        width:60em;
+        margin-left: 3em;
+    }
+    #form .box-left{
+        width: 60em;
+        margin-left: 5em;
+        padding: 2em 0em;
+    }
+    #form .box-left p{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    #form .box-middle-email{
+        margin-top: 3em;
+    }
+    #form input{
+        height: 4em;
+        margin-bottom: 1.5em;
+        font-size: 1.3em;
+    }
+    #form .control1{
+        width: 30em;
+    }
+    #form .controls{
+        height: 10em;
+    }
+    #form .box-button{
+        position: relative;
+        left: 0em;
+    }
 
 
     footer .div-footer{
