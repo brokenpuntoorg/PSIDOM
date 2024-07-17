@@ -398,15 +398,33 @@ footer img{
         justify-content: right;
         margin-right: 5em;
     }
-    #hero{
+    #hero .container{
         display: flex;
         flex-direction: column;
         justify-content: left;
-        background-color: red;
+        margin-left: 0px;
     }
-    #hero .container .logo{
+    #hero  .logo{
         width: 400px;
         height: 200px;
-        margin-left: 0px    ;
+        position: relative;
+        bottom: 19em;
+        right: 35em;
+    }
+    #hero h1{
+        font-size: 7em;
+    }
+    #hero h1:hover{
+        color: rgb(180, 48, 65);
+    }
+    .button{
+        padding: 3em 9em;
+        background-color:  rgb(180, 48, 65);
+        border-radius: 15px;
+        border: 1px solid rgba(0, 0, 0, .5);
+        box-shadow: 5px 5px 5px 2px black;
+    }
+    #hero a{
+        font-size: 1.5em;
     }
 }
