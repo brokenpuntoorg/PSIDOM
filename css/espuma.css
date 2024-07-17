@@ -404,11 +404,9 @@ footer img{
         justify-content: left;
         background-color: red;
     }
-    #hero .logo{
-        width: 500px;
-        height: 250px;
-        display: flex;
-        justify-content: left;
-        text-align: left;
+    #hero .container .logo{
+        width: 400px;
+        height: 200px;
+        margin-left: 0px    ;
     }
 }
