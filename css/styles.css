@@ -226,7 +226,7 @@ nav{
 }
 #imgs h5{
     font-size: 1.3em;
-    color: red;
+    color: rgb(87, 46, 46);
     margin-left: 17px;
 }
 #imgs p{
@@ -268,4 +268,72 @@ nav{
     justify-content: center;
     text-align: center;
     margin-bottom: 25px;
+}
+#servicio{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+#servicio a{
+    position: relative;
+    top: 280px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+#servicio a:hover{
+    color:  rgb(87, 46, 46);
+}
+#servicio h2{
+    position: relative;
+    top: -50px;
+    font-size: 2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    justify-content: top;
+    text-align: top;
+    color: rgb(87, 46, 46);
+}
+.servi{
+    height: 30vh;
+    width: 55vw;
+    border-radius: 50%;
+    margin-left: auto;margin-right: auto;
+    margin-bottom: 70px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.servi:first-child{
+    background-image: url(assets/dos/1.jpg);
+}
+.servi:nth-child(2){
+    background-image: url(assets/dos/2.jpg);
+}
+.servi:nth-child(3){
+    background-image: url(assets/dos/3.jpg);
+}
+.servi:nth-child(4){
+    background-image: url(assets/dos/4.jpeg);
+}
+.servi:nth-child(5){
+    background-image: url(assets/dos/5.jpg);
+}
+.servi:nth-child(6){
+    background-image: url(assets/dos/6.jpg);
+}
+.servi:nth-child(7){
+    background-image: url(assets/dos/7.jpg);
+}
+.servi:nth-child(8){
+    background-image: url(assets/dos/8.jpg);
+}
+.servi:nth-child(9){
+    background-image: url(assets/dos/9.jpg);
 }
