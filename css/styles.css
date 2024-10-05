@@ -337,3 +337,46 @@ nav{
 .servi:nth-child(9){
     background-image: url(assets/dos/9.jpg);
 }
+#proye{
+    height: 100vh;
+}
+.proyect{
+    width: 95%;
+    height: 85vh;
+    margin-left: auto;margin-right: auto;
+}
+.proyect:first-child{
+    background-image: url(assets/dos/uno.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+#proye h2{
+    position: relative;
+    top: -100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;
+}
+#proye .button{
+    padding: 10px 20px;
+    background-color:  rgb(87, 46, 46);
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: 200px;
+}
+#proye .but{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: -100px;
+}
+#proye a{
+    color: white;
+}
