@@ -3,6 +3,9 @@
 }
 body{
     background-color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 .container{
     max-width: 1400px;
@@ -358,14 +361,15 @@ nav{
     background-size: contain;
 }
 #proye h2{
+    height: 20vh;
     position: relative;
-    top: -100px;
+    top: -70px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.7em;
 }
 #proye h2:hover{
     color: rgb(182, 55, 55);
@@ -394,14 +398,17 @@ nav{
     text-decoration: none;
     font-size: 1.4em;
 }
+
 #wave {
+    position: relative;
+    top: 200px;
     width: 100%;
     height: 600px;
-    background: #bc4e9c;
+    background: #614e96;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../css/img/portada.jpg);
+    background: -webkit-linear-gradient(to right, hsla(234, 45%, 45%, 0.664), hsla(317, 45%, 52%, 0.664)), url(../css/assets/dos/1.jpg);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../css/img/portada.jpg);
+    background: linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(234, 45%, 45%, 0.664)), url(../css/assets/dos/1.jpg);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
@@ -432,4 +439,99 @@ nav{
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+#material{
+    position: relative;
+    top: 130px;
+}
+#material .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 150px;
+}
+#material h2{
+    color:  rgb(182, 55, 55);
+    font-size: 1.8em;
+}
+#material b{
+    color: black;
+    font-weight: bold;
+}
+#material h3{
+    position: relative;
+    top: -10px;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+#material .material-symbols-outlined{
+    font-size: 3em;
+}
+#material h4{
+    position: relative;
+    top: -25px;
+    font-size: 2em;
+}
+#material p{
+    color: white;
+    position: relative;
+    top: -60px;
+    font-size: 1.1em;
+}
+.cont{
+    background-color: rgba(1, 1, 30, .9);
+    border-radius: 10px;
+    color:  rgb(182, 55, 55);
+    width: 75vw;
+    padding: 15px 15px 0px 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .6);
+}
+#final{
+    display: flex;
+    flex-direction: column;
+    text-align: top;
+    align-items: left;
+    justify-content: left;
+    padding-left: 50px;
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,.6),
+        rgba(0,0,0,.6)
+    ) 
+    ,url(assets/uno/hero.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 100vh;
+}
+#final .box-up{
+    position: relative;
+    top: -180px;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: top;
+}
+#final .material-symbols-outlined{
+    color: rgb(182, 55, 55);
+    font-size: 2.5em;
+}
+#final form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    width: 65vw;
+    margin-left: 100px;margin-right: auto;
 }
