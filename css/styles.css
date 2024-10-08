@@ -16,10 +16,12 @@ body{
     background-position: top top;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 230px;
-    height: 80px;
+    width: 330px;
+    height: 120px;
     margin-right: auto;margin-left: auto;
     margin-bottom: 60px;
+    position: relative;
+    top: 25px;
 }
 nav{
     display: none;
@@ -45,7 +47,7 @@ nav{
     margin-left: 25px;
 }
 #hero h1:hover{
-    color: red;
+    color: rgb(182, 55, 55);
 }
 #hero p{
     font-family:'Times New Roman', Times, serif;
@@ -56,7 +58,6 @@ nav{
     margin-bottom: 50px;
 }
 #hero .button{
-    padding: 6px 10px;
     background-color:rgb(124, 17, 17) ;
     border-radius: 5px;
     display: flex;
@@ -64,11 +65,16 @@ nav{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 180px;
     margin-left: 25px;
+    width: 250px;
+    padding: 15px;
+    border: 2px solid rgba(0, 0, 0, .9);
+    box-shadow: 5px 5px 5px 5px rgba(255, 255, 255.9, alpha);
 }
 #hero .button:hover{
     background-color: rgb(87, 46, 46);
+    border: 2px solid rgba(255, 255, 255, .9);
+    box-shadow: 5px 5px 5px 5px  rgb(182, 55, 55);
 }
 #hero a{
     text-decoration: none;
@@ -78,6 +84,7 @@ nav{
     text-align: center;;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
 }
 #nuestro{
     position: relative;
@@ -101,7 +108,7 @@ nav{
     margin-left: 25px;
 }
 #nuestro h2:hover{
-    color: red;
+    color: rgb(182, 55, 55);
 }
 #nuestro h3{
     font-weight: bold;
@@ -131,16 +138,22 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 110px;
+    width: 210px;
+    height: 50px;
     margin-left: 25px;
     color: white;
+    border: 2px solid rgba(0, 0, 0, .9);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .5);
 }
 #nuestro .button:hover{
-    background-color:  rgb(87, 46, 46)
+    background-color:  rgb(87, 46, 46);
+    border: 2px solid rgba(255, 255, 255, .9);
+    box-shadow: 5px 5px 5px 5px  rgb(182, 55, 55);
 }
 #nuestro a{
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.3em;
+    font-weight: bold;
 }
 #numeros{
     display: flex;
@@ -223,7 +236,7 @@ nav{
     bottom: 130px;
 }
 #imgs{
-    height: 100vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
 }
@@ -234,7 +247,7 @@ nav{
 }
 #imgs p{
     position: relative;
-    top:-20px;
+    top:-10px;
     text-align: left;
     margin-left: 30px;
     font-size: 1.3em;
@@ -248,6 +261,7 @@ nav{
     justify-content: top;
     text-align: center;
     margin-bottom: 25px;
+    margin-top: 25px;
 }
 .set:nth-child(2){
     background-image: url(assets/uno/3.webp);
