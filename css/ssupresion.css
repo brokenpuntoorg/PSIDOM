@@ -11,3 +11,137 @@ body{
     max-width: 1400px;
     margin: auto;
 }
+.img{
+    background-image: url(assets/uno/logo.webp);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 230px;
+    height: 90px;
+    margin-right: auto;margin-left: auto;
+    margin-bottom: 90px;
+}
+nav{
+    display: none;
+}
+#hero{
+    color: white;
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,.6),
+        rgba(0,0,0,.6)
+    ) 
+    ,url(assets/supresion/hero.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    cursor: pointer;
+}
+#hero h1{
+    font-weight: bold;
+    font-size: 2.0em;
+    width: 200px;
+    margin-left: 25px;
+}
+#hero h1:hover{
+    color: rgb(182, 55, 55);
+}
+#hero p{
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 0.9em;
+    margin-left: 25px;
+    width: 90%;
+    margin-bottom: 50px;
+}
+#hero b{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+#hero .button{
+    background-color:rgb(124, 17, 17) ;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    width: 200px;
+    padding: 15px;
+    border: 2px solid rgba(0, 0, 0, .9);
+    box-shadow: 5px 5px 5px 5px rgba(255, 255, 255.9, alpha);
+    margin-bottom: 30px;
+}
+#hero .button:hover{
+    background-color: rgb(87, 46, 46);
+    border: 2px solid rgba(255, 255, 255, .9);
+    box-shadow: 5px 5px 5px 5px  rgb(182, 55, 55);
+}
+#hero a{
+    text-decoration: none;
+    color: white;
+    padding-left: 6px;
+    display: flex;
+    text-align: center;;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+#sistema-de-supresion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#sistema-de-supresion h2{
+    font-size: 1.8em;
+    width: 350px;
+    margin-left: auto;margin-right: auto;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#sistema-de-supresion p{
+    font-size: 1.1em;
+    width: 300px;
+    margin-left: auto;margin-right: auto;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+#ventajas{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    height: 130vh;
+}
+#ventajas h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 1.7em;
+    width: 250px;
+    margin-left: auto;margin-right: auto;
+}
+#ventajas .material-symbols-outlined{
+    color:  rgb(182, 55, 55);
+    font-size: 2.9em;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    margin-left: 35px;
+}
+#ventajas p{
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-left: 35px;
+}
