@@ -197,3 +197,293 @@ nav{
     margin-left: 35px;
     font-weight: 100;
 }
+#componentes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#componentes .button{
+    background-color:white ;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 15px;
+    border: 6px solid rgb(124, 17, 17)  ;
+    box-shadow: 5px 5px 5px 5px rgba(255, 255, 255.9, alpha);
+    color: black;
+    margin-bottom: 30px;
+    margin-left: auto;margin-right: auto;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#componentes .button:hover{
+    background-color: rgb(87, 46, 46);
+    border: 2px solid rgba(255, 255, 255, .9);
+    box-shadow: 5px 5px 5px 5px  rgb(182, 55, 55);
+}
+#componentes .compo{
+
+    background-color:  rgb(124, 17, 17);
+    color: white;
+    margin-top: 20px;
+}
+.compo h3{
+    font-size: 2em;
+    margin-left: auto;margin-right: auto;
+    width: 320px;
+    margin-bottom: 25px;
+}
+#componentes .box-inside{
+    width: 90%;
+    border: 1px solid rgba(0, 0, 0, .9);
+    margin-left: auto;margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 5px -5px 5px rgba(0, 0, 0, .9);
+}
+#componentes .box-inside-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: lef;
+    text-align: left;
+    padding: 0px 15px;
+}
+#componentes h4{
+    font-size: 1.3em;
+    width: 100%;
+}
+.box-inside-head h4{
+    font-weight: bold;
+    margin-bottom: -15px;
+}
+#componentes p{
+    font-weight: 300;
+}
+#componentes .det{
+    display: flex;
+    flex-direction: row;
+}
+.det span{
+    position: relative;
+    height: 30px;
+    top: 12px;
+    left: -10px;
+    color:  rgb(182, 55, 55);
+}
+
+
+#tipos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#tipos .button{
+    background-color:white ;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 15px;
+    border: 6px solid rgb(124, 17, 17)  ;
+    box-shadow: 5px 5px 5px 5px rgba(255, 255, 255.9, alpha);
+    color: black;
+    margin-bottom: 30px;
+    margin-left: auto;margin-right: auto;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#tipos .button:hover{
+    background-color: rgb(87, 46, 46);
+    border: 2px solid rgba(255, 255, 255, .9);
+    box-shadow: 5px 5px 5px 5px  rgb(182, 55, 55);
+}
+#tipos .types{
+    background-color:  rgba(1, 1, 30, .9);
+    color: white;
+    margin-top: 20px;
+}
+.types h3{
+    font-size: 2em;
+    margin-left: auto;margin-right: auto;
+    width: 320px;
+    margin-bottom: 25px;
+}
+#tipos .box-inside{
+    width: 90%;
+    border: 1px solid rgba(0, 0, 0, .9);
+    margin-left: auto;margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 5px -5px 5px rgba(0, 0, 0, .9);
+}
+#tipos .box-inside-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: lef;
+    text-align: left;
+    padding: 0px 15px;
+}
+#tipos h4{
+    font-size: 1.3em;
+    width: 100%;
+}
+.box-inside-head h4{
+    font-weight: bold;
+    margin-bottom: -15px;
+}
+#tipos p{
+    font-weight: 300;
+}
+#tipos .det{
+    display: flex;
+    flex-direction: row;
+}
+.det span{
+    position: relative;
+    height: 30px;
+    top: 12px;
+    left: -10px;
+    color:  rgb(182, 55, 55);
+}
+.box-inside{
+    background-color: white;
+    color: black;
+}
+#tipos h5{
+    font-size: 1.5em;
+    margin: 0;
+}
+#aplicaciones{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    margin-top: 25px;
+}
+#aplicaciones .box-head{
+    background-color:  rgb(182, 55, 55);
+    padding: 10px;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid rgba(0, 0, 0, .9);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+    margin-bottom: 25px;
+}
+#aplicaciones h3{
+    font-size: 1.7em;
+    width: 200px;
+    margin-left: auto;margin-right: auto;
+}
+#aplicaciones p{
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+#aplicaciones .box-inside{
+    border: 1px solid rgb(182, 55, 55);
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px solid   rgba(0, 0, 0, .6);
+    padding: 10px;
+}
+.det h4{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    font-size: 1.6em;
+    margin: 0;
+}
+#aplicaciones .det{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+.det span{
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.det h4{
+    color: rgb(182, 55, 55);
+}
+#aplicaciones .button{
+    background-color: rgb(182, 55, 55) ;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 15px;
+    border: 6px solid rgb(124, 17, 17)  ;
+    box-shadow: 5px 5px 5px 5px rgba(255, 255, 255.9, alpha);
+    color: white;
+    margin-bottom: 30px;
+    margin-left: auto;margin-right: auto;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#aplicaciones .button:hover{
+    background-color: rgb(87, 46, 46);
+    border: 2px solid rgba(255, 255, 255, .9);
+    box-shadow: 5px 5px 5px 5px  rgb(182, 55, 55);
+}
+#sistemas{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(124, 17, 17);
+    color: white;
+}
+#sistemas h3{
+    font-size:2.0em;
+}
+#sistemas p{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    font-weight: 200;
+}
+#sistemas .box-inside{
+    border-radius: 25px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, .5);
+    box-shadow: 5px -5px 5px rgba(0, 0, 0, .9);
+}
+#sistemas .det{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    text-align: left;
+    justify-content: left;
+}
+.box-inside-head h4{
+    margin-bottom: 25px;
+    font-size: 1.6em;
+    color:  rgb(124, 17, 17);
+} 
+
