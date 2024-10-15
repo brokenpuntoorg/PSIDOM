@@ -45,7 +45,7 @@ nav{
     margin-left: 25px;
 }
 #hero h1:hover{
-    color: rgb(182, 55, 55);
+    color: rgb(180, 48, 65);
 }
 #hero p{
     font-family:'Times New Roman', Times, serif;
@@ -60,7 +60,7 @@ nav{
     font-size: 1.3em;
 }
 #hero .button{
-    background-color:rgb(124, 17, 17) ;
+    background-color:rgb(180, 48, 65) ;
     border-radius: 5px;
     display: flex;
     text-align: center;
@@ -77,7 +77,7 @@ nav{
 #hero .button:hover{
     background-color: rgb(87, 46, 46);
     border: 2px solid rgba(255, 255, 255, .9);
-    box-shadow: 5px 5px 5px 5px  rgb(182, 55, 55);
+    box-shadow: 5px 5px 5px 5px  rgb(180, 48, 65);
 }
 #hero a{
     text-decoration: none;
@@ -129,7 +129,7 @@ nav{
     margin-left: auto;margin-right: auto;
 }
 #ventajas .material-symbols-outlined{
-    color:  rgb(182, 55, 55);
+    color:  rgb(180, 48, 65);
     font-size: 2.9em;
     font-weight: bold;
     display: flex;
@@ -178,7 +178,7 @@ nav{
     font-weight: bold;
 }
 #formato span{
-    color:  rgb(182, 55, 55);
+    color:  rgb(180, 48, 65);
     font-size: 2.9em;
     font-weight: bold;
     display: flex;
@@ -189,7 +189,7 @@ nav{
     margin-left: 35px;
 }
 #formato h3{
-    color: rgb(182, 55, 55);
+    color: rgb(180, 48, 65);
     font-size: 1.5em;
     margin-left: 35px;
 }
@@ -214,7 +214,7 @@ nav{
     justify-content: center;
     width: 300px;
     padding: 15px;
-    border: 6px solid rgb(124, 17, 17)  ;
+    border: 6px solid rgb(180, 48, 65) ;
     box-shadow: 5px 5px 5px 5px rgba(255, 255, 255.9, alpha);
     color: black;
     margin-bottom: 30px;
@@ -226,11 +226,11 @@ nav{
 #componentes .button:hover{
     background-color: rgb(87, 46, 46);
     border: 2px solid rgba(255, 255, 255, .9);
-    box-shadow: 5px 5px 5px 5px  rgb(182, 55, 55);
+    box-shadow: 5px 5px 5px 5px  rgb(180, 48, 65);
 }
 #componentes .compo{
 
-    background-color:  rgb(124, 17, 17);
+    background-color:  rgb(180, 48, 65);
     color: white;
     margin-top: 20px;
 }
@@ -275,7 +275,7 @@ nav{
     height: 30px;
     top: 12px;
     left: -10px;
-    color:  rgb(182, 55, 55);
+    color:  rgb(180, 48, 65);
 }
 
 
@@ -296,7 +296,7 @@ nav{
     justify-content: center;
     width: 300px;
     padding: 15px;
-    border: 6px solid rgb(124, 17, 17)  ;
+    border: 6px solid rgb(180, 48, 65) ;
     box-shadow: 5px 5px 5px 5px rgba(255, 255, 255.9, alpha);
     color: black;
     margin-bottom: 30px;
@@ -308,7 +308,7 @@ nav{
 #tipos .button:hover{
     background-color: rgb(87, 46, 46);
     border: 2px solid rgba(255, 255, 255, .9);
-    box-shadow: 5px 5px 5px 5px  rgb(182, 55, 55);
+    box-shadow: 5px 5px 5px 5px  rgb(180, 48, 65);
 }
 #tipos .types{
     background-color:  rgba(1, 1, 30, .9);
@@ -356,7 +356,7 @@ nav{
     height: 30px;
     top: 12px;
     left: -10px;
-    color:  rgb(182, 55, 55);
+    color:  rgb(180, 48, 65);
 }
 .box-inside{
     background-color: white;
@@ -377,7 +377,7 @@ nav{
     margin-top: 25px;
 }
 #aplicaciones .box-head{
-    background-color:  rgb(182, 55, 55);
+    background-color:  rgb(180, 48, 65);
     padding: 10px;
     color: white;
     border-radius: 25px;
@@ -397,7 +397,7 @@ nav{
     text-align: left;
 }
 #aplicaciones .box-inside{
-    border: 1px solid rgb(182, 55, 55);
+    border: 1px solid rgb(180, 48, 65);
     border-radius: 25px;
     box-shadow: 3px 3px 3px solid   rgba(0, 0, 0, .6);
     padding: 10px;
@@ -422,10 +422,10 @@ nav{
     margin-bottom: 15px;
 }
 .det h4{
-    color: rgb(182, 55, 55);
+    color: rgb(180, 48, 65);
 }
 #aplicaciones .button{
-    background-color: rgb(182, 55, 55) ;
+    background-color: rgb(180, 48, 65) ;
     border-radius: 5px;
     display: flex;
     text-align: center;
@@ -434,7 +434,7 @@ nav{
     justify-content: center;
     width: 300px;
     padding: 15px;
-    border: 6px solid rgb(124, 17, 17)  ;
+    border: 6px solid rgb(180, 48, 65)  ;
     box-shadow: 5px 5px 5px 5px rgba(255, 255, 255.9, alpha);
     color: white;
     margin-bottom: 30px;
@@ -446,7 +446,7 @@ nav{
 #aplicaciones .button:hover{
     background-color: rgb(87, 46, 46);
     border: 2px solid rgba(255, 255, 255, .9);
-    box-shadow: 5px 5px 5px 5px  rgb(182, 55, 55);
+    box-shadow: 5px 5px 5px 5px  rgb(180, 48, 65);
 }
 #sistemas{
     display: flex;
@@ -455,7 +455,7 @@ nav{
     align-items: center;
     justify-content: center;
     padding: 20px;
-    background-color: rgb(124, 17, 17);
+    background-color:rgb(180, 48, 65);
     color: white;
 }
 #sistemas h3{
@@ -484,7 +484,7 @@ nav{
 .box-inside-head h4{
     margin-bottom: 25px;
     font-size: 1.6em;
-    color:  rgb(124, 17, 17);
+    color: rgb(180, 48, 65);
 } 
 #sistemas .deto{
     display: flex;
@@ -496,7 +496,7 @@ nav{
 .deto h4{
     margin-bottom: 25px;
     font-size: 1.6em;
-    color:  rgb(124, 17, 17);
+    color: rgb(180, 48, 65);
 }
 #hero2{
     color: white;
@@ -522,7 +522,7 @@ nav{
     font-size: 2.5em;
 }
 #hero2 h2:hover{
-    color:  rgb(200, 17, 17);
+    color: rgb(180, 48, 65);
 }
 #hero2 p{
     display: none;
@@ -567,32 +567,34 @@ width: 300px;
     font-weight: bold;
     word-spacing: -1px;
     letter-spacing: -1px;
-    line-height: .1;
+    line-height: .01;
 }
 #form .material-symbols-outlined{
     position: relative;
     top: 40px;
     left: 15px;
+    font-size: 2em;
 }
 .box-middle-email p{
     margin-left: 60px;
     font-weight: bold;
     margin-bottom: 50px;
 }
-#form .form{
+#form form{
+    margin-top: 120px;
     display: flex;
     flex-direction: column;
     text-align: left;
     align-items: left;
     justify-content: left;
-    width: 65vw;
+    width: 85vw;
     margin-left: auto;margin-right: auto;
 }
 .consulta h5{
     position: relative;
     top: 50px;
     font-size: 2em;
-    color:rgb(182, 55, 55);
+    color:rgb(180, 48, 65);
 }
 .consulta p{
     font-weight: bold;
@@ -604,4 +606,84 @@ width: 300px;
     margin-bottom: 10px;
     padding: 10px 0px;
     border-radius: 5px;
+}
+#form .button{
+    background-color:rgb(180, 48, 65) ;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 15px;
+    border: 6px solid rgb(124, 17, 17)  ;
+    box-shadow: 5px 5px 5px 5px rgba(255, 255, 255.9, alpha);
+    color: white;
+    margin-bottom: 30px;
+    margin-left: auto;margin-right: auto;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#form .button:hover{
+    background-color: rgb(87, 46, 46);
+    border: 2px solid rgba(255, 255, 255, .9);
+    box-shadow: 5px 5px 5px 5px  rgb(180, 48, 65);
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    color: white;
+    background-color: rgba(1, 1, 30, .9);
+}
+footer .adress{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 30px;
+}
+.adress a{
+    margin-top: 0px;
+}
+.adress p{
+    margin-top: 0px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+footer .red{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+footer a{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: rgb(180, 48, 65);
+    font-weight: bold;
+    margin: 0;
+}
+footer .caja{
+    background-color: rgb(180, 48, 65);
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+footer .cajas{
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+}
+footer img{
+    width: 50px;
 }
