@@ -486,4 +486,122 @@ nav{
     font-size: 1.6em;
     color:  rgb(124, 17, 17);
 } 
-
+#sistemas .deto{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    justify-content: left;
+}
+.deto h4{
+    margin-bottom: 25px;
+    font-size: 1.6em;
+    color:  rgb(124, 17, 17);
+}
+#hero2{
+    color: white;
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,.6),
+        rgba(0,0,0,.6)
+    ) 
+    ,url(assets/supresion/hero.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+#hero2 h2{
+    margin: 0;
+    font-size: 2.5em;
+}
+#hero2 h2:hover{
+    color:  rgb(200, 17, 17);
+}
+#hero2 p{
+    display: none;
+}
+#hero2 .box-left{
+position: relative;
+top: 100px;
+width: 300px;
+}
+#hero2 .box-right{
+    position: relative;
+    top: 100px;
+    width: 300px;
+}
+#form{
+    background-color: rgb(14, 14, 58);
+    color: white;
+}
+#form .box-head{
+    background-color: rgb(14, 14, 58);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    font-weight: bold;
+    margin-bottom: 25px;
+    padding: 20px;
+}
+#form h2{
+    position: relative;
+    margin-top: 20px;
+    font-size: 2.5em;
+}
+#form .box-middle-one{
+    display: flex;
+    flex-direction: column;
+}
+.box-middle-one p{
+    margin-left: 60px;
+    font-weight: bold;
+    word-spacing: -1px;
+    letter-spacing: -1px;
+    line-height: .1;
+}
+#form .material-symbols-outlined{
+    position: relative;
+    top: 40px;
+    left: 15px;
+}
+.box-middle-email p{
+    margin-left: 60px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+#form .form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    width: 65vw;
+    margin-left: auto;margin-right: auto;
+}
+.consulta h5{
+    position: relative;
+    top: 50px;
+    font-size: 2em;
+    color:rgb(182, 55, 55);
+}
+.consulta p{
+    font-weight: bold;
+}
+.consulta{
+    margin-top: -80px;
+}
+#form input{
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
