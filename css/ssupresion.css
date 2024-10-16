@@ -321,6 +321,7 @@ nav{
     width: 320px;
     margin-bottom: 25px;
 }
+
 #tipos .box-inside{
     width: 90%;
     border: 1px solid rgba(0, 0, 0, .9);
@@ -337,7 +338,7 @@ nav{
     padding: 0px 15px;
 }
 #tipos h4{
-    font-size: 1.3em;
+    font-size: 2em;
     width: 100%;
 }
 .box-inside-head h4{
@@ -384,6 +385,10 @@ nav{
     border: 2px solid rgba(0, 0, 0, .9);
     box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
     margin-bottom: 25px;
+}
+#aplicaciones .box-head p{
+    font-weight: bold;
+    padding: 10px;
 }
 #aplicaciones h3{
     font-size: 1.7em;
