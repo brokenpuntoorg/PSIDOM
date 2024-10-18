@@ -7,6 +7,9 @@ body{
     font-weight: 100;
     font-style: normal;
 }
+b{
+    font-size: 1.1em;
+}
 .container{
     max-width: 1400px;
     margin: auto;
@@ -72,4 +75,262 @@ nav{
     text-decoration: none;
     font-weight: bold;
     font-size: 1.1em;
+}
+#importancia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+}
+#importancia h2{
+    font-size: 1.8em;
+    width: 300px;
+}
+#importancia .box-head h2{
+    color: rgb(180, 48, 65);
+}
+#importancia .box-body h2{
+    color: rgb(180, 48, 65);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#importancia .imag1{
+    background-image: url(assets/mantenimineto/1.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#importancia .imag2{
+    background-image: url(assets/mantenimineto/2.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#importancia .imag3{
+    background-image: url(assets/mantenimineto/3.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#importancia .imag4{
+    background-image: url(assets/mantenimineto/4.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#importancia .imag5{
+    background-image: url(assets/mantenimineto/5.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#importancia .imag6{
+    background-image: url(assets/mantenimineto/6.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#importancia .imag6{
+    background-image: url(assets/mantenimineto/6.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#importancia .imag7{
+    background-image: url(assets/mantenimineto/7.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#importancia .imag8{
+    background-image: url(assets/mantenimineto/8.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#importancia .imag9{
+    background-image: url(assets/mantenimineto/9.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#importancia a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9em;
+}  
+#importancia .button{
+    background-color:rgb(9, 14, 82) ;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto; margin-right: auto;
+    width: 300px;
+    padding: 20px;
+    border: 2px solid rgba(0, 0, 0, .9);
+    box-shadow: 5px 5px 5px 5px rgba(255, 255, 255.9, alpha);
+    margin-bottom: 30px;
+}
+#importancia .button:hover{
+    background-color: rgb(87, 46, 46);
+    border: 2px solid rgba(255, 255, 255, .9);
+    box-shadow: 5px 5px 5px 5px  rgb(180, 48, 65);
+}
+#agentes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-top: 1px solid #000;
+    padding: 15px;
+}
+#agentes h2{
+    width: 300px;
+    margin-left: auto;margin-right: auto;
+    font-size: 2em;
+}
+#agentes b{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+#agentes h3{
+    font-size: 1.6em;
+    width: 300px;
+    margin-left: auto;margin-right: auto;
+}
+#agentes .box-body{
+    width: 98%;
+    border: 1px solid rgba(0, 0, 0, .9);
+    border-radius: 15px;
+    box-shadow: -10px 10px 20px  rgba(0, 0, 0, .9);
+    margin-bottom: 50px;
+}
+#agentes .target{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    padding: 10px;
+}
+.target p{
+    margin-left: 20px;
+    margin-top: -10px;
+    font-weight: 100;
+}
+#agentes .button{
+    background-color:white ;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto; margin-right: auto;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, .9);
+    box-shadow: -10px 10px 20px  rgba(0, 0, 0, .9);
+    margin-bottom: 30px;
+}
+#agentes .button:hover{
+    background-color: black;
+    color: white;
+}
+#agentes a{
+    text-decoration: none;
+    color: black;
+}
+#programacion{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color:  rgb(180, 48, 65);
+    color: white;
+}
+#programacion   h2{
+    width: 250px;
+    margin-left: auto;margin-right: auto;
+    font-size: 2em;
+}
+#programacion h3{
+    font-size: 1.9em;
+}
+.box-head p{
+    font-weight: 900;
+}
+.box-inside{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+.box-inside p{
+    margin-left: 20px;
+    
+}
+#programacion .material-symbols-outlined{
+    margin-left: -10px;
+    margin-top: 20px;
+    color: ;
+}
+#programacion .box-left{
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px black;
+    margin-bottom: 20px;
+}
+#programacion .box-right{
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px black;
 }
