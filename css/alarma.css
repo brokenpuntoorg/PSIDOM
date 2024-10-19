@@ -20,11 +20,19 @@ a{font-size: 1.1em;}
 nav{
     display: none;
 }
+#hero .img{
+    background-image: url(assets/alarma/logo.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 80px;
+}
 #hero{
     background-image:linear-gradient(
         0deg,
-        rgba(0,0,0,.5),
-        rgba(0,0,0,.5)
+        rgba(0,0,0,.7),
+        rgba(0,0,0,.7)
     ) 
     ,url(assets/alarma/mantenimiento-alarma-contra-incendio.jpg);
     background-position: center center;
@@ -37,4 +45,51 @@ nav{
     text-align: left;
     width: 100%;
     height: 85vh;
+    color: white;
+    padding: 15px;
+}
+#hero .button{
+    padding: 15px 20px;
+    border-radius: 15px;
+    border: 2px solid rgba(0, 0, 0, .9);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .9);
+}
+#hero a{
+    background-color: rgb(180, 48, 65);
+    color: white;
+    text-decoration: none;
+}
+#hero p{
+    width: 300px;
+    font-style: italic;
+    margin-top: 50px;
+}
+#sistema{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+#sistema .box-body{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+#sistema .box{
+    display: flex;
+    flex-direction: row;
+}
+#sistema span{
+    font-size: 2.7em;
+    color:  rgb(180, 48, 65);
+    margin-top: 25px;
+    margin-right: 5px;
+}
+#sistema h4{
+    color: rgb(180, 48, 65) ;
+    text-transform: capitalize;
 }
