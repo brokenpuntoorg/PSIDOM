@@ -12,8 +12,8 @@ body{
 }
 h1{font-size: 2.5em;}
 h2{font-size: 2em;}
-h3{font-size: 1.5em;}
-h4{font-size: 1.2em;}
+h3{font-size: 1.6em;}
+h4{font-size: 1.4em;}
 p{font-size: 1.1em;}
 a{font-size: 1.1em;}
  
@@ -92,4 +92,77 @@ nav{
 #sistema h4{
     color: rgb(180, 48, 65) ;
     text-transform: capitalize;
+}
+#funcion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+#funcion .box-head{
+    margin-bottom: 50px;
+}
+#funcion .box-body{
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 5px -5px 5px 5px rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    margin-bottom: 20px;
+}
+#funcion .box-one{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+#funcion h3{
+    margin-left: auto;margin-right: auto;
+}
+#funcion .material-symbols-outlined{
+    color:  rgb(180, 48, 65);
+    position: relative;
+    top: 30px;
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+#funcion h4{
+    color:  rgb(180, 48, 65);
+    margin-left: 10px;
+}
+#funcion p{
+    margin-top: -25px;
+    margin-left: 10px;
+}
+#funcion .unique{
+    margin-top: 40px;
+}
+#funcion .unique1{
+    margin-bottom: 40px;
+}
+#funcion h2{
+    margin-bottom: 60px;
+}
+#funcion .box-footer{
+    border: 2px solid gray;
+    border-radius: 15px;
+    padding: 10px;
+}
+.box-footer h4{
+    font-size: 1.1em;
+}
+#funcion .button{
+    padding: 10px 25px;
+    background-color: rgb(6, 6, 83);
+}
+#funcion a{
+    color: white;
+    text-decoration: none;
 }
