@@ -8,8 +8,8 @@ body{
 }
 h1{font-size: 2.8em;}
 h2{font-size: 2.2em;}
-h3{font-size: 1.8em;}
-h4{font-size: 1.6em;}
+h3{font-size: 1.3em;}
+h4{font-size: 1.2em;}
 p{font-size: 1.1em;}
 a{font-size: 1.1em;}
 .container{
@@ -63,4 +63,53 @@ a{
 }
 #hero p{
     margin-top: 25px;
+}
+#importancia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+}
+.box-image1{
+    background-image: url(assets/espuma/1.webp);
+    width: 250px;
+    height: 250px;
+    margin-left: auto;margin-right: auto;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-image2{
+    background-image: url(assets/espuma/2.jpeg);
+    width: 250px;
+    height: 250px;
+    margin-left: auto;margin-right: auto;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-image3{
+    background-image: url(assets/espuma/3.webp);
+    width: 250px;
+    height: 250px;
+    margin-left: auto;margin-right: auto;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#importancia ol{
+    list-style: circle ;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    justify-content: left;
+}
+#importancia li{
+    margin-bottom: 15px;
 }
