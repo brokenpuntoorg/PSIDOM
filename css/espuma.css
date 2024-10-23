@@ -21,5 +21,46 @@ nav{
 }
 .button{
     padding: 10px 20px;
-    background-color: ;
+    background-color:  rgb(180, 48, 65);
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, .5);
+    box-shadow: 5px 5px 5px 2px black;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.button:hover{
+    background-color:  rgb(85, 5, 15);
+}
+#hero{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    padding: 25px;
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    ) 
+    ,url(assets/espuma/2.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 95vh;
+}
+#hero .logo{
+    background-image: url(assets/alarma/logo.webp);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+    margin-left: auto;margin-right: auto;
+    width: 250px;
+    height: 200px;
+}
+#hero p{
+    margin-top: 25px;
 }
