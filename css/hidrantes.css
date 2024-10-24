@@ -17,6 +17,10 @@ a{
     text-decoration: none;
 }
 li{font-size: 1.1em;}
+b{
+    font-size: 1.2em;
+    font-weight: bold;
+}
 .button{
     padding: 15px 25px;
     background-color:  rgb(180, 48, 65);
@@ -65,23 +69,136 @@ header nav{
 #hero p{
     margin-top: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#hidrante{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 25px;
+}
+.box-head p{
+    width: 300xp;
+    text-align: left;
+}
+#hidrante .box-img1{
+    background-image: url(assets/hidrantes/1.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 270px;
+    margin-left: auto;margin-right: auto;
+    border: .5px solid rgba(0, 0, 0, .1);
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .2);
+}
+#hidrante .box-img2{
+    background-image: url(assets/hidrantes/2.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 270px;
+    margin-left: auto;margin-right: auto;
+    border: .5px solid rgba(0, 0, 0, .1);
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .2);
+}
+#hidrante .box-img3{
+    background-image: url(assets/hidrantes/3.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 270px;
+    margin-left: auto;margin-right: auto;
+    border: .5px solid rgba(0, 0, 0, .1);
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .2);
+}
+#funcionamiento{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    padding: 25px;
+    background-color: rgb(5, 5, 53);
+    color: white;
+}
+#mantenimiento{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    padding: 25px;
+    background-color: rgb(180, 48, 65);
+    color: white;
+}
+#mantenimiento h2{
+    text-align: center;
+}
+#mantenimiento .box-inside{
+    background-color: white;
+    color:black;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1PX solid rgba(0, 0, 0, .5);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .9);
+    border-radius: 15px;
+}
+#mantenimiento .box-left{
+    display: flex;
+    flex-direction: row;
+}
+#mantenimiento .box-right{
+    display: flex;
+    flex-direction: row;
+}
+#mantenimiento .box-inside p{
+    margin-left: 20px;
+}
+#mantenimiento .box-inside span{
+    margin-top: 20px;
+}
+#mantenimiento .button{
+    border: 1px solid black;
+    width: 200px;
+    text-align: center;
+}
+#normativa{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    align-items: left;
+    padding: 25px;
+    background-color: rgb(180, 48, 65);
+    color: white;
+}
+#normativa h2{
+    text-align: center;
+}
+#normativa .box-inside{
+    display: flex;
+    flex-direction: row;
+}
+#normativa .box-inside p{
+    margin-left: 20px;
+}
+#normativa .box-inside span{
+    margin-top: 20px;
+}
+#importancia{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    padding: 25px;
+}
 
 #form{
     background-color: rgb(14, 14, 58);
