@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+font-family: "Rethink Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+h1{font-size: 2.5em;}
+h2{font-size: 2em;}
+h3{font-size: 1.5em;}
+h4{font-size: 1.3em;}
+p{font-size: 1.1em;}
+a{font-size: 1.1em;}
+li{list-style: none;}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+header nav{
+    display: none;
+}
+.button{
+    padding: 10px 25px;
+    background-color: brown;
+}
+#hero{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align:left;
+    padding: 25px;
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    ) 
+    ,url(assets/bombas/hero.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    color: white;
+}
