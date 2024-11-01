@@ -169,7 +169,7 @@ li{font-size: 1.1em;}
 #accesorios .box-inside{
     background-color: white;
     color: black;
-    padding: 15px;
+    padding: 0px 15px;
     border-radius: 15px;
     border: 1px solid black;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .9);
@@ -207,7 +207,7 @@ li{font-size: 1.1em;}
 #instalacion .box-inside{
     background-color: white;
     color: black;
-    padding: 15px;
+    padding: 0px 15px;
     border-radius: 15px;
     border: 1px solid black;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .9);
