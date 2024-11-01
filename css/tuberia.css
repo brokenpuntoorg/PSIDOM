@@ -10,12 +10,221 @@ header nav{
     display: none;  
 }
 
-
-
-
-
-
-
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+.button{
+    padding: 15px 25px;
+    background-color: rgb(180, 48, 65);
+    color: white;
+    border-radius: 15px;
+    border: 1px solid rgba(1, 1, 1, 0.9);
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, .9);
+}
+.button:hover{
+    background-color: rgb(75, 12, 12);
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+h1{font-size: 2.5em;}
+h2{font-size: 2.1em;}
+h3{font-size: 1.6em;}
+h4{font-size: 1.4em;}
+p{font-size: 1.1em;}
+b{font-size: 1.2em;}
+li{font-size: 1.1em;}
+.logo{
+    background-image: url(assets/tuberias/logo.webp);
+    width: 230px;
+    height: 120px;
+    margin-left: auto;margin-right: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#hero{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    padding: 25px;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(assets/tuberias/hero.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hero h1{
+    margin-bottom: 35px;
+}
+#hero p{
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+#tuberia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+}
+#tuberia h3{
+    color:  rgb(180, 48, 65);
+}
+#tuberia p{
+    width: 300px;
+}
+#tipos{
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    justify-content: left;
+    padding: 25px;
+}
+#tipos h3{
+    color: rgb(180, 48, 65);
+    margin-bottom: 10px;
+}
+#tipos li{
+    margin-left: -20px;
+}
+#normas{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    padding: 25px;
+    margin-bottom: 50px;
+}
+#normas p{
+    display: flex;
+    text-align: left;
+}
+#normas .box-inside{
+    background-color:  rgb(180, 48, 65);
+    color: white;
+    padding: 18px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, .9);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .9);
+}
+#normas .button{
+    position: relative;
+    top: 20px;
+}
+#normativas{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(assets/tuberias/hero.webp);
+    height: 120vh;
+}
+#normativas h2{
+    color: rgb(6, 6, 65);
+}
+#normativas li{
+    margin-bottom: 15px;
+    list-style: circle;
+    font-size: 1.4em;
+}
+#normativas .button{
+    position: relative;
+    top: 20px;
+}
+#accesorios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 25px;
+    color: white;
+    background-color: rgb(180, 48, 65);
+}
+#accesorios h2{
+    text-align: center;
+}
+#accesorios h3{
+    text-align: center;
+}
+#accesorios .box-inside{
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .9);
+    margin-bottom: 25px;
+}
+#accesorios .box-icon{
+    display: flex;
+    flex-direction: row;
+}
+#accesorios span{
+    margin-left: 5px;
+    margin-top: 20px;
+    font-size: 2em;
+}
+#accesorios .box-icon p{
+    margin-left: 20px;
+}
+#instalacion{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    padding: 25px;
+    background-color: rgb(10, 10, 51);
+    color: white;
+}
+#instalacion h2{
+    text-align: center; 
+    margin-bottom: 55px;
+}
+#instalacion h3{
+    text-align: center;
+}
+#instalacion .box-inside{
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .9);
+    margin-bottom: 25px;
+}
+#instalacion .box-icon{
+    display: flex;
+    flex-direction: row;
+}
+#instalacion span{
+    margin-left: 5px;
+    margin-top: 20px;
+    font-size: 2em;
+}
+#instalacion .box-icon p{
+    margin-left: 20px;
+}
 #form{
     background-color: rgb(14, 14, 58);
     color: white;
