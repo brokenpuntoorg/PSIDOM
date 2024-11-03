@@ -6,6 +6,98 @@ body{
     font-optical-sizing: auto;
     font-style: normal;
 }
+h1{font-size: 2.5em;}
+h2{font-size: 2.1em;}
+h3{font-size: 1.6em;}
+h4{font-size: 1.2em;}
+p{font-size: 1.1em;}
+li{font-size: 1.1em;}
+a{font-size: 1.2em;
+    text-decoration: none;}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+.button{
+    padding: 14px 25px;
+    background-color:  rgb(180, 48, 65);
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, .9);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .9);
+    color: white;
+}
+.button:hover{
+    background-color: rgb(49, 3, 3);
+}
+header nav{
+    display: none;
+}
+#hero{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    color: white;
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,.6),
+        rgba(0,0,0,.6)
+    ) 
+    ,url(assets/riser/hero.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    padding: 25px;
+}
+#hero .logo{
+    background-image: url(assets/riser/logo.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 250px;
+    height: 210px;
+    margin-left: auto;margin-right: auto;
+    margin-top: -140px;
+}
+#hero h1{
+    margin-bottom: 50px;
+}
+#hero p{
+    margin-top: 50px;
+}
+b{
+    font-size: 1.3em;
+}
+#riser{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+#riser h2{
+    color: rgb(180, 48, 65);
+    text-align: center;
+}
+#componentes{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+#componentes h2{
+    color: rgb(180, 48, 65);
+    text-align: center;
+}
+
+
+
+
 
 
 
