@@ -94,7 +94,24 @@ b{
     color: rgb(180, 48, 65);
     text-align: center;
 }
-
+#componentes .box-inside{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#componentes .box-icon{
+    display: flex;
+    flex-direction: row;
+}
+#componentes span{
+    margin-top: 25px;
+    margin-left: -5px;
+}
+#componentes .box-icon p{
+    margin-left: 25px;
+    display: flex;
+    text-align: left;
+}
 
 
 
