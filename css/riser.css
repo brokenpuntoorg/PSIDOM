@@ -105,14 +105,15 @@ b{
 }
 #componentes span{
     margin-top: 25px;
-    margin-left: -5px;
+    margin-left: 5px;
 }
 #componentes .box-icon p{
     margin-left: 25px;
-    display: flex;
     text-align: left;
 }
-
+#componentes h3{
+    color:  rgb(180, 48, 65);
+}
 
 
 
