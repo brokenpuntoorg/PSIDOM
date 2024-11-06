@@ -5,12 +5,14 @@ body{
     font-family: "Rethink Sans", serif;
     font-optical-sizing: auto;
     font-style: normal;
+    font-weight: 100;
+    color: black;
 }
 h1{font-size: 2.5em;}
 h2{font-size: 2.1em;}
 h3{font-size: 1.6em;}
 h4{font-size: 1.2em;}
-p{font-size: 1.1em;}
+p{font-size: 1em;}
 li{font-size: 1.1em;}
 a{font-size: 1.2em;
     text-decoration: none;}
@@ -69,6 +71,8 @@ header nav{
 }
 b{
     font-size: 1.2em;
+    font-weight: bold;
+    color: rgb(225, 225, 225);
 }
 #riser{
     display: flex;
@@ -140,7 +144,8 @@ b{
      padding: 15px;
      border-radius: 15px;
      border: 1px solid rgba(0, 0, 0, .9);
-     margin-bottom: 15px;
+     margin-bottom: 25px;
+     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .9);
 }
 #tipos .box-inside h2{
     color: white;
@@ -160,6 +165,9 @@ b{
     color: white;
     padding: 25px;
 }
+#diseño .box-head{
+    margin-bottom: 50px;
+}
 #diseño .box-body{
     margin-bottom: 45px;
 }
@@ -173,8 +181,99 @@ b{
     text-align: center;
     width: 85vw;
 }
-
-
+#diseño h2{
+    text-align: center;
+}
+#diseño h3{
+    text-align: center;
+}
+#diseño .box-inside{
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .9);
+    padding:  5px 15px;
+    margin-bottom: 35px;
+    background-color: rgba(16, 23, 88);
+}
+#diseño .box-icon{
+    display: flex;
+    flex-direction: row;
+}
+#diseño span{
+    margin-top: 25px;
+    margin-left: -5px;
+}
+#diseño .box-icon p{
+    margin-left: 25px;
+}
+#normativas{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    padding: 25px;
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,.7),
+        rgba(0,0,0,.7)
+    ) 
+    ,url(assets/riser/hero.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#normativas h2{
+    text-align: center;
+}
+#normativas .box-inside{
+    background-color: white;
+    color: black;
+    padding: 5px 15px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px 5px black;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+#normativas h3{
+    text-align: center;
+}
+#normativas .box-icon{
+    display: flex;
+    flex-direction: row;
+}
+#normativas span{
+    margin-top: 25px;
+    margin-left: -5px;
+}
+#normativas .box-icon p{
+    margin-left: 25px;
+}
+#normativas .box-deep{
+    margin-left: 25px;
+}
+#importancia{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    padding: 25px;
+    color: white;
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,.7),
+        rgba(0,0,0,.7)
+    ) 
+    ,url(assets/riser/hero.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#importancia ol{
+    list-style: circle;
+}
 
 
 #form{
