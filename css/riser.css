@@ -159,27 +159,20 @@ b{
     background-color: rgb(180, 48, 65);
     color: white;
     padding: 25px;
-    margin-bottom: 100px;
 }
-#diseño h2{
+#diseño .box-body{
+    margin-bottom: 45px;
+}
+#diseño .button{
+    position: relative;
+    top: 25px;
+    background-color: rgb(3, 3, 41);
+    width: 85vw;
+}
+#diseño .button1{
     text-align: center;
+    width: 85vw;
 }
-#diseño .box-inside h3{
-    text-align: center;
-}
-#diseño .box-inside{
-    background-color: rgba(207, 165, 165, 0.945);
-    padding: 5px;
-    border: 1px solid rgba(0, 0, 0, .9);
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .9);
-    color: black;
-}
-#diseño .box-icon{
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 25px;
-    
 
 
 
