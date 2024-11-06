@@ -159,7 +159,7 @@ b{
     background-color: rgb(180, 48, 65);
     color: white;
     padding: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
 }
 #diseño h2{
     text-align: center;
@@ -167,22 +167,31 @@ b{
 #diseño .box-inside h3{
     text-align: center;
 }
+#diseño .box-inside{
+    background-color: rgba(207, 165, 165, 0.945);
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, .9);
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .9);
+    color: black;
+}
 #diseño .box-icon{
     display: flex;
     flex-direction: row;
     margin-bottom: 25px;
+    
 }
 #diseño span{
     margin-top: 30px;
     margin-left: -5px;
 }
 #diseño .box-icon p{
-    margin-left: 10px;
+    margin-left: 25px;
 }
 #diseño .button{
     position: relative;
     top: -5px;
-    left: 15vw;
+    left: 20vw;
 }
 
 
