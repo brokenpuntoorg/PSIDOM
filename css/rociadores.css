@@ -134,7 +134,14 @@ header nav{
     padding-right: 25px;
 }
 
-
+#clasificacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    padding-right: 25px;
+}
 
 
 
