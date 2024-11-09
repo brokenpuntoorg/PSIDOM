@@ -12,7 +12,7 @@ h3{font-size: 1.3em;}
 p{font-size: 1.1em;}
 li{font-size: 1.1em;}
 a{font-size: 1.2em;text-decoration: none;}
-b{font-size: 1.2em;}
+b{font-size: 1.2em;font-weight: bold;}
 .button{
     padding: 10px 25px;
     background-color: rgb(180, 48, 65);
@@ -128,22 +128,178 @@ header nav{
 #tipos{
     display: flex;
     flex-direction: column;
+    text-align: left;
     justify-content: left;
     align-items: left;
-    text-align: left;
-    padding-right: 25px;
+    padding: 25px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(assets/rociadores/hero.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
-
+#tipos h2 p{
+    text-align: center;
+}
+#tipos h3{
+    font-size: 1.6em;
+}
+#tipos .box-inside{
+    background-color: rgb(235, 204, 204);
+    color: black;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .9);
+    margin-bottom: 20px;
+}
+#tipos .box-icon{
+    display: flex;
+    flex-direction: row;
+}
+#tipos span{
+    margin-top: 25px;
+    margin-left: 5px;
+}
+#tipos .box-icon p{
+    margin-left: 20px;
+}
 #clasificacion{
     display: flex;
     flex-direction: column;
+    align-items: left;
     justify-content: left;
+    text-align: left;
+    padding: 25px;
+}
+#clasificacion h2{
+    text-align: center;
+    font-size: 2.1em;
+}
+#clasificacion .box-inside{
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px 5px black;
+    border-radius: 15px;
+    margin-bottom: 35px;
+    padding: 15px;
+}
+#clasificacion .box-icon{
+    display: flex;
+    flex-direction: row;
+}
+#clasificacion span{
+    margin-top: 25px;
+}
+#clasificacion .box-icon p{
+    margin-left: 20px;
+}
+#clasificacion .box-button{
+    text-align: center;
+}
+#normativa{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    padding: 25px;
+    background-color: rgb(8, 8, 78);
+    color: white;
+}
+#normativa h2{
+    text-align: center;
+}
+#normativa .box-icon{
+    display: flex;
+    flex-direction: row;
+}
+#normativa span{
+    margin-left: -2px;
+    margin-top: 25px;
+}
+#normativa .box-icon p{
+    margin-left: 25px;
+}
+#instalacion{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    padding: 25px;
+    background-color: gray;
+    color: white;
+}
+#instalacion h2{
+    text-align: center;
+}
+#instalacion .box-inside{
+    border: 1px solid rgba(0, 0, 0, .9);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .9);
+    border-radius: 15px;
+    margin-bottom: 55px;
+    padding: 15px;
+    background-color: white;
+    color: black;
+}
+#instalacion .box-icon{
+    display: flex;
+    flex-direction: row;
+}
+#instalacion span{
+    margin-top: 25px;
+    margin-left: -2px;
+}
+#instalacion .box-icon p{
+    margin-left: 25px;
+}
+#instalacion .box-button{
+    text-align: center;
+}
+#equipo{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    padding: 25px;
+    background-color: rgb(10, 10, 80);
+    color: white;
+}
+#beneficios{
+    display: flex;
+    flex-direction: column;
     align-items: left;
     text-align: left;
-    padding-right: 25px;
+    justify-content: left;
+    padding: 0px 25px;
+    background-color: rgb(10, 10, 80);
+    color: white;
 }
-
-
+#beneficios .box-inside{
+    background-color: white;
+    color: black;
+    border: 1px solid rgba(0, 0, 0, .9);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .9);
+    border-radius: 15px;
+    margin-bottom: 25px;
+    padding: 25px;
+}
+#beneficios .box-icon{
+    display: flex;
+    flex-direction: row;
+}
+#beneficios span{
+    margin-top: 25px;
+}
+#beneficios .box-icon p{
+    margin-left: 25px;
+}
 
 
 
