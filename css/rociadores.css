@@ -7,11 +7,12 @@ body{
     font-style: normal;
 }
 h1{font-size: 2.5em;}
-h2{font-size: 2.0em;}
+h2{font-size: 2.1em;}
 h3{font-size: 1.3em;}
 p{font-size: 1.1em;}
 li{font-size: 1.1em;}
 a{font-size: 1.2em;text-decoration: none;}
+b{font-size: 1.2em;}
 .button{
     padding: 10px 25px;
     background-color: rgb(180, 48, 65);
@@ -63,9 +64,75 @@ header nav{
 #hero p{
     margin-top: 50px;
 }
-
-
-
+#rociadores{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    padding: 25px;
+}
+#rociadores h2{
+    text-align: center;
+    color: rgb(180, 48, 65);
+}
+#composicion{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    padding: 25px;
+}
+#composicion h2{
+    text-align: center;
+    color: rgb(180, 48, 65);
+}
+#composicion h3{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(180, 48, 65);
+}
+#composicion p{
+    text-align: left;
+}
+#funcionamiento{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    padding: 25px;
+}
+#funcionamiento h2, h3{
+    text-align: center;
+}
+#funcionamiento p{
+    margin-bottom: 55px;
+}
+#funcionamiento .box-inside{
+    background-color: rgb(5, 5, 63);
+    padding:1px 25px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    border: 1px solid rgba(0, 0, 0, .9);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .9);
+    color: white;
+}
+#funcionamiento .box-button{
+    text-align: center;
+}
+#funcionamiento h3{
+    font-size: 1.8em;
+}
+#tipos{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    padding-right: 25px;
+}
 
 
 
