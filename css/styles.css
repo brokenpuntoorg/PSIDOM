@@ -13,15 +13,12 @@ body{
 }
 .img{
     background-image: url(assets/uno/logo.webp);
-    background-position: top top;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 330px;
-    height: 120px;
+    width: 300px;
+    height: 100px;
     margin-right: auto;margin-left: auto;
-    margin-bottom: 60px;
-    position: relative;
-    top: 25px;
 }
 nav{
     display: none;
@@ -37,14 +34,12 @@ nav{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 85vh;
     cursor: pointer;
+    padding: 25px;
 }
 #hero h1{
-    font-weight: bold;
     font-size: 2.5em;
-    width: 200px;
-    margin-left: 25px;
 }
 #hero h1:hover{
     color: rgb(182, 55, 55);
@@ -53,19 +48,18 @@ nav{
     font-family:'Times New Roman', Times, serif;
     font-style: italic;
     font-size: 1.3em;
-    margin-left: 25px;
     width: 250px;
     margin-bottom: 50px;
 }
 #hero .button{
-    background-color:rgb(124, 17, 17) ;
-    border-radius: 5px;
+    background-color:rgb(182, 55, 55);
+    border-radius: 15px;
     display: flex;
     text-align: center;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-left: 25px;
+    margin-left: auto;margin-right: auto;
     width: 250px;
     padding: 15px;
     border: 2px solid rgba(0, 0, 0, .9);
@@ -87,74 +81,25 @@ nav{
     font-weight: bold;
 }
 #nuestro{
-    position: relative;
     display: flex;
     flex-direction: column;
     text-align: left;
     align-items: left;
-    justify-content: center;
+    justify-content: left;
     color: white;
     background-color: rgb(23, 23, 59);
-    height: 100vh;
-    width: 85vw;
-    margin-left: auto;
-    margin-right: auto;
     cursor: pointer;
+    padding: 25px;
 }
 #nuestro h2{
-    color: rgb(134, 15, 15);
-    font-weight: bold;
-    font-size: 2.5em;
-    margin-left: 25px;
-}
-#nuestro h2:hover{
+    font-size: 2em;
     color: rgb(182, 55, 55);
 }
 #nuestro h3{
-    font-weight: bold;
     font-size: 2em;
-    text-align: left;
-    margin-left: 25px;
 }
-#nuestro p{
-    font-size: 1.2em;
-    margin-left: 25px;
-}
-#nuestro span{
-    color: red;
-}
-#nuestro .img-container1{
-    position: relative;
-    bottom: 75px;
-}
-#nuestro .button{
-    position: relative;
-    bottom: 75px;
-    padding: 6px 5px;
-    background-color:rgb(124, 17, 17) ;
-    border-radius: 5px;
-    display: flex;
-    text-align: left;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 210px;
-    height: 50px;
-    margin-left: 25px;
-    color: white;
-    border: 2px solid rgba(0, 0, 0, .9);
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .5);
-}
-#nuestro .button:hover{
-    background-color:  rgb(87, 46, 46);
-    border: 2px solid rgba(255, 255, 255, .9);
-    box-shadow: 5px 5px 5px 5px  rgb(182, 55, 55);
-}
-#nuestro a{
-    text-decoration: none;
-    font-size: 1.3em;
-    font-weight: bold;
-}
+
+
 #numeros{
     display: flex;
     flex-direction: column;
