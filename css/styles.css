@@ -98,8 +98,38 @@ nav{
 #nuestro h3{
     font-size: 2em;
 }
-
-
+#nuestro .box-icon{
+    display: flex;
+    flex-direction: row;
+}
+#nuestro span{
+    margin-left: -2px;
+    margin-top: 12px;
+}
+#nuestro .box-icon p{
+    margin-left: 15px;
+    font-weight: bold;
+}
+#nuestro .button{
+    background-color:rgb(182, 55, 55);
+    border-radius: 15px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;margin-right: auto;
+    width: 250px;
+    padding: 15px;
+    border: 2px solid rgba(0, 0, 0, .9);
+    box-shadow: 5px 5px 5px 5px rgba(255, 255, 255.9, alpha);
+    color: white;
+    font-weight: bold;
+}
+#nuestro a{
+    text-decoration: none;
+    font-size: 1.2em;
+}
 #numeros{
     display: flex;
     flex-direction: column;
@@ -109,7 +139,7 @@ nav{
     color: white;
 }
 .numeros1{
-    background-color: rgb(126, 26, 26);
+    background-color: rgb(182, 55, 55);
     height: 25vh;
     width: 85vw;
 }
