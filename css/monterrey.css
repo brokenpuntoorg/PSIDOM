@@ -131,9 +131,44 @@ nav{
     justify-content: center;
     text-align: center;
     padding: 25px;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.3),
+        rgba(0,0,0,.3)
+    ) 
+    ,url(assets/monterrey/hero\ 2.jpeg);
+    height: 100vh;
 }
-
-
+#factores .material-symbols-outlined{
+    font-size: 3.5em;
+}
+#beneficios{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    padding: 25px;
+}
+#beneficios h2{ 
+    text-align: center;
+}
+#beneficios .box-icon{
+    display: flex;
+    flex-direction: row;
+}
+#beneficios span{
+    color:  rgb(180, 48, 65);
+    margin-top: 16px;
+    margin-left: -3px;
+}
+#beneficios .box-icon p{
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: rgb(180, 48, 65);
+}
 
 
 
