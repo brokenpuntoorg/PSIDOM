@@ -169,6 +169,71 @@ nav{
     font-size: 1.1em;
     color: rgb(180, 48, 65);
 }
+#tipos{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    justify-content: left;
+    padding: 25px;
+}
+#tipos .box-head{
+    text-align: center;
+}
+#tipos h3{
+    color: rgb(180, 48, 65);
+}
+#tipos .box-inside{
+    display: flex;
+    flex-direction: row;
+}
+#tipos span{
+    color: rgb(180, 48, 65);
+    margin-top: 15px;
+    margin-left: -3px;
+    font-weight: bold;
+    font-size: 2em;
+}
+#tipos p{
+    margin-left: 21px;
+}
+#sistemas{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    justify-content: left;
+    padding: 25px;
+}
+#sistemas .box-head{
+    text-align: center;
+}
+#sistemas h2{
+    color: rgb(180, 48, 65);
+}
+#sistemas .box-inside{
+    display: flex;
+    flex-direction: column;
+}
+#sistemas .box-icon{
+    border: 1px solid rgba(0, 0, 0, .9);
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px black;
+    margin-bottom: 25px;
+    width: 250px;
+    height: 290px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;margin-right: auto;
+}
+#sistemas span{
+    font-size: 2.5em;
+    color: rgb(180, 48, 65);
+}
+
 
 
 
