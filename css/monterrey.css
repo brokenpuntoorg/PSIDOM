@@ -233,12 +233,52 @@ nav{
     font-size: 2.5em;
     color: rgb(180, 48, 65);
 }
-
-
-
-
-
-
+#equipos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+}
+#equipos h2{
+    color:  rgb(180, 48, 65);
+}#equipos .box-icon{
+    border: 1px solid rgba(0, 0, 0, .9);
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px black;
+    margin-bottom: 25px;
+    width: 250px;
+    height: 290px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;margin-right: auto;
+}
+#equipos span{
+    color:rgb(180, 48, 65) ;
+    font-size: 2.5em;
+}
+#obra{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    justify-content: left;
+    padding: 25px;
+    background-color: rgb(16, 16, 88);
+    color: white;
+}
+#obra .box-head{
+    text-align: center;
+}
+#obra .box-inside{
+    border-left: 5px solid rgb(180, 48, 65);
+    padding: 0px 15px;
+    margin-bottom: 25px;
+}
 
 
 
