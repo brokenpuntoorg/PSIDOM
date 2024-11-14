@@ -327,7 +327,32 @@ nav{
     text-align: center;
     margin-left: auto;margin-right: auto;
 }
-
+#seguridad{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align-last: left;
+    padding: 25px;
+    background-image:linear-gradient(
+        0deg,
+        rgba(180,48,0,.9),
+        rgba(255,00,0,0.6)
+    ) 
+    ,url(assets/monterrey/nfpa-logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+}
+#seguridad .box-inside{
+    border-left: 7px solid white;
+    padding:  0px 15px;
+    margin-bottom: 25px;
+}
+#seguridad h2{
+    text-align: center;
+}
 
 
 
