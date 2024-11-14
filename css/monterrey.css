@@ -353,12 +353,50 @@ nav{
 #seguridad h2{
     text-align: center;
 }
-
-
-
-
-
-
+#preguntas{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    padding: 25px;
+}
+#preguntas h3{
+    color: rgb(180, 48, 65);
+}
+#preguntas .box-inside{
+    border-left: 8px solid  rgb(180, 48, 65) ;
+    padding:  0px 15px;
+}
+#contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    padding: 25px;
+    color: white;
+    background-color: rgb(7, 7, 56);
+}
+#contacto .box-map{
+    width: 300px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px 4px black;
+    margin-left: auto;margin-right: auto;
+}
+#contacto .box-inside{
+    display: flex;
+    flex-direction: row;
+}
+#contacto span{
+    margin-top: 25px;
+    margin-left: -2px;
+}
+#contacto p{
+    margin-left: 25px;
+}
 footer{
     display: flex;
     flex-direction: column;
