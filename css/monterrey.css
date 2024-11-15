@@ -58,7 +58,7 @@ nav{
     margin-top: -15px;
     height: 95vh;
 }
-#hero .logo{
+#hero .box-image a{
     width: 250px;
     height: 210px;
     background-image: url(assets/monterrey/logo.webp);
