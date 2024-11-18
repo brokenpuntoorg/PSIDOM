@@ -45,3 +45,67 @@ section{
     color: white;
     height: 95vh;
 }
+#importancia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#importancia p{
+    text-align: left;
+}
+#importancia .box-img{
+    background-image: url(assets/saltillo/hero.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 280px;
+    border-radius: 0px 35px 0px 35px ;
+    margin-bottom: 35px;
+}
+#factores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(
+        0deg, rgba(255,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(assets/saltillo/as.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 85vh;
+}
+#factores li{
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+#factores span{
+    font-weight: bold;
+    font-size: 3.5em;
+    color:white ;
+}
+#beneficios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+#beneficios li{
+    font-size: 1.3em;
+    color: rgb(180, 48, 65);
+    text-align: left;
+    margin-bottom: 25px;
+    list-style-type: circle;
+
+}
