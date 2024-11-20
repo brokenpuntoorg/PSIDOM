@@ -151,3 +151,131 @@ section{
 #servicios h2{
     font-size: 2.5em;
 }
+#componentes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+#componentes h2{
+    color:  rgb(180, 48, 65);
+    text-align: center;
+}
+#componentes .box-inside{
+    border-left: 8px solid rgb(180, 48, 65);
+    padding: 0px 15px;
+    margin-bottom: 25px;
+}
+#componentes h3{
+    color: rgb(9, 9, 59);
+}
+#obra{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    ) 
+    ,url(assets/saltillo/as.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#obra h2{
+    color:  rgb(180, 48, 65);
+    text-align: center;
+}
+#obra .box-inside{
+    border-left: 8px solid rgb(180, 48, 65);
+    padding: 0px 15px;
+}
+#importancia {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color:  rgb(9, 9, 59);
+    height: 50vh;
+}
+#certificacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 25px;
+}
+#certificacion .box-nfpa{
+    background-image: url(assets/saltillo/nfpa-logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+#certificacion h3{
+    color: rgb(180, 48, 65);
+    text-align: center;
+}
+#certificacion p{
+    font-weight: 300;
+}
+#certificacion .box-fmglobal{
+    background-image: url(assets/saltillo/fm-globalnewlogo.png.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+#preguntas{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+#preguntas h2{
+    color:  rgb(180, 48, 65);
+    font-size: 2.1em;
+    text-align: center;
+    margin-bottom: 55px;
+}
+#preguntas h3{
+    color:  rgb(180, 48, 65);
+}
+#preguntas .box-inside{
+    border-left: 8px solid rgb(180, 48, 65);
+    padding: 0px 15px;
+    margin-bottom: 25px;
+}
+#preguntas p{
+    font-weight: 300;
+}
+#contactanos{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    color: white;
+    background-color:  rgb(9, 9, 59);
+}
+#contactanos h2{
+    text-align: center;
+}
+#contactanos .box-icon{
+    display: flex;
+    flex-direction: row;
+}
+#contactanos span{
+    margin-top: 25px;
+    margin-left: .2px;
+}
+#contactanos p{
+    margin-left: 25px;
+    text-align: left;
+}
