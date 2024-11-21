@@ -281,19 +281,27 @@ section{
     margin-left: 25px;
     text-align: left;
 }
+footer{
+    background-color: rgb(7, 7, 56);
+    color: white;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+}
 footer .adress{
     margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: left;
     margin-left: 30px;
+   
 }
 .adress a{
     margin-top: 0px;
 }
 .adress p{
     margin-top: 0px;
-    font-size: 0.8em;
+    font-size: 1em;
     font-weight: 100;
     font-style: italic;
     width: 300px;
