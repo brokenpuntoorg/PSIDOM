@@ -45,17 +45,19 @@ section{
     color: white;
     height: 95vh;
 }
-#importancia{
+#importancia1{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-color: white;
+    color: black;
 }
-#importancia p{
+#importancia1 p{
     text-align: left;
 }
-#importancia .box-img{
+#importancia1 .box-img{
     background-image: url(assets/saltillo/hero.jpg);
     background-position: center center;
     background-repeat: no-repeat;
