@@ -5,6 +5,7 @@ body{
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-style: normal;
+    font-weight: 300;
 }
 h1{font-size: 2.2em;}
 h2{font-size: 2em; word-spacing: -5px;}
@@ -93,10 +94,62 @@ header nav{
     text-align: left;
 }
 
-
-
-
-
+#servicios p{
+    text-align: left;
+}
+#servicios li{
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 1em;
+    margin-left: 12px;
+    list-style: circle;
+}
+#servicios .box-inside{
+    border-left: 6px solid  rgb(180, 48, 65);
+    margin-bottom:25px;
+    padding: 0px 1px;
+}
+#servicios a{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style:italic;
+    color: black;
+}
+#servicios p{
+    margin-left: 35px;
+    font-size: 1em;
+}
+#sistemas{
+    background-color:  rgb(180, 48, 65);
+}
+#sistemas .box-body{
+    margin-top: 25px;
+}
+#sistemas span{
+    font-size: 2.9em;
+    color: rgb(180, 48, 65);
+}
+#sistemas .box-inside{
+    border-radius: 15px;
+    background-color: white;
+    padding:15px;
+    margin-bottom: 15px;
+}
+#sistemas p{
+    font-size: 1em;
+}
+#sistemas li{
+    font-size: 1.1em;
+    text-align: left;
+    list-style: -moz-linear-gradient(
+        0deg,
+        rgba(255,0,0,.5),
+        rgba(255,0,0,.5)
+    );
+}
+#sistemas h2{
+    font-size: 1.5em;
+}
 
 
 
