@@ -187,6 +187,27 @@ header nav{
     text-align: left;
     margin-left: 15px;
 }
+#importancia1 li{
+    font-size: 1.1em;
+    text-align: left;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    width: 250px;
+}
+#obra{
+    background-image:linear-gradient(
+    0deg,
+    rgba(0,0,0,.5),
+    rgba(0,0,0,.5)
+    ) 
+    ,url(assets/san-luis-potosi/obra.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#obra
+
 
 
 
