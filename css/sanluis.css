@@ -9,7 +9,7 @@ body{
 }
 h1{font-size: 2.2em;}
 h2{font-size: 2em; word-spacing: -5px;}
-h3{font-size: 1.7em;word-spacing: -5px;}
+h3{font-size: 1.7em;}
 h4{font-size: 1.2em;word-spacing: -5px;}
 p{font-size: 1.1em;letter-spacing: 0px; word-spacing: 2px; line-height: -1px;}
 a{text-decoration: none; color: white;}
@@ -150,9 +150,43 @@ header nav{
 #sistemas h2{
     font-size: 1.5em;
 }
-
-
-
+#importancia1 p{
+    font-size: 1em;
+    font-weight: 300;
+}
+#importancia1 p{
+    text-align: left;
+}
+#importancia1 a{
+    color: rgb(10, 10, 88);
+    font-size: 1.8em;
+    font-weight: bold;
+}
+#importancia1 h2{
+    color: rgb(10, 10, 88);
+}
+#importancia1 .box-inside{
+    border-left: 5px solid rgb(180, 48, 65);
+    padding: 0px 15px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+#importancia1 .box-icon{
+    display: flex;
+    flex-direction: row;
+}
+#importancia1 span{
+    margin-top: 35px;
+    font-size: 2.5em;
+    color: rgb(180, 48, 65);
+    margin-left: -15px;
+}
+#importancia1 h3{
+    font-size: 1.4em;
+    color:  rgb(10, 10, 88);
+    text-align: left;
+    margin-left: 15px;
+}
 
 
 
