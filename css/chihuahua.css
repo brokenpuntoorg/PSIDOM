@@ -7,3 +7,202 @@ body{
     font-style: normal;
     font-weight: 300;
 }
+
+
+
+
+
+
+
+
+
+
+
+#form{
+    background-color: rgb(14, 14, 58);
+    color: white;
+}
+#form .box-head{
+    background-color: rgb(14, 14, 58);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    font-weight: bold;
+    margin-bottom: 25px;
+    padding: 20px;
+    width: 100%;
+}
+#form h2{
+    position: relative;
+    margin-top: 20px;
+    font-size: 2em;
+}
+#form b{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.box-head p{
+    font-weight: 100;
+    font-style: italic;
+    width: 250px;
+}
+#form .box-middle-one{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: -60px;
+}
+.box-middle-one p{
+    margin-left: 60px;
+    font-weight: 300;
+    word-spacing: -1px;
+    letter-spacing: -1px;
+    line-height: .01;
+}
+#form .material-symbols-outlined{
+    position: relative;
+    top: 40px;
+    left: 15px;
+    font-size: 2em;
+}
+.box-middle-email p{
+    margin-left: 60px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    font-size: 0.9em;
+}
+#form span{
+    margin-left: -30px;
+}
+#form .box-middle-email{
+    text-align: left;
+}
+#form form{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    width: 95%;
+    margin-left: auto;margin-right: auto;
+}
+.consulta h5{
+    position: relative;
+    top: 50px;
+    font-size: 2em;
+    color:rgb(180, 48, 65);
+}
+.consulta p{
+    font-weight: bold;
+}
+.consulta{
+    margin-top: -80px;
+}
+#form input{
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+#form .controls{
+    height: 120px;
+}
+#form .button{
+    background-color:rgb(180, 48, 65) ;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 15px;
+    border: 6px solid rgb(124, 17, 17)  ;
+    box-shadow: 5px 5px 5px 5px rgba(255, 255, 255.9, alpha);
+    color: white;
+    margin-bottom: 30px;
+    margin-left: auto;margin-right: auto;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#form .button:hover{
+    background-color: rgb(87, 46, 46);
+    border: 2px solid rgba(255, 255, 255, .9);
+    box-shadow: 5px 5px 5px 5px  rgb(180, 48, 65);
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    color: white;
+    background-color: rgb(14, 14, 58);
+    padding: 20px;
+}
+footer .adress{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 30px;
+}
+.adress a{
+    margin-top: 0px;
+}
+.adress p{
+    margin-top: 0px;
+    font-size: 0.9em;
+    font-weight: 100;
+    font-style: italic;
+    width: 300px;
+}
+ footer .text{
+    font-style: normal;
+    font-size: 1.1em;
+    width: 300px;
+    margin-bottom: -1px;
+    font-weight: bold;
+    
+}
+footer .red{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+footer a{
+    font-size: 1.1em;
+    text-decoration: none;
+    color: rgb(180, 48, 65);
+    font-weight: bold;
+    margin: 0;
+}
+footer .caja{
+    background-color: white;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+footer .cajas{
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    position: relative;
+    margin-top: -20px;
+}
+footer img{
+    width: 50px;
+}
+.caja:nth-child(2){
+    margin-left: -18px;
+}
