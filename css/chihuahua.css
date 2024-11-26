@@ -7,9 +7,41 @@ body{
     font-style: normal;
     font-weight: 300;
 }
-
-
-
+h1{font-size: 2.5em;}
+h2{font-size: 2em;}
+h3{font-size: 1.4em;}
+p{font-size: 1.2em;}
+a{font-size: 1.3em; color: white; text-decoration: none;}
+.button{
+    padding: 10px 25px;
+    background-color:  rgb(180, 48, 65);
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, rgba(0, 0, 0, .9));
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .9);
+}
+.button:hover{
+    background-color: rgb(66, 6, 14);
+}
+.container{
+    max-width: 1400px;
+    margin: 0;
+}
+section .container{
+    padding: 0px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+#hero{
+    background-image: url(assets/chihuahua/hero.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+}
 
 
 
