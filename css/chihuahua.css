@@ -129,12 +129,97 @@ section .container{
     font-size: 1.1em;
     color:  rgb(180, 48, 65);
 }
-
-
-
-
-
-
+#text{
+    background-color:rgb(180, 48, 65) ;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#importancia h2{
+    color: rgb(4, 4, 43);
+    text-align: left;
+    font-size: 1.5em;
+}
+#importanciap{
+    text-align: left;
+}
+#importancia .box-inside{
+    border-left: 8px solid rgb(180, 48, 65);
+    padding:0px  25px;
+    margin-bottom: 25px;
+}
+#importancia p{
+    text-align: left;
+}
+#recomendaciones span{
+    font-size: 2.9em;
+    margin-top: 25px;
+    color: rgb(180, 48, 65);
+}
+#recomendaciones h2{
+    font-size: 1.7em;
+}
+#recomendaciones li{
+    text-align: left;
+    margin-bottom: 15px;
+    list-style-type: disc;
+}
+#obra{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(assets/chihuahua/obra.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#obra p{
+    margin-left: auto;margin-right: auto;
+    width: 300px;
+    margin-top: -15px;
+}
+#obra .box-inside{
+    text-align: left;
+    border-left: 8px solid rgb(180, 48, 65);
+    padding: 0px 25px;
+}
+#cumplimiento{
+    background-color: rgb(6, 6, 48);
+    width: 100%;
+    color: white;
+}
+#cumplimiento h3{
+    font-size: 2em;
+}
+#nfpa .nfpa{
+    background-image: url(assets/chihuahua/nfpa-logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+#nfpa .fm{
+    background-image: url(assets/chihuahua/fm-globalnewlogo.png.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+#nfpa p{
+    margin-top: -21px;
+}
+#nfpa h2{
+    font-size: 1.6em;
+}
 #form{
     background-color: rgb(14, 14, 58);
     color: white;
@@ -158,8 +243,7 @@ section .container{
     font-size: 2em;
 }
 #form b{
-    font-size: 1.2em;
-    font-weight: bold;
+    font-size: 1.1em;
 }
 .box-head p{
     font-weight: 100;
@@ -190,9 +274,6 @@ section .container{
     font-weight: bold;
     margin-bottom: 50px;
     font-size: 0.9em;
-}
-#form span{
-    margin-left: -30px;
 }
 #form .box-middle-email{
     text-align: left;
