@@ -7,14 +7,71 @@ body{
     font-style: normal;
     font-weight: 300;
 }
-
-
-
-
-
-
-
-
+h1{font-size: 2.5em;}
+h2{font-size: 2em;}
+h3{font-size: 1.5em;}
+h4{font-size: 1.4em;}
+p{font-size: 1.1em;}
+a{font-size: 1.2em; color: white; text-decoration: none;}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+}
+nav{
+    display: none;
+}
+#hero{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(assets/toluca/hero2.png);
+    color: white;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+}
+#hero .logo{
+    background-image: url(assets/toluca/logo.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 180px;
+    margin-left: auto;margin-right: auto;
+    margin-top: -240px;
+}
+#hero h1{
+    text-align: left;
+}
+#hero p{
+    text-align: left;
+}
+#hero .button{
+    padding: 10px 25px;
+    background-color: rgb(180, 48, 65);
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px 5px black;
+    position: relative;
+    top: 25px;
+}
+#hero .button:hover{
+    background-color: rgb(88, 11, 21);
+}
+#importancia p{
+    text-align: justify;
+}
 
 
 
