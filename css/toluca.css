@@ -170,6 +170,61 @@ nav{
 #importancia p{
     margin-left: 15px;
 }
+#importancia .box-foot-head{
+    display: flex;
+    flex-direction: row;
+}
+#importancia .box-foot-head span{
+    margin-top: 35px;
+    margin-left: 5px;
+    font-size: 2.5em;
+}
+#importancia .box-foot-head h3{
+    margin-left: 15px;
+    font-size: 1.5em;
+    text-align: left;
+    color: rgb(6, 6, 82);
+}
+#importancia .box-foot-body li{
+    text-align: left;
+    margin-bottom: 15px;
+    list-style-type:circle calc(2.5em);
+}
+#obra{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    ) 
+    ,url(assets/toluca/obra.jpg);
+    color: white;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#obra .box-head p{
+    margin-left: auto;margin-right: auto;
+    font-weight: 250;
+    width: 280px;
+    font-size: 1.0em;
+    text-align: justify;
+}
+#obra .box-inside{
+    border-left: 8px solid  rgb(180, 48, 65);
+    text-align: left;
+    margin-left: -5px;
+}
+#obra .box-inside h3{
+    margin-left: 15px;
+}
+#obra .box-inside p{
+    margin-left: 15px;
+    font-weight: 250;
+}
+
+
+
+
 
 
 
