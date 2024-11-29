@@ -86,6 +86,9 @@ nav{
 #beneficios{
     color: rgb(6, 6, 82);
 }
+#beneficios h2{
+    margin-top: 25px;
+}
 #beneficios li{
     color: rgb(180, 48, 65);
     font-size: 1.5em;
@@ -93,12 +96,80 @@ nav{
     font-style: italic;
     list-style-type: circle;
     text-align: left;
+    margin-top: 15px;
 }
-#servicios .box-head{
-    text-align: center;
+#servicios h2{
+    color: rgb(6, 6, 82);
+    font-size: 1.7em;
+}
+#servicios .box-head p{
     margin-left: auto;margin-right: auto;
+    text-align: justify;
+    font-weight: 250;
+    font-size: 1.1em;
+    font-weight: 250;
 }
-
+#servicios .box-inside{
+    border-left: 5px solid rgb(180, 48, 65) ;
+    margin-left: 5px;
+    text-align: left;
+    margin-bottom: 35px;
+}
+#servicios .box-inside h3{
+    text-align: left;
+    margin-left: 25px;
+    margin-top: -5px;
+    margin-bottom: 15px;
+}
+#servicios .box-inside li{
+    margin-top: -1px;
+}
+#servicios .box-inside p{
+    margin-left: 25px;
+    margin-top: -15px;
+}
+#deteccion{
+    background-color: rgb(180, 48, 65);
+}
+#deteccion .box-inside{
+    background-color: white;
+    border-radius: 15px;
+    padding: 25px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px 5px black;
+    margin-bottom: 25px;
+}
+#deteccion .box-icon{
+    display: flex;
+    flex-direction: row;
+}
+#deteccion span{
+    margin-top: 25px;
+    margin-left: -5px;
+    font-size: 2em;
+    color: rgb(180, 48, 65);
+}
+#deteccion p{
+    margin-left: 15px;
+    text-align: justify;
+}
+#deteccion .box-icon{
+    text-align: left;
+    list-style: circle;
+}
+#importancia .box-inside{
+    border-left: 6px solid  rgb(180, 48, 65);
+    margin-left: 10px;
+}
+#importancia h2{
+    font-size: 1.5em;
+    text-align: left;
+    margin-left: 15px;
+    color: rgb(10, 10, 80);
+}
+#importancia p{
+    margin-left: 15px;
+}
 
 
 
