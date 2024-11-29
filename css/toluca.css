@@ -221,13 +221,40 @@ nav{
     margin-left: 15px;
     font-weight: 250;
 }
-
-
-
-
-
-
-
+#nfpa p{
+    text-align: justify;
+}
+#nfpa .nfpa{
+    background-image: url(assets/toluca/nfpa-logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+#nfpa .fm{
+    background-image: url(assets/toluca/fm-globalnewlogo.png.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+#preguntas h2{
+    color: rgb(180, 48, 65);
+}
+#preguntas h3{
+    color:  rgb(180, 48, 65);
+    pad: 15px;
+}
+#preguntas p{
+    text-align: justify;
+    padding: 15px;
+}
+#preguntas .box-inside{
+    border-left: 8px solid  rgb(180, 48, 65);
+    margin-left: 5px;
+}
 
 #form{
     background-color: rgb(14, 14, 58);
