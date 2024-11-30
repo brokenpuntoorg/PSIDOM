@@ -7,11 +7,25 @@ body{
     font-style: normal;
     font-weight: 300;
 }
-
-
-
-
-
+h1{font-size: 2.5em;}
+h2{font-size: 2em;}
+h3{font-size: 1.5em;}
+p{font-size: 1.1em;}
+li{font-size: 1.2em;}
+a{font-size: 1.5em; font-weight: bold; color: white;}
+.container{
+    max-width: 1400px;
+    margin: 0;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 25px;
+}
+nav{display: none;}
 
 
 
