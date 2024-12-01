@@ -7,12 +7,14 @@ body{
     font-style: normal;
     font-weight: 300;
 }
-h1{font-size: 2.5em;}
-h2{font-size: 2em;}
-h3{font-size: 1.5em;}
-p{font-size: 1.1em;}
-li{font-size: 1.2em;}
+h1{font-size: 2.3em;}
+h2{font-size: 1.9em;}
+h3{font-size: 1.3em;}
+p{font-size: 1em;}
+li{font-size: 1em;}
 a{font-size: 1.5em; font-weight: bold; color: white;}
+b{font-weight: bold; font-size: 1.1em;}
+b:hover{color: rgb(180, 48, 65);}
 .container{
     max-width: 1400px;
     margin: 0;
@@ -26,6 +28,170 @@ section{
     padding: 0px 25px;
 }
 nav{display: none;}
+#hero{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    ) 
+    ,url(assets/guadalajara/hero.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: left;
+    cursor: pointer;
+    height: 85vh;
+}
+#importancia h2{
+    color: rgb(4, 4, 59);
+}
+#importancia p{
+    text-align: justify;
+}
+#importancia .img{
+    width: 300px;
+    height: 280px;
+    background-image: url(assets/guadalajara/1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px 5px #000;
+    margin-bottom: 35px;
+}
+#proteccion{
+    background-color: rgb(180, 48, 65);
+    padding-top: 35px;
+}
+#proteccion .box-inside{
+    background-color: #fff;
+    border: 2px solid#010101;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    box-shadow: 5px 5px 5px 5px #020202;
+    padding: 15px;
+}
+#proteccion .box-inside span{
+    color:  rgb(180, 48, 65);
+    font-size: 2.1em;
+}
+#proteccion .box-icon{
+    display: flex;
+    flex-direction: row;
+}
+#proteccion .box-icon span{
+    font-size: 1.9em;
+    margin-top: 25px;
+    margin-left: -2px;
+}
+#proteccion .box-icon p{
+    margin-left: 15px;
+    text-align: left;
+}
+#proteccion h3{
+    color: rgb(11, 11, 109);
+    font-size: 1.3em;
+}
+#beneficios h2{
+    color:  rgb(11, 11, 109);
+}
+#beneficios li{
+    color: rgb(180, 48, 65);
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 15px;
+    list-style: circle calc(2.5em);
+}
+#servicios h2{
+    color: rgb(11, 11, 109);
+    font-size: 1.6em;
+}
+#servicios p{
+    text-align: justify;
+}
+#servicios .box-inside{
+    border-left: 6px solid rgb(180, 48, 65);
+    padding: 0px 15px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+#servicios h3{
+    margin-left: 35px;
+}
+#servicios p{
+    margin-left: 25px;
+    margin-top: -15px;
+}
+#sercvicios li{
+    color:  rgb(180, 48, 65);
+}
+#obra{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    ) 
+    ,url(assets/guadalajara/obra.jpg);
+    color: #fff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+#obra .box-head p{
+     width: 280px;
+     margin-left: auto;margin-right: auto;
+     font-size: .9em;
+}
+#obra .box-inside{
+    border-left: 6px solid  rgb(180, 48, 65);
+    padding: 0px 19px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+#obra .box-inside p{
+    margin-top: -18px;
+}
+#nfpa .box-head p{
+    width: 300px;
+    font-weight: 300;
+}
+#nfpa .nfpa{
+    width: 300px;
+    height: 300px;
+    background-image: url(assets/guadalajara/nfpa-logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nfpa .fm{
+    width: 300px;
+    height: 300px;
+    background-image: url(assets/guadalajara/fm-globalnewlogo.png.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#preguntas h2{
+    color: rgb(180, 48, 65);
+    margin-bottom: 65px;
+}
+#preguntas h3{
+    color: rgb(180, 48, 65);
+}
+#preguntas .box-inside{
+    text-align: left;
+    margin-left: 15px;
+    border-left: 6px solid  rgb(180, 48, 65);
+    padding: 0px 15px;
+}
+#preguntas p{
+    margin-top: -15px;
+}
+
+
 
 
 
