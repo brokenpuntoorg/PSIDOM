@@ -181,7 +181,7 @@ nav{display: none;}
 #preguntas h3{
     color: rgb(180, 48, 65);
 }
-#preguntas .box-inside{
+#preguntas .box-inside{ 
     text-align: left;
     margin-left: 15px;
     border-left: 6px solid  rgb(180, 48, 65);
