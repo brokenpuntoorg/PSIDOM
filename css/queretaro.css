@@ -15,6 +15,7 @@ p{font-size: .9em;}
 li{font-size: 1.1em;}
 a{font-size: 1.2em; color: white;}
 b{font-size: 1.2em;}
+b:hover{color: rgb(180, 48, 65)}
 .container{
     max-width: 1400px;
     margin: 0;
@@ -131,7 +132,42 @@ nav{
         rgba(0,0,0,.5)
     )
     ,url(assets/queretaro/obra.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    cursor: pointer;
 }
+#obra .box-head p{
+    width: 280px;
+    margin-left: auto;margin-right: auto;
+    font-size: .9em;
+    font-weight: 300;
+    text-align: justify;
+}
+#obra .box-inside{
+    border-left: 6px solid rgb(180, 48, 65);
+    text-align: left;
+    padding: 0px 15px;
+}
+#obra .box-inside p{
+    margin-top: -25px;
+}
+#nfpa .box-head p{
+    width: 280px;
+    font-weight: 300;
+    margin-right: auto;margin-left: auto;
+    text-align: justify;
+}
+#nfpa .nfpa{
+    background-image: url(assets/queretaro/nfpa-logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
 
 
 
