@@ -56,7 +56,74 @@ nav{
     text-align: justify;
     margin-top: -15px;
 }
+#importancia h2{
+    color: rgb(17, 17, 104);
+}
+#importancia p{
+    text-align: justify;
+}
+#importancia .img{
+    background-image: url(assets/queretaro/2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 280px;
+    height: 280px;
+    border-radius: 35px 0px 35px 0px;
+    border: 2px solid #000;
+    box-shadow: 5px 5px 5px 5px #000;
+}
+#proteccion{
+    background-color:rgb(180, 48, 65) ;
+}
+#proteccion .box-inside{
+    background-color: #fff;
+    border-radius: 25px;
+    border: 2px solid #000;
+    box-shadow: 5px 5px 5px 5px #000;
+    margin-bottom: 25px;
+    padding: 15px;
+}
+#proteccion span{
+    color: rgb(180, 48, 65);
+    font-size: 2.5em;
+}
+#proteccion h3{
+    margin-top: -15px;
+}
+#beneficios h2{
+    color:  rgb(17, 17, 104);
+}
+#beneficios li{
+    color: rgb(180, 48, 65);
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 15px;
+}
+#servicios h2{
+    color:  rgb(17, 17, 104);
+}
+#servicios p{
+    width: 280px;
+    font-weight: 300;
+    text-align: justify;
+}
+#servicios .box-inside{
+    border-left: 6px solid rgb(180, 48, 65);
+    padding: 0px 15px;
+    text-align: left;
+}
+#servicios .box-inside li{
+    text-align: left;
+    font-size: 1em;
+    font-weight: 300;
+    margin-left: -25px;
 
+}
+#servicios .box-inside h3{
+    margin-bottom: -15px;
+    color:rgb(17, 17, 104) ;
+}
 
 
 
