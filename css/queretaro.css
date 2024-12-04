@@ -164,13 +164,37 @@ nav{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 300px;
+    height: 300px;
 }
-
-
-
-
-
-
+#nfpa .fm{
+    background-image: url(assets/queretaro/fm-globalnewlogo.png.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+#validacion{
+    background-color: #0e0e5f;
+    color: #FFF;
+    height: 55vh;
+}
+#preguntas h2{
+    font-size: 1.6em;
+    color:  hsl(352, 58%, 45%);
+}
+#preguntas h3{
+    color:  rgb(180, 48, 65);
+}
+#preguntas .box-inside{
+    border-left: 6px solid  rgb(180, 48, 65);
+    padding: 0px 15px;
+    text-align: left;
+}
+#preguntas p{
+    margin-top: -20px;
+}
 
 #form{
     background-color: rgb(14, 14, 58);
@@ -200,7 +224,8 @@ nav{
 .box-head p{
     font-weight: 100;
     font-style: italic;
-    width: 250px;
+    width: 290px;
+    text-align: justify;
 }
 #form .box-middle-one{
     display: flex;
