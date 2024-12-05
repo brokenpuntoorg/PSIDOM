@@ -47,7 +47,18 @@ nav{
 }
 #hero h4{
     margin-top: 25px;
+    margin-bottom: 50px;
 }
+#importancia .box-head p{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+
 
 
 #form{
