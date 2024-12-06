@@ -7,12 +7,219 @@ body{
     font-style: normal;
     font-weight: 300;
 }
-h1{font-size: 2.5em;}
-h2{font-size: ;}
-
-
-
-
+h1{font-size: 2em; color: rgb(10, 10, 77);}
+h2{font-size: 1.7em; color: rgb(10, 10, 77)}
+h3{font-size: 1.3em; color: rgb(10, 10, 77)}
+h4{font-size: 1.2em; color: rgb(10, 10, 77)}
+h5{font-size: 1.3em; color: rgb(10, 10, 77)}
+p{font-size: .9em; font-weight: 300;}
+a{font-size: 1.2em; color: white; text-decoration: none; }
+b{font-size: 1.2em; font-weight: bold;}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 25px;
+}
+header nav{
+    display: none;
+}
+#hero{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(assets/puebla/hero.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    color: #fff;
+}
+#hero .logo{
+    background-image: url(assets/puebla/logo.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-left: auto;margin-right: auto;
+    margin-top: -260px;
+    width: 150px;
+    height: 120px;
+   
+}
+#hero .button{
+    padding: 15px 30px;
+    background-color:rgb(180, 48, 65);
+    border-radius: 5px;
+    border: 2px solid #030303;
+    box-shadow: 5px 5px 5px 5px #040404;
+    position: relative;
+    top: 70px;
+}
+#hero h1{
+    width: 250px;
+    text-align: left;
+}
+#hero h5{
+    text-align: left;
+}
+#importancia .box-head p{
+    width: 290px;
+}
+#importancia p{
+    text-align: justify;
+    font-weight: 300;
+}
+#importancia h2{
+    width: 280px;
+    font-size: 1.5em;
+    margin-bottom: 25px;
+}
+#importancia .img{
+    width: 300px;
+    height: 300px;
+    background-image: url(assets/puebla/obra.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #050505;
+    border-radius:  0px 15px 0px 15px;
+    box-shadow: 5px 5px 5px 5px #060606;
+}
+#beneficios h2{
+    margin-bottom: -10px;
+}
+#beneficios .box-icon{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    margin-bottom: -25px;
+}
+#beneficios h3{
+    margin-bottom: -20px;
+    text-align: left;
+    margin-left: 60px;
+}
+#beneficios .box-icon p{
+    text-align: left;
+    margin-left: 15px;
+}
+#beneficios span{
+    margin-top: -50px;
+    font-size: 2em;
+    color:rgb(180, 48, 65);
+}
+#servicios .box-head p{
+    width: 300px;
+    font-weight: 300;
+    margin-left: auto;margin-right: auto;
+    text-align: justify;
+}
+#servicios .box-inside{
+    border-left: 6px solid rgb(180, 48, 65);
+    padding: 0px 15px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+#servicios .box-inside h3{
+    margin-bottom: -15px;
+}
+#servicios .box-foot p{
+    text-align: justify;
+    margin-bottom: -7px;
+}
+#servicios .box-foot{
+    margin-bottom: 35px;
+}
+#disponibilidad{
+    background-color:  rgb(180, 48, 65);
+    color: #f0f0f0;
+    text-align: left;
+}
+#disponibilidad h3{
+    color: #f0f0f0;
+    margin-bottom: -15px;
+}
+#disponibilidad .box-inside{
+    margin-bottom: 25px;
+}
+#recomendaciones .box-head{
+    display: flex;
+    flex-direction: row;
+}
+#recomendaciones span{
+    margin-top: 45px;
+    font-size: 2.2em;
+    margin-left: 5px;
+    color:  rgb(180, 48, 65);
+}
+#recomendaciones h4{
+    text-align: left;
+    padding: 15px;
+}
+#recomendaciones li{
+    text-align: left;
+    color:  rgb(180, 48, 65);
+    font-weight: bold;
+    margin-bottom: 15px;
+    list-style: circle;
+}
+#obra{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(assets/puebla/obra.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#obra h2, h3{
+    color: #fff;
+}
+#obra .box-head p{
+    width: 290px;
+    text-align: justify;
+    margin-left: auto;margin-right: auto;
+    font-weight: 300;
+}
+#obra .box-inside{
+    border-left: 6px solid rgb(180, 48, 65);
+    padding: 0px 15px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+#nfpa .nfpa{
+    background-image: url(assets/puebla/nfpa-logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+#nfpa .fm{
+    background-image: url(assets/puebla/fm-globalnewlogo.png.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+#nfpa h3{
+    color: #000;
+    margin-bottom: -15px;
+}
+#nfpa p{
+    text-align: left;
+}
 
 #form{
     background-color: rgb(14, 14, 58);
@@ -30,11 +237,13 @@ h2{font-size: ;}
     margin-bottom: 25px;
     padding: 20px;
     width: 100%;
+
 }
 #form h2{
     position: relative;
     margin-top: 20px;
     font-size: 2em;
+    color: #fff;
 }
 #form b{
     font-size: 1.1em;
