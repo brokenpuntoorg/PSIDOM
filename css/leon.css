@@ -7,12 +7,145 @@ body{
     font-style: normal;
     font-weight: 300;
 }
-
-
-
-
-
-
+h1{font-size: 2em;}
+h2{font-size: 1.5em;}
+h3{font-size: 1.3em;}
+h4{font-size: 1.2em;}
+h5{font-size: 1.1em;}
+p{font-size: .9em;}
+a{font-size: 1.2em;font-weight: bold; color: white; text-decoration: none;}
+b{font-size: 1.1em;}
+span{font-size: 2em;}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 25px;
+}
+header nav{
+    display: none;
+}
+#hero{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(assets/leon/hero.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 95vh;
+}
+#hero .logo{
+    width: 130px;
+    height: 110px;
+    background-image: url(assets/puebla/logo.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hero p{
+    text-align: justify;
+}
+#importacia h2{
+    color: rgb(14, 14, 58);
+}
+#importancia p{
+    text-align: justify;
+    margin-bottom: -12px;
+}
+#importancia .img{
+    background-image:url(assets/leon/2.jpg);
+    width: 300px;
+    height: 300px;
+    border: 1px solid #010101;
+    border-radius: 15px 0px 15px 0px;
+    box-shadow: 5px 5px 5px 5px #010101;
+    margin-top: 35px;
+}
+#importancia{
+    margin-bottom: 25px;
+}
+#factores .box-head{
+    display: flex;
+    flex-direction: row;
+}
+#factores span{
+    margin-top: 25px;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+#factores h3{
+    margin-left: -15px;
+}
+#factores{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(assets/leon/hero2.png);
+    color: white;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#factores li{
+    text-align: left;
+    list-style: georgian;
+    font-size: 1.1em;
+    font-weight: 300;
+    color: rgb(180, 48, 65);
+}
+#fcatores h3{
+    font-size: 1.5em;
+}
+#beneficios p{
+    text-align: justify;
+    font-weight: 300;
+}
+#beneficios li{
+    text-align: left;
+    font-weight: 300;
+    font-size: 1.1em;
+    color: rgb(180, 48, 65);
+    list-style: armenian;
+}
+#servicios{
+    background-color: rgb(180, 48, 65);
+}
+#servicios h2{
+    color: #fff;
+}
+#servicios a{
+    color: #000;
+}
+#servicios .box-inside{
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #010102;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px #020202;
+}
+#servicios .box-icon{
+    display: flex;
+    flex-direction: row;
+}
+#servicios span{
+    margin-top: -5px;
+    mix-blend-mode: 15px;
+}
 
 
 #form{
