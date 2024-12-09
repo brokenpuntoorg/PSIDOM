@@ -51,6 +51,8 @@ header nav{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    top: -80px;
 }
 #hero p{
     text-align: justify;
@@ -105,7 +107,7 @@ header nav{
     list-style: georgian;
     font-size: 1.1em;
     font-weight: 300;
-    color: rgb(180, 48, 65);
+    margin-bottom: 25px;
 }
 #fcatores h3{
     font-size: 1.5em;
@@ -146,8 +148,84 @@ header nav{
     margin-top: -5px;
     mix-blend-mode: 15px;
 }
-
-
+#mantenimiento h2{
+    color: rgb(7, 7, 104);
+    text-align: center;
+}
+#mantenimiento .box-head p{
+    font-weight: 300;
+    text-align: justify;
+    font-style: normal
+    ;
+}
+#mantenimiento p{
+    font-weight: 300;
+    text-align: justify;
+}
+#mantenimiento h3{
+    color: rgb(7, 7, 104);
+}
+#mantenimiento .box-inside{
+    border: 1px spolid  #050505;
+    border-radius: 15px 0px 15px 0px;
+    box-shadow: 5px 5px 5px 5px #010101;
+    padding:  10px 25px;
+    margin-bottom: 25px;
+}
+#obra{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.6),
+        rgba(0,0,0,.6)
+    )
+    ,url(assets/leon/obra.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#obra .box-head p{
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 50px;
+}
+#obra p{
+    text-align: justify;
+    margin-bottom: 25px;
+}
+#obra .box-inside{
+    border-left: 6px solid rgb(180, 48, 65);
+    padding-left: 15px;
+    text-align: left;
+}
+#importancia1 .box-head p{
+    font-weight: 300;
+    font-style: normal;
+}
+#importancia1 .nfpa{
+    width: 300px;
+    height: 300px;
+    background-image: url(
+        assets/leon/nfpa-logo.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+#importancia1 .fm{
+    width: 300px;
+    height: 300px;
+    background-image: url(
+        assets/leon/fm-globalnewlogo.png.webp);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+#preguntas h2, h3 {
+    color: rgb(180, 48, 65);
+}
+#preguntas p{
+    text-align: justify;
+}
 #form{
     background-color: rgb(14, 14, 58);
     color: white;
