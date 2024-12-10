@@ -12,7 +12,7 @@ h2{font-size: 1.5em;}
 h3{font-size: 1.4em;}
 h4{font-size: 1.3em;}
 p{font-size: .9em;}
-li{font-size: 1.1em;}
+li{font-size: 1em;}
 b{font-size: 1.2em; font-weight: bold;color: rgb(180, 48, 65);}
 a{font-size: 1.2em; color: #fff; text-decoration: none;}
 .container{
@@ -80,8 +80,106 @@ header nav{
 #importancia .box-head p{
     font-weight: 400;
 }
-
-
+#importancia h2{
+    color: rgb(16, 16, 94);
+}
+#importancia .img{
+    background-image: url(assets/reynosa/2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin-right: auto;margin-left: auto;
+    border: 1px solid #0000;
+    border-radius: 15px 0px 15px 0px;
+    box-shadow: 5px 5px 5px 5px #000;
+}
+#beneficios h2{
+    color: rgb(16, 16, 94);
+}
+#beneficios p{
+    text-align: justify;
+    font-weight: 400;
+    padding: 25px;
+}
+#beneficios li{
+    list-style: armenian;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    color: rgb(180, 48, 65);
+}
+#servicios h2{
+    color: rgb(16, 16, 94);
+}
+#servicios .box-head{
+    padding: 0px 25px;
+}
+#servicios .box-head p{
+    font-weight: 400;
+}
+#servicios .box-body{
+    padding: 25px;
+}
+#servicios .box-inside{
+    border-left: 6px solid rgb(180, 48, 65);
+    padding: 0px 15px;
+    margin-bottom: 45px;
+    text-align: left;
+}
+#disponibilidad{
+    background-color:  rgb(180, 48, 65);
+    color: white;
+    padding: 25px;
+}
+#disponibilidad h3{
+    font-size: 2em;
+}
+#disponibilidad b{
+    color: #fff;
+}
+#disponibilidad p{
+    text-align: justify;
+    margin-top: 25px;
+}
+#recomendaciones .box-inside{
+    display: flex;
+    flex-direction: row;
+}
+#recomendaciones span{
+    margin-top: 35px;
+    margin-left: 15px;
+    color: rgb(180, 48, 65);
+}
+#recomendaciones h{
+    width: 250px;
+    font-size: 1.3em;
+    text-align :left;
+}
+#recomendaciones li{
+    text-align: left;
+    color:  rgb(180, 48, 65);
+    margin-bottom: 15px;
+    font-weight: 400;
+    padding: 0px 15px;
+    list-style: disc;
+    margin-left: 25px;
+}
+#obra{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    ) 
+    ,url(assets/reynosa/obra.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 25px;
+}
 #form{
     background-color: rgb(14, 14, 58);
     color: white;
