@@ -13,7 +13,7 @@ h3{font-size: 1.4em;}
 h4{font-size: 1.3em;}
 p{font-size: .9em;}
 li{font-size: 1em;}
-b{font-size: 1.2em; font-weight: bold;color: rgb(180, 48, 65);}
+b{font-size: 1.2em; font-weight: bold;}
 a{font-size: 1.2em; color: #fff; text-decoration: none;}
 .container{
     max-width: 1400px;
@@ -180,6 +180,48 @@ header nav{
     color: #fff;
     padding: 25px;
 }
+#obra .box-inside{
+    border-left: 6px solid rgb(180, 48, 65);
+    padding: 0px 15px;
+    margin-bottom: 35px;
+    text-align: left;
+}
+#obra .box-inside p{
+    margin-top: -20px;
+}
+#nfpa .box-head{
+    padding: 25px;
+}
+#nfpa .box-head p{
+    font-weight: 400;
+}
+#nfpa .nfpa{
+    width: 300px;
+    height: 300px;
+    background-image: url(assets/reynosa/nfpa-logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;margin-right: auto;
+}
+#nfpa .fm{
+    width: 300px;
+    height: 300px;
+    background-image: url(assets/reynosa/fm-globalnewlogo.png.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;margin-right: auto;
+}
+#nfpa .box-inside p{
+    text-align: justify;
+}
+#nfpa .box-inside{
+    padding: 25px;
+    margin-bottom: -25px;
+}
+
+
 #form{
     background-color: rgb(14, 14, 58);
     color: white;
