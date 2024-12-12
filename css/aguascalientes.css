@@ -15,10 +15,60 @@ h5{font-size: 1.1em;}
 p{font-size: .9em;}
 b{font-size: 1.1em;font-weight: bold;}
 b:hover{color: rgb(180, 48, 65);}
-
-
-
-
+.button{
+    padding: 10px 25px;
+    background-color: rgb(180, 48, 65);
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    margin-left: auto;margin-right: auto;
+    border: 1px  solid #010101;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px #010101;
+}
+.button:hover{
+    background-color: blue;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+.box-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 25px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 25px;
+}
+header nav{
+    display: none;
+}
+#hero{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    ) 
+    ,url(assets/aguascalientes/hero.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 95vh;
+}
 
 
 
