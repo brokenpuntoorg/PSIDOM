@@ -37,14 +37,6 @@ b:hover{color: rgb(180, 48, 65);}
     max-width: 1400px;
     margin: auto;
 }
-.box-head{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 10px 25px;
-}
 section{
     display: flex;
     flex-direction: column;
@@ -62,16 +54,71 @@ header nav{
         rgba(0,0,0,.5),
         rgba(0,0,0,.5)
     ) 
-    ,url(assets/aguascalientes/hero.jpeg);
+    ,url(assets/aguascalientes/hero\ 2.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
     height: 95vh;
 }
-
-
-
+#hero .logo{
+    background-image: url(assets/aguascalientes/logo.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 120px;
+    margin-left: auto;margin-right: auto;
+    position: relative;
+    top: -130px;
+}
+#hero .container{
+    text-align: left;
+}
+#hero .button{
+    position: relative;
+    top: 50px;
+}
+#importancia .box-head p{
+    font-weight: 300;
+    text-align: justify;
+    margin-left: auto;margin-right: auto;
+}
+#importancia .box-head{
+    padding: 0px;
+}
+#importancia h3{
+    color: rgb(9, 9, 90);
+    margin-top: -2px;
+    width: 280px;
+    margin-bottom: -12px;
+}
+#importancia .box-body p{
+    text-align: justify;
+}
+#importancia .img{
+    background-image: url(assets/aguascalientes/3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+#beneficios h2{
+    color: rgb(9, 9, 90);
+}
+#beneficios p{
+    text-align: justify;
+    margin-bottom: 25px;
+}
+#beneficios li{
+    color: rgb(180, 48, 65);
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 15px;
+    list-style: circle;
+    font-size: 1.5em;
+}
 
 
 
