@@ -83,6 +83,7 @@ header nav{
     font-weight: 300;
     text-align: justify;
     margin-left: auto;margin-right: auto;
+    width: 290px;
 }
 #importancia .box-head{
     padding: 0px;
@@ -176,7 +177,103 @@ header nav{
     list-style: lower-greek;
 
 }
+#mantenimiento p{
+    text-align: justify;
+    margin-left: auto;margin-right: auto;
+    width: 290px;
+    margin-bottom: -5px;
+    font-weight: 300;
+}
+#mantenimiento .box-head{
+    padding: 25px 0px;
+}
+#mantenimiento h4{
+    color: rgb(9, 9, 90);
+}
+#mantenimiento li{
+    font-weight: bold;
+    color: rgb(180, 48, 65);
+    text-align: left;
+    margin-bottom: 25px;
+}
+#recomendaciones{
+    padding: 25px 0px;
+}
+#recomendaciones h2{
+    color: rgb(9, 9, 90);
+    font-size: 1.2em;
+    text-align: left;
+    margin-left: 15px;
+    width: 250px;
+}
+#recomendaciones span{
+    color: rgb(180, 48, 65);
+    font-weight: bold;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+#recomendaciones li{
+    color: rgb(180, 48, 65);
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: left;
+    margin-left: 25px;
+    list-style: lower-greek;
+    width: 250px;
+}
+#recomendaciones .box-head{
+    display: flex;
+    flex-direction: row;
+}
+#obra{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(assets/aguascalientes/obra.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+#obra .box-head p{
+    width: 300px;
+    text-align: justify;
+    font-weight: 400;
+    margin-left: auto;margin-right: auto;
+}
+#obra .box-body {
+    text-align: justify;
+}
 
+#obra .box-inside{
+    border-left: 6px solid rgb(180, 48, 65);
+    padding: 0px 15px;
+}
+#obra .box-inside p{
+    margin-top: -25px;
+}
+#nfpa p{
+    text-align: justify;
+    font-weight: 400;
+}
+#nfpa .nfpa{
+    background-image: url(assets/aguascalientes/nfpa-logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+#nfpa .fm{
+    background-image: url(assets/aguascalientes/fm-globalnewlogo.png.webp   );
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
 #form{
     background-color: rgb(14, 14, 58);
     color: white;
