@@ -155,9 +155,60 @@ header nav{
     margin-bottom: 25px;
     font-size: .9em;
 }
-
-
-
+#recomendaciones h3{
+    color: rgb(14, 14, 58);
+}
+#recomendaciones .box-head{
+    display: flex;
+    flex-direction: row;
+}
+#recomendaciones span{
+    margin-top: 45px;
+    color: rgb(180, 48, 65);
+    font-weight: bold;
+    font-size: 2em;
+}
+#recomendaciones h3{
+    text-align: left;
+    margin-left: 15px;
+}   
+#recomendaciones li{
+    text-align: left;
+    font-weight: 400;
+    font-size: .9em;
+    margin-bottom: 15px;
+    color: #010203;
+}
+#obra{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    )
+    ,url(assets/cuernavaca/obra.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 25px 35px;
+}
+#obra .box-head p{
+    width: 300px;
+    text-align: justify;
+    margin-left: auto;margin-right: auto;
+    font-weight: 400;
+}
+#obra .box-inside{
+    border-left: 6px solid rgb(180, 48, 65);
+    padding: 0px 15px;
+    text-align: left;
+}
+#obra h3{
+    margin-bottom: -15px;
+}
+#obra p{
+    font-weight: 400;
+}
 
 
 
