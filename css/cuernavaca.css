@@ -91,10 +91,70 @@ header nav{
 #beneficios .box-head p{
     width: 300px;
     margin-left: auto;margin-right: auto;
-    font-weight: 400    ;
+    font-weight: 400;
+    text-align: justify;
 }
-
-
+#beneficios li{
+    text-align: left;
+    margin-bottom: 25px;
+    font-weight: 400;
+    list-style: lower-latin;
+}
+#servicios h2{
+    color: rgb(14, 14, 58);
+}
+#servicios .box-head p{
+    width: 280px;
+    font-weight: 400;
+    text-align: justify;
+    margin-left: auto;margin-right: auto;
+}
+#servicios .box-inside{
+    border-left: 6px solid rgb(180, 48, 65);
+    margin-left: -5px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+#servicios h3{
+    margin-left: 25px;
+    color: rgb(14, 14, 58);
+}
+#servicios .box-inside li{
+    font-weight: 400;
+    padding: 0px 15px;
+    font-size: .9em;
+    margin-bottom: 12px;
+}
+#servicios .box-inside p{
+    margin-left: 25px;
+}
+#cuernavaca{
+    background-color: rgb(180, 48, 65);
+    color: #fff;
+    font-weight: 400;
+    padding: 25px;
+}
+#cuernavaca p{
+    margin-bottom: 50px;
+    text-align: justify;
+}
+#mantenimiento h3{
+    color: rgb(14, 14, 58);
+}
+#mantenimiento .box-inside{
+    border-left: 6px solid rgb(180, 48, 65);
+    margin-bottom: 25px;
+    text-align: left;
+    padding: 0px 15px;
+}
+#mantenimiento .box-inside p{
+    font-weight: 400;
+}
+#mantenimiento .box-inside li{
+    font-weight: 400;
+    margin-bottom: 25px;
+    font-size: .9em;
+}
 
 
 
