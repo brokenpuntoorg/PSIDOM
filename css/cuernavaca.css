@@ -209,7 +209,26 @@ header nav{
 #obra p{
     font-weight: 400;
 }
-
+#nfpa .nfpa{
+    background-image: url(assets/cuernavaca/nfpa-logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+#nfpa .fm{
+    background-image: url(assets/cuernavaca/fm-globalnewlogo.png.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+#nfpa p{
+    text-align: justify;
+    font-weight: 400;
+}
 
 
 
