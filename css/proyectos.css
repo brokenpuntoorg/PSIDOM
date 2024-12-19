@@ -10,3 +10,169 @@ body{
     color: brown;
     font-size: 10em;
 }
+h1{font-size: 2.5em;}
+h2{font-size: 2em;}
+h3{font-size: 1.5em;}
+h4{font-size: 1.2em;}
+h5{font-size: 1em;}
+p{font-size: 1em;}
+li{font-size: 1em;}
+a{font-size: 1.2em; color: #fff; text-decoration: none;}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+}
+header nav{
+    display: none;
+}
+#hero{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    ) 
+    ,url(assets/proyectos/obra.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    color: #fff;
+}
+#hero .logo{
+    background-image: url(assets/proyectos/logo.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 120px;
+    margin-left: auto;margin-right: auto;
+    position: relative;
+    top: -180px;
+}
+#proyectos h2{
+    text-align: left;
+    color: rgb(180, 48, 65);
+}
+#proyectos h5{
+    text-align: left;
+    margin-top: -20px;
+}
+#proyectos .box-body{
+    border: 1px solid #010020;
+    padding: 15px;
+    border-radius: 15px;
+}
+#proyectos .box-inside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#proyectos .box-img1{
+    background-image: url(assets/proyectos/img1.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 270px;
+    height: 250px;
+    border-radius: 15px;
+}
+#proyectos .box-img2{
+    background-image: url(assets/proyectos/img2.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 270px;
+    height: 250px;
+    border-radius: 15px;
+}
+#proyectos .box-img3{
+    background-image: url(assets/proyectos/img3.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 270px;
+    height: 250px;
+    border-radius: 15px;
+}
+#proyectos .box-img4{
+    background-image: url(assets/proyectos/img4.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 270px;
+    height: 250px;
+    border-radius: 15px;
+}
+#proyectos .box-img5{
+    background-image: url(assets/proyectos/img5.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 270px;
+    height: 250px;
+    border-radius: 15px;
+}
+#proyectos .box-inside p{
+    position: relative;
+    top: -25px;
+    font-weight: 400;
+}
+footer{
+    background-color: rgb(5, 5, 53);
+    color: white;
+    padding: 25px 25px;
+}
+footer a{
+    color: rgb(180, 48, 65);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: -5px;
+    margin-left: 33px;
+}
+footer li{
+    list-style: none;
+    font-weight: 440;
+}
+footer .box-inside{
+    margin-bottom: 50px;
+}
+footer h5{
+    margin-left: 35px;
+    font-size: 1.2em;
+}
+footer .insta{
+    background-image: url(assets/proyectos/inta.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 40%;
+}
+footer .link{
+    background-image: url(assets/proyectos/face.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin-left: 5px;
+    border-radius: 40%;
+}
+footer .box-icon{
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+}
