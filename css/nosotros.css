@@ -6,3 +6,63 @@ body{
     font-weight: 100;
     font-style: normal;
 }
+h1{font-size: 2.5em;}
+h2{font-size: 2em;}
+h3{font-size: 1.5em;}
+h4{font-size: 1.2em;}
+h5{font-size: 1em;}
+p{font-size: .9em;}
+li{font-size: 1em;}
+a{font-size: 1.2em; color: white; text-decoration: none;}
+b{font-size: 1.2em;}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+header nav{
+    display: none;
+}
+#hero{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    ),url(assets/nosotros/hero2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 85vh;
+}
+#hero .logo{
+    width: 150px;
+    height: 120px;
+    background-image: url(assets/nosotros/logo.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -200px;
+}
+#quienes .container{
+    border-top: 6px solid rgb(180, 48, 65);
+}
+#quienes .img{
+    width: 300px;
+    height: 300px;
+    background-image: url(assets/nosotros/obra.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;margin-right: auto;
+    border-radius: 15px;
+    border: 1px solid rgb(180, 48, 65);
+    box-shadow: 5px 5px 5px #0000;
+}
