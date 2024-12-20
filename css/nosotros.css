@@ -25,6 +25,7 @@ section{
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 25px;
 }
 header nav{
     display: none;
@@ -66,3 +67,188 @@ header nav{
     border: 1px solid rgb(180, 48, 65);
     box-shadow: 5px 5px 5px #0000;
 }
+#quienes p{
+    text-align: justify;
+    padding: 25px;
+    font-weight: 300;
+    margin-bottom: 35px;
+}
+#quienes h5{
+    width: 250px;
+    margin-left: auto;margin-right: auto;
+}
+#quienes .logopsi{
+    width: 50px;
+    height: 50px;
+    background-image: url(assets/nosotros/LOGOPSI.png.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-left: auto;margin-right: auto;
+    top: 15px;
+}
+#quienes .logodom{
+    width: 100px;
+    height: 50px;
+    background-image: url(assets/nosotros/logo.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-left: auto;margin-right: auto;
+    top: 15px;
+}
+#nosotros{
+    background-color: rgb(7, 7, 49);
+    color: #fff;
+}
+#nosotros .img2{
+    width: 300px;
+    height: 200px;
+    background-image: url(assets/nosotros/3.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#nosotros .img3{
+    width: 300px;
+    height: 200px;
+    background-image: url(assets/nosotros/2.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#nosotros p{
+    text-align: justify;
+}
+#nosotros h3{
+    color: rgb(180, 48, 65);
+}
+#porque h2{
+    color: rgb(180, 48, 65);
+}
+#porque .box-inside{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(7, 7, 49);
+    margin-bottom: 25px;
+    margin-left: auto;margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#porque .box1{
+    background-image: url(assets/nosotros/nfpa-y-fm.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 170px;
+    height: 150px;
+}
+#porque .box2{
+    background-image: url(assets/nosotros/2.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 170px;
+    height: 150px;
+}
+#porque .box3{
+    background-image: url(assets/nosotros/3.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 170px;
+    height: 150px;
+}
+#porque .box4{
+    background-image: url(assets/nosotros/5.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 170px;
+    height: 150px;
+}
+#porque .box5{
+    background-image: url(assets/nosotros/3.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 170px;
+    height: 150px;
+}
+#porque .box6{
+    background-image: url(assets/nosotros/PSIDOM-FINAL-1-qqs4zaqlobnizieezjoio3o8b7eyggxr3qjcwk6q28.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 170px;
+    height: 150px;
+}
+#list{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    ) 
+    ,url(assets/nosotros/obra.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+#list li{
+    text-align: left;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+footer{
+    background-color: rgb(7, 7, 68);
+    color: white;
+    padding: 25px;
+}
+footer a{
+    font-size: 1.3em;
+    color: rgb(180, 48, 65);
+    font-weight: bold;
+}
+footer li{
+    font-weight: 400;
+    font-size: .9em;
+    color: white;
+    font-style: italic;
+}
+footer p{
+    font-weight: bold;
+}
+footer .box-icon{
+    display: flex;
+    flex-direction: row;
+}
+footer .insta{
+    background-image: url(assets/nosotros/inta.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: white;
+    border-radius: 40%;
+}
+footer .link{
+    background-image: url(assets/nosotros/face.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: white;
+    border-radius: 40%;
+    margin-left: 15px;
+}
+
