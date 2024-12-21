@@ -13,14 +13,14 @@ h4{font-size: 1.5em;}
 h5{font-size: 1.2em;}
 p{font-size: .9em;}
 li{font-size: .9em;}
-a{font-size: 1.2em; color: white; text-decoration: none;}
+a{font-size: 1.2em; color: white; text-decoration: none; font-weight: bold;}
 .button{
         padding: 15px 30px;
-        background-color: rgb(180, 68, 45);
+        background-color: rgb(180, 48, 65);
         border-radius: 15px;
         border: 1px solid #010203;
 }
-section{
+section{    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,7 +65,7 @@ header nav{
 }
 form input{
     width: 300px;
-    height: 2em;
+    height: 2.5em;
     margin-bottom: 15px;
     border: 1px solid rgba(0,0,0.5);
     box-shadow: 5px 5px 5px #010203;
@@ -73,4 +73,10 @@ form input{
 }
 form .input1{
     height: 250px;
+    margin-bottom: 50px;
+}
+#form .box-inside{
+    padding: 15px;
+    box-shadow: 1px 1px 1px 1px #aaa;
+    margin-top: 50px;
 }
