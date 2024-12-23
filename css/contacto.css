@@ -81,6 +81,19 @@ form .input1{
     margin-top: 50px;
 }
 #contactos .box-inside{
-    margin-bottom: 25px;
-    box-sizing: 2px 2px 2px 50px red;
+    margin-bottom: 35px;
+    box-shadow: 1px 1px 1px 1px #aaa;
+    width: 310px;
+}
+#contactos span{
+    color: rgb(180, 48, 65);
+    font-weight: bold;
+    font-size: 2em;
+}
+#contactos h5{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+#contactos{
+    padding: 25px;
 }
