@@ -83,18 +83,22 @@ form .input1{
 #form li{
     font-weight: bold;
     font-size: .9em;
-}
-#form span{
-    font-weight: bold;
-    color: rgb(180, 48, 65);
-    font-size: 2em;
-    text-align: center;
-    margin-top: 15px;
-    margin-left: 10px;
-}
-#form .box-inside{
     text-align: left;
 }
+#form .box-inside span{
+    color: rgb(180, 48, 65);
+    margin-left: auto; margin-right: auto;
+    font-weight: bold;
+    font-size: 2em;
+}
+form .box-inside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 #form .box-inside a{
     color: rgb(180, 48, 65);
     margin-left: 15px;
@@ -123,4 +127,46 @@ form .input1{
 #contactos li{
     font-weight: bold;
     text-align: left;
+}
+footer{
+    background-color: rgb(9, 9, 54);
+    color: white;
+    padding: 25px;
+}
+footer a{
+    color: rgb(180, 48, 65);
+}
+footer .box-icon{
+    display: flex;
+    flex-direction: row;
+}
+footer .insta{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    box-shadow: 1px 2px 3px 4px #000;
+    background-image: url(assets/contacto/inta.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+footer .link{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    box-shadow: 1px 2px 3px 4px #000;
+    background-image: url(assets/contacto/face.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
 }
