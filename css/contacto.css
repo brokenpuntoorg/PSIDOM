@@ -80,3 +80,7 @@ form .input1{
     box-shadow: 1px 1px 1px 1px #aaa;
     margin-top: 50px;
 }
+#contactos .box-inside{
+    margin-bottom: 25px;
+    box-sizing: 2px 2px 2px 50px red;
+}
