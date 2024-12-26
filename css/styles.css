@@ -147,6 +147,12 @@ nav{
     height: 25vh;
     width: 85vw;
 }
+.numeros1 p{
+    position: relative;
+    top: -35px;
+    font-size: 1.6em;
+    font-weight: bold;
+}
 .numeros2{
     background-color: white;
     color: black;
@@ -164,10 +170,7 @@ nav{
     height: 25vh;
     width: 85vw;
 }
-.numbers p{
-    font-size: 1.6em;
-    font-weight: bold;
-}
+
 .numbers h4{
     font-size: 4em;
     font-weight: bold;
@@ -183,9 +186,6 @@ nav{
 .numeros2 p{
     font-size: 1.6em;
     position: relative;
-}
-.two{
-    top: 30px;
 }
 .one{
     bottom: 100px;
@@ -214,6 +214,34 @@ nav{
     position: relative;
     bottom: 130px;
 }
+#numeros1{
+    background-color: #f1f1f1;
+}
+#numeros1 .box-inside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 250px;
+    width: 250px;
+}
+#numeros1 .box-inside h4{
+    font-size: 4em;
+}
+#numeros1 .box-inside p{
+    font-weight: bold;
+    font-size: 1.2em;   
+}
+#numeros1 .text-down{
+    position: relative;
+    top: -85px;
+}
+#numeros1 .text-up{
+    position: relative;
+    top: 70px;
+}
+
 #imgs{
     height: 70vh;
     display: flex;
