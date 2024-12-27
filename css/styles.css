@@ -282,44 +282,37 @@ nav{
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 25px;
 }
 #proye .proyect{
-    width: 200px;
-    height:200px;
+    width: 300px;
+    height:500px;
     margin-left: auto;margin-right: auto;
 }
 .proyect:first-child{
     background-image: url(assets/dos/uno.webp);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
 }
 .proyect:first-child:hover{
     background-image: url(assets/dos/dos.webp);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
 }
 #proye h2{
-    height: 20vh;
-    position: relative;
-    top: -70px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 1.7em;
-}
-#proye h2:hover{
-    color: rgb(182, 55, 55);
+    color: rgb(180, 48, 65);
+    margin-bottom: 120px;
 }
 #proye .button{
     padding: 20px 20px;
     background-color:  rgb(182, 55, 55);
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 0);
-    width: 350px;
+    width: 300px;
+    font-weight: bold;
+    position
 }
 #proye .button:hover{
     background-color: black;
