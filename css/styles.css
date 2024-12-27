@@ -178,56 +178,38 @@ nav{
 }
 
 #imgs{
-    height: 70vh;
     display: flex;
     flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
 }
 #imgs h5{
-    font-size: 1.3em;
-    color: rgb(87, 46, 46);
-    margin-left: 17px;
+    font-size: 1.5em;
+    color: rgb(180, 48, 65);
 }
 #imgs p{
-    position: relative;
-    top:-10px;
-    text-align: left;
-    margin-left: 30px;
-    font-size: 1.3em;
-}
-.set:first-child{
-    width: 85vw;
-    height: 23vh;
-    display: flex;
-    flex-direction: column;
-    align-items: top;
-    justify-content: top;
-    text-align: center;
-    margin-bottom: 25px;
-    margin-top: 25px;
+    font-size: 1.1em;
+    font-weight: 300;
 }
 .set:nth-child(2){
     background-image: url(assets/uno/3.webp);
     background-repeat: no-repeat;
-    width: 85vw;
-    height: 18vh;
-    margin-left: 20px;
-    margin-bottom: 25px;
+    background-position: center center;
+    background-size: contain;
+    width: 300px;
+    height: 120px;
 }
 .set:nth-child(3){
     background-image: url(assets/uno/4.webp);
     background-repeat: no-repeat;
-    width: 85vw;
-    height: 18vh;
-    margin-left: 25px;
+    background-position: center center;
+    background-size: contain;
+    width: 300px;
+    height: 120px;
 }
-#imgs .img-set{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 25px;
-}
+
 #servicio{
     position: relative;
     display: flex;
@@ -236,32 +218,30 @@ nav{
     justify-content: center;
     text-align: center;
     cursor: pointer;
+    padding: 25px;
 }
 #servicio a{
     position: relative;
-    top: 280px;
+    top: -50px;
     text-decoration: none;
     color: black;
     font-size: 1.3em;
     font-weight: bold;
-}
-#servicio a:hover{
-    color:  rgb(87, 46, 46);
 }
 #servicio h2{
     position: relative;
     top: -50px;
     font-size: 2.5em;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: top;
     justify-content: top;
     text-align: top;
-    color: rgb(87, 46, 46);
+    color: rgb(180, 48, 65);
 }
 .servi{
-    height: 30vh;
-    width: 55vw;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
     margin-left: auto;margin-right: auto;
     margin-bottom: 70px;
@@ -297,11 +277,15 @@ nav{
     background-image: url(assets/dos/9.jpg);
 }
 #proye{
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
-.proyect{
-    width: 95%;
-    height: 85vh;
+#proye .proyect{
+    width: 200px;
+    height:200px;
     margin-left: auto;margin-right: auto;
 }
 .proyect:first-child{
