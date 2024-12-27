@@ -139,81 +139,6 @@ nav{
     text-decoration: none;
     font-size: 1.2em;
 }
-#numeros{
-    color: white;
-}
-.numeros1{
-    background-color: rgb(180, 48, 65);
-    height: 25vh;
-    width: 85vw;
-}
-.numeros1 p{
-    position: relative;
-    top: -35px;
-    font-size: 1.6em;
-    font-weight: bold;
-}
-.numeros2{
-    background-color: white;
-    color: black;
-    height: 25vh;
-    width: 85vw;
-}
-.numeros3{
-    background-color: rgb(23, 23, 59);
-    height: 25vh;
-    width: 85vw;
-    margin-bottom:-26px;
-}
-.numeros4{
-    background-color:   rgb(180, 48, 65);
-    height: 25vh;
-    width: 85vw;
-}
-
-.numbers h4{
-    font-size: 4em;
-    font-weight: bold;
-}
-.numeros1 h4{
-    position: relative;
-    top: 50px;
-}
-.numeros2 h4{
-    position: relative;
-    top: -35px;
-}
-.numeros2 p{
-    font-size: 1.6em;
-    position: relative;
-}
-.one{
-    bottom: 100px;
-}
-.numeros3 h4{
-    position: relative;
-    top: -50px;
-}
-.three{
-    position: relative;
-    top: 25px;
-}
-.four{
-    position: relative;
-    bottom: 120px;
-}
-.numeros4 h4{
-    position: relative;
-    top: -50px;
-}
-.five{
-    position: relative;
-    top: 25px;
-}
-.six{
-    position: relative;
-    bottom: 130px;
-}
 #numeros1{
     background-color: #f1f1f1;
 }
@@ -240,6 +165,16 @@ nav{
 #numeros1 .text-up{
     position: relative;
     top: 70px;
+}
+#numeros1 .box-inside:nth-child(3){
+    background-color: rgb(23, 23, 59);
+    color: #f0f0f0;
+}
+#numeros1 .box-inside:nth-child(4){
+    background-color: rgb(180, 48, 65);
+}
+#numeros1 .box-inside:nth-child(1){
+    background-color: rgb(180, 48, 65);
 }
 
 #imgs{
