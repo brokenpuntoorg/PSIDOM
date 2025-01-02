@@ -492,14 +492,8 @@ nav{
     padding: 10px 0px;
     border-radius: 5px;
     width: 300px;
-    margin-left: auto;margin-right: auto;
 }
 #final form{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
     margin-left: auto;margin-right: auto;
 }
 #final .button{
