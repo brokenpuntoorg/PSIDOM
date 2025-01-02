@@ -573,5 +573,6 @@ footer img{
         text-align: left;
         justify-content: left;
         align-items: left;
+        background-color: black;
     }
 }
