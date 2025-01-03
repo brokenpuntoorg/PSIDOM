@@ -555,6 +555,16 @@ footer img{
     width: 50px;
 }
 
+
+
+
+
+
+
+
+
+
+
 @media (min-width:600px) {
     header nav{
         display: flex;
@@ -593,10 +603,9 @@ footer img{
         position: relative;
         right: 530px;
     }
-    #nuestro .container{
-        display: flex;
-        flex-direction: row;
-        background-color: #fff;
+    #nuestro{
+        color: #002021;
+        background-color: #f0f0f0;
     }
     #nuestro .img1{
         background-image: url(assets/uno/1.webp);
@@ -628,9 +637,6 @@ footer img{
     #nuestro .box-inside-2{
         padding: 50px;
     }
-    #nuestro .box-inside{
-        background-color: rgb(23, 23, 59);
-        color: #fff;
-    }
+
 
 }
