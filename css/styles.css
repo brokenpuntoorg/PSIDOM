@@ -580,7 +580,45 @@ footer img{
     #hero .logo{
         position: relative;
         right: 600px;
-        top: -160px;
+        top: -120px;
+    }
+    #hero h1{
+        font-size: 4em;
+        margin-right: 550px;
+    }
+    #hero p{
+        width: 1000px;
+    }
+    #hero .button{
+        position: relative;
+        right: 530px;
+    }
+    #nuestro .container{
+        display: flex;
+        flex-direction: row;
+    }
+    #nuestro .img1{
+        background-image: url(assets/uno/1.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 400px;
+        height: 400px;
+    } 
+    #nuestro .img2{
+        background-image: url(assets/uno/2.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 400px;
+        height: 400px;
+    }
+    #nuestro .box-inside{
+        width: 50%;
+    }
+    #nuestro .box-inside-2{
+        width: 50%;
+        background-color: #fff;
     }
 
 }
