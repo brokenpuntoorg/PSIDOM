@@ -555,10 +555,13 @@ footer img{
     width: 50px;
 }
 
-@media (min-width:720px) {
+@media (min-width:600px) {
     header nav{
         display: flex;
         flex-direction: row;
+        position: fixed;
+        background-color: #fff;
+        width: 100%;
     }
     header nav a{
         text-decoration: none;
