@@ -596,6 +596,7 @@ footer img{
     #nuestro .container{
         display: flex;
         flex-direction: row;
+        background-color: #fff;
     }
     #nuestro .img1{
         background-image: url(assets/uno/1.webp);
@@ -612,13 +613,24 @@ footer img{
         background-size: cover;
         width: 400px;
         height: 400px;
+        position: relative;
+        top: -100px;
+        left: 200px;
     }
-    #nuestro .box-inside{
-        width: 50%;
+    #nuestro .img2:hover{
+        width: 405px;
+        height: 405px;
+    }
+    #nuestro .img1:hover{
+        width: 405px;
+        height: 405px;
     }
     #nuestro .box-inside-2{
-        width: 50%;
-        background-color: #fff;
+        padding: 50px;
+    }
+    #nuestro .box-inside{
+        background-color: rgb(23, 23, 59);
+        color: #fff;
     }
 
 }
