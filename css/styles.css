@@ -637,6 +637,18 @@ footer img{
     #nuestro .box-inside-2{
         padding: 50px;
     }
-
-
+    #nuestro .box-body{
+        display: flex;
+        flex-direction: row;
+    }
+    #nuestro .button{
+        position: relative;
+        top: -300px;
+        right: -300px;
+    }
+     .box-inside{
+        position: relative;
+        top: 200px;
+        background-color: red;
+    }
 }
