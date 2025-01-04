@@ -568,24 +568,22 @@ footer img{
 @media (min-width:600px) {
     header nav{
         display: flex;
-        flex-direction: row;
-        align-items: right;
-        justify-content: right;
-        text-align: right;
+        margin-left: 400px;
+    }
+    header{
         position: fixed;
-        width: 100%;
-
     }
     header nav a{
         text-decoration: none;
         padding: 10px 25px;
-        color: #fff;
+        color:#f1f2f2;
         font-weight: bold;
         font-size: 1.4em;
-        position: relative;
-        top: 40px;
-        right: 200px;
-        padding-left: 30px;
+        padding-left: 60px;
+        text-align: center;
+    }
+    header nav a:hover{
+        color: rgb(180, 48, 65);
     }
     #hero .logo{
         position: relative;
@@ -604,38 +602,36 @@ footer img{
         right: 530px;
     }
     #nuestro{
-        color: #002021;
-        background-color: #f0f0f0;
+        background-color: #f6f6f6;
+        color: #000;
+        height: 70vh;
     }
     #nuestro .img1{
         background-image: url(assets/uno/1.webp);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        width: 400px;
-        height: 400px;
+        width: 350px;
+        height: 350px;
     } 
     #nuestro .img2{
         background-image: url(assets/uno/2.webp);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        width: 400px;
-        height: 400px;
+        width: 350px;
+        height: 350px;
         position: relative;
         top: -100px;
         left: 200px;
     }
     #nuestro .img2:hover{
-        width: 405px;
-        height: 405px;
+        width: 385px;
+        height: 385px;
     }
     #nuestro .img1:hover{
-        width: 405px;
-        height: 405px;
-    }
-    #nuestro .box-inside-2{
-        padding: 50px;
+        width: 385px;
+        height: 385px;
     }
     #nuestro .box-body{
         display: flex;
@@ -643,12 +639,40 @@ footer img{
     }
     #nuestro .button{
         position: relative;
-        top: -300px;
+        top: -200px;
         right: -300px;
     }
-     .box-inside{
+    #nuestro h2{
+       position: relative;
+       top: 50px;
+       left: 250px;
+    }
+    #nuestro h3{
         position: relative;
-        top: 200px;
-        background-color: red;
+        top: 50px;
+        left: 250px;
+    }
+    #nuestro p{
+        position: relative;
+        top: 50px;
+        left: 250px;
+        width: 550px;
+    }
+    #nuestro  span{
+        position: relative;
+        top: 50px;
+        left: 250px;
+    }
+    #numeros1 .box-body{
+        display: flex;
+        flex-direction: row;
+    }
+    #numeros1 .box-inside{
+        height: 350px;
+        width: 350px;
+    }
+    #imgs .imgset{
+        display: flex;
+        flex-direction: row;
     }
 }
