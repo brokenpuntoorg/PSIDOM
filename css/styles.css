@@ -671,7 +671,35 @@ footer img{
         height: 350px;
         width: 350px;
     }
-    #imgs .imgset{
+    #imgs .img-set{
+        display: flex;
+        flex-direction: row;
+    }
+    #imgs .set{
+        width: 30%;
+        padding: 10px;
+        margin-left: 15px;
+    }
+    #imgs .set:nth-child(2){
+        position: relative;
+        top: 50px;
+    }
+    #imgs .set:nth-child(3){
+        position: relative;
+        top: 50px;
+    }
+    #servicio .conta1{
+        display: flex;
+        flex-direction: row;
+    }
+    #servicio .servi{
+        margin-left: 100px;
+    }
+    #servicio .conta2{
+        display: flex;
+        flex-direction: row;
+    }
+    #servicio .conta3{
         display: flex;
         flex-direction: row;
     }
