@@ -249,6 +249,26 @@ nav{
     background-position: center center;
     background-size: cover;
 }
+.servi1{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-left: auto;margin-right: auto;
+    margin-bottom: 70px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.servi2{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-left: auto;margin-right: auto;
+    margin-bottom: 70px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
 .servi:first-child{
     background-image: url(assets/dos/1.jpg);
 }
@@ -258,22 +278,22 @@ nav{
 .servi:nth-child(3){
     background-image: url(assets/dos/3.jpg);
 }
-.servi:nth-child(4){
+.servi1:first-child{
     background-image: url(assets/dos/4.jpeg);
 }
-.servi:nth-child(5){
+.servi1:nth-child(2){
     background-image: url(assets/dos/5.jpg);
 }
-.servi:nth-child(6){
+.servi1:nth-child(3){
     background-image: url(assets/dos/6.jpg);
 }
-.servi:nth-child(7){
+.servi2:first-child{
     background-image: url(assets/dos/7.jpg);
 }
-.servi:nth-child(8){
+.servi2:nth-child(2){
     background-image: url(assets/dos/8.jpg);
 }
-.servi:nth-child(9){
+.servi2:nth-child(3){
     background-image: url(assets/dos/9.jpg);
 }
 #proye{
@@ -688,19 +708,59 @@ footer img{
         position: relative;
         top: 50px;
     }
-    #servicio .conta1{
+    #servicio .conta1, .conta2, .conta3 {
         display: flex;
         flex-direction: row;
     }
-    #servicio .servi{
+    #servicio .servi, .servi1, .servi2{
         margin-left: 100px;
     }
-    #servicio .conta2{
+    .servi{
+        height: 350px;
+        width: 350px;
+        border-radius: 50%;
+        margin-left: auto;margin-right: auto;
+        margin-bottom: 70px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    .servi1{
+        height: 350px;
+        width: 350px;
+        border-radius: 50%;
+        margin-left: auto;margin-right: auto;
+        margin-bottom: 70px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    .servi2{
+        height: 350px;
+        width: 350px;
+        border-radius: 50%;
+        margin-left: auto;margin-right: auto;
+        margin-bottom: 70px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    #proye{
         display: flex;
         flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
-    #servicio .conta3{
+    #proye .proyect{
         display: flex;
         flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
+    #proye .box{
+        width: 400px;
+    }
+    
 }
