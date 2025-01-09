@@ -692,3 +692,55 @@ footer .cajas{
 footer img{
     width: 50px;
 }
+
+
+
+
+
+
+
+@media (min-width:600px){
+    header nav{
+        display: flex;
+        position: absolute;
+        right: 100px;
+    }
+    header a{
+        color: #fff;
+        text-decoration: none;
+        padding-left: 60px;
+        padding-top: 25px;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    header a:hover{
+        color: rgb(180, 48, 65);
+    }
+    #hero .img{
+        text-align: left;
+        margin-left:400px;
+        width: 350px;
+        height: 120px;
+    }
+    #hero{
+        height: 100vh;
+    }
+    #hero .container{
+        position: relative;
+        top: 200px;
+    }
+    #hero h1{
+        font-size: 4em;
+        width: 800px;
+        margin-left: -100px;
+    }
+    #hero p{
+        font-size: 1.3em;
+        width: 800px;
+        margin-left: -100px;
+        font-style: normal;
+    }
+    #hero .button{
+        margin-left: -100px;
+    }
+}
