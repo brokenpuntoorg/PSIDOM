@@ -911,4 +911,9 @@ footer img{
         font-size: 2.3em;
         margin-top: -50px;
     }
+    footer .div-footer{
+        display: flex;
+        flex-direction: row;
+        height: 150px;
+    }
 }
