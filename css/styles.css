@@ -460,16 +460,28 @@ nav{
     border-bottom: 2px solid rgb(182, 55, 55);
     padding: 0px 0px;
 }
+#final .box-head{
+    position: relative;
+    top: -120px;
+    margin-left: auto;margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 300;
+}
+#final .box-head p{
+    width: 200px;
+    position: relative;
+    top: -50px;
+}
+#final .contain{
+    position: relative;
+    top: -200px;
+}
 #final h5{
     font-size: 1.3em;
-}
-#final .box-header p{
-    font-weight: 400;
-    font-size: .9em;
-    width: 200px;
-    margin-top: -35px;
-    text-align: left;
-    margin-left: 45px;
 }
 #final .material-symbols-outlined{
     color: rgb(182, 55, 55);
@@ -482,6 +494,9 @@ nav{
     font-weight: bold;
     text-align: left;
     margin-bottom: 20px;
+}
+#final .box-right{
+    margin-top: -200px;
 }
 #final input{
     margin-bottom: 10px;
@@ -816,5 +831,84 @@ footer img{
     }
     #material .cont{
         margin-left: 35px;
+    }
+    #final{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #final .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #final .box-left{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: left;
+        text-align: left;
+        width: 50%;
+        padding: 25px;
+    }
+    #final .box-right{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: left;
+        text-align: left;
+        width: 50%;
+        padding: 25px;
+    }
+    #final span{
+        font-size: 3.5em;
+        position: relative;
+        left: 70px;
+        top: -50px;
+    }
+    #final h5{
+        font-size: 2.2em;
+        position: relative;
+        top: -45px;
+    }
+    #final .box-head  p{
+        font-size: 1.4em;
+        width: 500px;
+        position: relative;
+        top: -120px;    
+    }
+    #final .box-header{
+        position: relative;
+        top: 30px;
+    }
+    #final .contain{
+        padding: 25px;
+    }
+    #final .contain p{
+        font-size: 1.3em;
+        font-weight: 400;
+        position: relative;
+        top: -45px;
+    }
+    #final input{
+        height: 55px;
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+    }
+    #final .formulario{
+        margin-top: 100px;
+    }
+    #final .box-middle h5{
+        font-size: 2.3em;
+        margin-top: 80px;
+    }
+    #final .box-middle h6{
+        font-size: 2.3em;
+        margin-top: -50px;
     }
 }
