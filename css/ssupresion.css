@@ -743,4 +743,130 @@ footer img{
     #hero .button{
         margin-left: -100px;
     }
+    #sistema-de-supresion h2{
+        font-size: 5em;
+        width: 1500px;
+    }
+    #sistema-de-supresion p{
+        font-size: 1.7em;
+        width: 1500px;
+    }
+    #ventajas{
+        height: 50vh;
+        margin-top: -100px;
+    }
+    #ventajas h2{
+        font-size: 4em;
+        width: 1500px;
+    }
+    #ventajas .supresion{
+        display: flex;
+        flex-direction: row;
+    }
+    #ventajas .super-box{
+        position: relative;
+        top: -55px;
+        display: flex;
+        flex-direction: row;
+    }
+    #ventajas .super-box p{
+        font-size: 1.5em;
+    }
+    #ventajas span{
+        margin-top: 25px;
+        font-size: 2.8em;
+    }
+    #formato h2{
+        font-size: 4em;
+        width: 1500px;
+    }
+    #formato .head p{
+        font-size: 1.7em;
+        width: 1500px;
+    }
+    #formato .format{
+        display: flex;
+        flex-direction: row;
+    }
+    #formato .fun{
+        position: relative;
+        top: -25px;
+    }
+    #formato .fun p{
+        font-size: 1.5em;
+        text-align: left;
+    }
+    #componentes .button{
+        width: 800px;
+        border: 1px solid #000;
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px 5px ;
+    }
+    #componentes a{
+        width: 800px;
+        font-size: 1.5em;
+    }
+    #componentes br{
+        display: none;
+    }
+    #componentes h3{
+        font-size: 4em;
+        width: 1500px;
+    }
+    #componentes{
+        background-color: rgb(180, 48, 65);
+    }
+    #componentes .compo p{
+        font-size: 1.6em;
+    }
+    #componentes .box-body{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 25px;
+    }
+    #componentes .box-inside{
+        margin-left: 25px;
+    }
+    #componentes h4{
+        font-size: 1.8em;
+    }
+    #componentes .box-inside p{
+        font-size: 1.4em;
+    }
+    b{
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+    #componentes span{
+        margin-top: 20px;
+    }
+    #tipos h2{
+        font-size: 4em;
+    }
+    #tipos{
+        background-color: rgb(14, 14, 58);
+    }
+    #tipos .button{
+        width: 800px;
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px 5px ;
+    }
+    #tipos a{
+        width: 800px;
+        font-size: 1.5em;
+    }
+    #tipos br{
+        display: none;
+    }
+    #tipos p{
+        font-size: 1.4em;
+    }
+    #tipos .box-body{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 25px;
+    }
+    #tipos .box-inside{
+        margin-left: 25px;
+    }
 }
