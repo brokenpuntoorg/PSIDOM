@@ -946,6 +946,9 @@ footer img{
         display: flex;
         text-align: justify;
     }
+    #hero h2{
+        font-size: 4em;
+    }
     #hero .box-general{
         display: flex;
         flex-direction: row;
