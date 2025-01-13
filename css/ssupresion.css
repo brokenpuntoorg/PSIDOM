@@ -943,11 +943,12 @@ footer img{
         margin-left: 25px;
     }
     #hero2{
-        height: 50vh;
+        height: 60vh;
     }
     #hero2 h2{
         font-size: 3.5em;
         text-align: center;
+        margin-bottom: -70px;
     }
     #hero2 .box-general{
         display: flex;
@@ -958,21 +959,28 @@ footer img{
     }
     #hero2 p{
         display: flex;
+        font-size: 1.3em;
+    }
+    #hero2 h3{
+        font-size: 1.9em;
+        padding: 0px;
     }
     #hero2 .box-right{
-        padding: 25px;
+        padding: 0px 25px;
         border-left: 6px solid rgb(180, 48, 65);
-        width: 500px;
+        width: 700px;
+        margin-bottom: 120px;
     }
     #hero2 .box-left{
-        padding: 25px;
+        padding: 0px 25px;
         border-left: 6px solid rgb(180, 48, 65);
-        width: 500px;
+        width: 700px;
+        margin-bottom: 120px;
     }
     #hero2 .text{
-        width: 800px;
-        position: relative;
-        top: 200px;
+        width: 1000px;
+        margin-left: auto;margin-right: auto;
+        text-align: center;
     }
 }
 
