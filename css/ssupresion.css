@@ -982,6 +982,42 @@ footer img{
         margin-left: auto;margin-right: auto;
         text-align: center;
     }
+    #form .box-body{
+        display: flex;
+        flex-direction: row;
+    }
+    #form .box-left{
+        padding: 25px;
+    }
+    form .box-left{
+        padding: 25px;
+    }
+    #form input{
+        width: 1000px;
+        height: 3.5em;
+    }
+    #form .control{
+        height: 10em;
+    }
+    #form p{
+        font-size: 1.3em;
+        font-style: italic;
+    }
+    #form span{
+        margin-top: 55px;
+    }
+    #form .button{
+        margin-left: 0px;
+    }
+    #form .control1{
+        width: 700px;
+    }
+    footer .div-footer{
+        display: flex;
+        flex-direction: row;
+        padding: 25px 150px;
+    }
+
 }
 
 
