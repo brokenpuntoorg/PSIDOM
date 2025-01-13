@@ -834,7 +834,7 @@ footer img{
         font-size: 1.4em;
     }
     b{
-        font-size: 1.4em;
+        font-size: 1.3em;
         font-weight: bold;
     }
     #componentes span{
@@ -843,8 +843,15 @@ footer img{
     #tipos h2{
         font-size: 4em;
     }
+    #tipos h4{
+        text-align: center;
+    }
+    #tipos span{
+        margin-top: 25px;
+    }
     #tipos{
         background-color: rgb(14, 14, 58);
+        height: 180vh;
     }
     #tipos .button{
         width: 800px;
@@ -860,6 +867,7 @@ footer img{
     }
     #tipos p{
         font-size: 1.4em;
+        text-align: left;
     }
     #tipos .box-body{
         display: flex;
@@ -869,7 +877,70 @@ footer img{
     #tipos .box-inside{
         margin-left: 25px;
     }
-    
+    #aplicaciones .box-head h3{
+        width: 1000px;
+        font-size: 1.9em;
+        margin-top: -5px;
+    }
+    #aplicaciones .box-head p{
+        text-align: center;
+        margin-top: -25px;
+        font-size: 1.3em;
+    }
+    #aplicaciones .box-inside{
+        display: flex;
+        flex-direction: row;
+    }
+    #aplicaciones .det{
+        padding: 15px;
+        display: flex;
+        flex-direction: row;
+    }
+    #aplicaciones .det p{
+        font-size: 1.7em;
+    }
+    #aplicaciones .det h4{
+        font-size: 2em;
+    }
+    #aplicaciones .button{
+        width: 1000px;
+        border: 1px solid #010101;
+        box-shadow: 5px 5px 5px 5px #010203;
+    }
+    #aplicaciones a{
+        font-size: 1.3em;
+    }
+    #sistemas{
+        height: 75vh;
+    }
+    #sistemas h3{
+        font-size: 3.5em;
+    }
+    #sistemas .system p{
+        font-size: 1.3em;
+        text-align: center;
+        margin-top: -35px;
+    }
+    #sistemas .box-body{
+        display: flex;
+        flex-direction: row;
+    }
+    #sistemas .box-body p{
+        font-size: 1.1em;
+        width: 600px;
+        text-align-last: left;
+        margin-top: 15px;
+    }
+    #sistemas b{
+        font-size: 1.2em;
+    }
+    #sistemas h4{
+        text-align: center;
+    }
+    #sistemas .box-inside{
+        padding: 15px;
+        margin-left: 25px;
+    }
 }
 
 
