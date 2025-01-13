@@ -928,14 +928,15 @@ footer img{
     #sistemas .box-body p{
         font-size: 1.1em;
         width: 600px;
-        text-align-last: left;
-        margin-top: 15px;
+        text-align: justify;
+        margin-top: 5px;
     }
     #sistemas b{
         font-size: 1.2em;
     }
     #sistemas h4{
         text-align: center;
+        font-size: 2em;
     }
     #sistemas .box-inside{
         padding: 15px;
