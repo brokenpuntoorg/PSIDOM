@@ -942,6 +942,14 @@ footer img{
         padding: 15px;
         margin-left: 25px;
     }
+    #hero2 p{
+        display: flex;
+        text-align: justify;
+    }
+    #hero .box-general{
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 
