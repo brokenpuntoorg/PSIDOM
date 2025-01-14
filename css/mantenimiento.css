@@ -544,4 +544,48 @@ footer img{
     header a:hover{
         color: rgb(180, 48, 65);
     }
+    #hero{
+        height: 100vh;
+        cursor: pointer;
+    }
+    #hero .img{
+        width: 300px;
+        height: 150px;
+        margin-left: 100px;
+    }
+    #hero h1{
+        font-size: 5em;
+        width: 12em;
+    }
+    #hero h1:hover{
+        color: rgb(180, 48, 65);
+    }
+    #hero .button{
+        width: 17em;
+        border: 1px solid #fff;
+        box-shadow: 5px 5px 5px 5px #000;
+    }
+    #hero a{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    #hero p{
+        font-size: 1.5em;
+    }
+    #hero .container{
+        margin-left: 100px;
+    }
+    #importancia .box-head h2{
+        font-size: 4em;
+        width: 20em;
+        color: rgb(14, 14, 58);
+    }
+    #importancia .box-head p{
+        width: 60em;
+        font-size: 1.5em;
+    }
+    #importancia .box-body{
+        display: flex;
+        flex-direction: row;
+    }
 }
