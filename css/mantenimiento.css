@@ -588,4 +588,137 @@ footer img{
         display: flex;
         flex-direction: row;
     }
+    #importancia .box-h2{
+        margin-left: auto;margin-right: auto;
+    }
+    #importancia .box-h2 h2{
+        font-size: 3em;
+        width: 1500px;
+        color: rgb(180, 48, 65);
+    }
+    #importancia .box-image{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 25px;
+    }
+    #importancia .box-image h3{
+        font-size: 2.2em;
+        color: rgb(14, 14, 58);
+    }
+    #importancia .button{
+        width: 1000px;
+        height: 60px;
+        font-size: 1.5em;
+        padding: 15px;
+        box-shadow: 5px 5px 5px 5px #000;
+        border: 1px solid #fff;
+        margin-bottom: 25px;
+    }
+    #importancia .box-image p{
+        font-size: 1.4em;
+        text-align: justify;
+    }
+    b{
+        font-weight: bold;
+    }
+    #agentes h2{
+        font-size: 4em;
+        width: 1500px;
+        color: rgb(14, 14, 58);
+    }
+    #agentes .box-head p{
+        width: 1500px;
+        font-size: 1.2em;
+    }
+    #agentes b{
+        font-size: 1.2em;
+    }
+    #agentes .box-body{
+        width: 800px;
+        margin-left: auto;margin-right: auto;
+        padding: 0px 25px;
+        margin-top: 50px;
+    }
+    #agentes h3{
+        width: 750px;
+        color: rgb(14, 14, 58);
+        font-size: 1.8em;
+    }
+    #agentes .button{
+        width: 800px;
+    }
+    #programacion h2{
+        font-size: 4em;
+        width: 1300px;
+        color: #fff;
+    }
+    #programacion p{
+        font-size: 1.3em;
+        width: 1500px;
+    }
+    #programacion .box-body{
+        display: flex;
+        flex-direction: row;
+    }
+    #programacion .box-left, .box-right{
+        width: 700px;
+        margin-left: 50px;
+        padding: 25px;
+    }
+    #programacion .box-right p{
+        width: 600px;
+    }
+    #form h2{
+        font-size: 4em;
+    }
+    #form .box-head p{
+        width: 1000px;
+        font-size: 1.4em;
+    }
+    #form .box-body{
+        display: flex;
+        flex-direction: row;
+        padding: 50px;
+    }
+    #form .box-left{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    #form .box-body p{
+        font-size: 1.4em;
+    }
+    #form input{
+        height: 60px;
+        width: 1000px;
+        margin-bottom: 15px;
+    }
+    #form .control1{
+        width: 800px;
+    }
+    #form .formulario{
+        position: relative;
+        bottom: 100px;
+    }
+    #form .button{
+        margin-left: 0px;
+    }
+    footer .div-footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    footer a{
+        font-size: 1.5em;
+    }
+    footer .adress p{
+        font-size: 1.2em;
+    }
+    footer .adress{
+        margin-left: 25px;
+        padding: 25px;
+    }
 }
