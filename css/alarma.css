@@ -476,5 +476,54 @@ footer img{
     }
     #sistema p{
         font-size: 1.5em;
+        margin-bottom: 2em;
+    }
+    #sistema .box-body{
+        display: flex;
+        flex-direction: row;
+    }
+    #sistema h3{
+        font-size: 3em;
+        color: rgb(14, 14, 58);
+    }
+    #sistema .box{
+        border: 1px solid rgb(180, 48, 65);
+        margin-left: 2em;
+        border-radius: 1em;
+        box-shadow: 5px 5px 5px 5px ;
+    }
+    #funcion h2{
+        font-size: 3em;
+    }
+    #funcion .box-head p{
+        font-size: 1.3em;
+        width: 60em;
+    }
+    #funcion .box-one{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0px;
+    }
+    #funcion .box-body{
+        margin-left: 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #funcion .box-inside{
+        padding: 1em;
+    }
+    #funcion .box-body-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #funcion .box-body-1  p{
+        font-size: 1.3em;
+        width: 20em;
+    }
+    #funcion h3{
+        font-size: 2em;
+        color: rgb(124, 17, 17);
     }
 }
