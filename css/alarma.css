@@ -417,46 +417,64 @@ footer img{
 }
 
 @media (min-width:500px) {
-    header{
-        position: fixed;
-        width: 100%;
+    body{
+        margin: 0;
+        cursor: pointer;
     }
-    header .container{
-        display: flex;
-        flex-direction: row;
-        background-color: black;
-        height: 50px;
-        justify-content: space-between;
+    header{
         width: 100%;
     }
     header nav{
         display: flex;
-        flex-direction: row;
-        align-items: center;
-        width: 100%;
+        position: absolute;
     }
     header a{
-        color: white;
-        font-size: 1.2em;
+        color: #fff;
+        padding: 1.5em 1.5em;
+        display: flex;
+        flex-direction: row;
+        font-size: 1.5em;
         text-decoration: none;
-        padding: 0px  55px;
     }
     header a:hover{
-        color: red;
+        color: rgb(180, 48, 65);
     }
-    #hero .img{
-        width: 300px;
-        height: 270px;
-        background-size: contain;
-        margin-left: 0px;
-        margin-right: 80%;
-        margin-top: 50px;
+    header .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        margin-right: 5em;
+    }
+    #hero{
+        height: 100vh;
+    }
+    #hero .container1{
+       margin-right: 65em;
+       margin-bottom: 25em;
     }
     #hero .container{
-        padding: 25px;
-        margin-left: 0px;
+        margin-top: 25em;
+        padding: 3em;
+    }
+    #hero h1{
+        font-size: 4em;
+    }
+    #hero  .button{
+        padding: 1.2em 3.5em;
+    }
+    #hero a{
+        font-weight: bold;
+        font-size: 1.2em;
     }
     #hero p{
-        width: 80%;
+        font-size: 1.5em;
+        width: 29em;
+    }
+    #sistema h2{
+        font-size: 3.5em;
+        color: rgb(14, 14, 58);
+    }
+    #sistema p{
+        font-size: 1.5em;
     }
 }
