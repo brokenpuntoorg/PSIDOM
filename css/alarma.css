@@ -520,10 +520,66 @@ footer img{
     }
     #funcion .box-body-1  p{
         font-size: 1.3em;
-        width: 20em;
     }
     #funcion h3{
         font-size: 2em;
         color: rgb(124, 17, 17);
+    }
+    #funcion .div-button{
+        width: 23em;
+        margin-left: auto;margin-right: auto;
+    }
+    #dispositivos h2{
+        font-size: 4em;
+    }
+    #dispositivos h2:hover{
+        color: rgb(180, 48, 65);
+    }
+    #dispositivos p{
+        font-size: 1.5em;
+    }
+    #instalacion h2{
+        font-size: 4em;
+        text-align: center;
+    }
+    #instalacion h2:hover{
+        color: rgb(180, 48, 65);
+    }
+    #instalacion p{
+        font-size: 1.5em;
+        width: 45em;
+    }
+    #instalacion .box-head{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #mantenimiento{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #mantenimiento h2{
+        font-size: 4em;
+    }
+    #mantenimiento p{
+        font-size: 1.5em;
+    }
+    #mantenimiento .box-body{
+        display: flex;
+        flex-direction: row;
+    }
+    #mantenimiento .box-inside{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 30em;
+    }
+    #mantenimiento li{
+        font-size: 1.4em;
     }
 }
