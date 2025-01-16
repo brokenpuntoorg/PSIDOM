@@ -582,4 +582,11 @@ footer img{
     #mantenimiento li{
         font-size: 1.4em;
     }
+
+
+
+    footer .div-footer{
+        display: flex;
+        flex-direction: row;
+    }
 }
