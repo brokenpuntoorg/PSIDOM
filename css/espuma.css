@@ -372,3 +372,22 @@ footer img{
 .caja:nth-child(2){
     margin-left: -18px;
 }
+
+
+@media (min-width:500px){
+    header nav{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        margin-right: 0;
+    }
+    header a{
+        font-size: 1.8em;
+        margin-left: 3em;
+    }
+    header .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+    }
+}
