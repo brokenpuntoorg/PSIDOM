@@ -398,5 +398,8 @@ footer img{
         justify-content: right;
         margin-right: 5em;
     }
-    
+    #hero .logo{
+        width: 200px;
+        height: 120px;
+    }
 }
