@@ -586,4 +586,26 @@ footer img{
         font-size: 1.6em;
         width: 60em;
     }
+    #form .box-body{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 1em;
+    }
+    #form .box-left{
+        width: 15em;
+    }
+    #form .box-right{
+        width: 30em;
+        margin-left: 3em;
+    }
+    footer .div-footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
 }
