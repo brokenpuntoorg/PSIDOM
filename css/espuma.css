@@ -556,4 +556,34 @@ footer img{
     #actuacion h2{
         font-size: 4em;
     }
+    #actuacion p{
+        font-size: 1.7em;
+    }
+    #actuacion .box-body{
+        display: flex;
+        flex-direction: row;
+        align-items: items center;
+        text-align: center;
+        justify-content: center;
+    }
+    #actuacion .box-inside{
+        width: 30em;
+        border-radius: 15px;
+        margin-left: 2em;
+        display: flex;
+        flex-direction: row;
+        align-items: items center;
+        text-align: center;
+        justify-content: left;
+    }
+    #actuacion .box-inside p{
+        width: 16em;
+    }
+    #form .box-head h2{
+        font-size: 4em;
+    }
+    #form .box-head p{
+        font-size: 1.6em;
+        width: 60em;
+    }
 }
