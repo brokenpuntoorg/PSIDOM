@@ -589,19 +589,18 @@ footer img{
     #form .box-body{
         display: flex;
         flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+        justi
         padding: 1em;
     }
     #form .box-left{
         width: 15em;
     }
     #form .box-right{
-        margin-left: 3em;
+        margin-left: 15em;
     }
     #form p{
         font-size: 1.7em;
+        width: 25em;
     }
     #form span{
         font-size: 3em;
