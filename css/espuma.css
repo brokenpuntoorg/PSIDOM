@@ -598,8 +598,20 @@ footer img{
         width: 15em;
     }
     #form .box-right{
-        width: 30em;
         margin-left: 3em;
+    }
+    #form p{
+        font-size: 1.7em;
+    }
+    #form span{
+        font-size: 3em;
+        position: relative;
+        left: -100;
+    }
+    form .box-middle-one{
+        display: flex;
+        flex-direction: row;
+
     }
     footer .div-footer{
         display: flex;
