@@ -421,5 +421,130 @@ footer img{
     }
     #hero .logo{
         margin-left: 0px;
+        width: 22em;
+        height: 10em;
+        position: relative;
+        bottom: 16em;
     }
+    #hero h1{
+        font-size: 5em;
+    }
+    #hero h1:hover{
+        color: rgb(180, 48, 65);
+    }
+    #hero .button{
+        padding: 1em 4em;
+    }
+    #hero a{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    #hero p{
+        font-size: 1.7em;
+    }
+    #hidrante .container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    #hidrante .box-head{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    #hidrante .box-body{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }   
+    #hidrante .box-head h2{
+        font-size: 4em;
+        width: 29em;
+    }
+    #hidrante .box-head p{
+        font-size: 1.9em;
+        width: 49em;
+        text-align: center;
+    } 
+    #hidrante .box-inside{
+        margin-left: 3em;
+    }
+    #hidrante .box-img1{
+        width: 25em;
+        height: 25em;
+    }
+    #hidrante .box-img2{
+        width: 25em;
+        height: 25em;
+    }
+    #hidrante .box-img3{
+        width: 25em;
+        height: 25em;
+    }
+    #hidrante .box-inside{
+        padding: 1em;
+    }
+    #hidrante .box-inside h3{
+        font-size: 2em;
+    }
+    #hidrante .box-inside p{
+        font-size: 1.5em;
+    }
+    #funcionamiento{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #funcionamiento h2{
+        font-size: 4em;
+    }
+    #funcionamiento p{
+        font-size: 1.5em;
+    }
+    #mantenimiento{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #mantenimiento h2{
+        font-size: 4em;
+    }
+    #mantenimiento .box-head p{
+        font-size: 1.8em;
+        text-align: center;
+        width: 50em;
+    }
+    #mantenimiento .box-body{
+        display: flex;
+        flex-direction: row;
+    }
+    #mantenimiento .box-inside{
+        margin-left: 2em;
+        margin-bottom: 4em;
+    }
+    #mantenimiento .box-body h3{
+        font-size: 2em;
+    }
+    #mantenimiento .box-body p{
+        font-size: 1.5em;
+    }
+    #mantenimiento .button{
+        padding: 1em 4em;
+        width: 18em;
+    }
+    #mantenimiento a{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
 }
