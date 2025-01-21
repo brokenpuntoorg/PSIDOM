@@ -627,6 +627,8 @@ footer img{
     footer .div-footer{
         display: flex;
         flex-direction: row;
+        text-align: center;
+        justify-content: center;
     }
     footer a{
         font-size: 1.8em;
@@ -635,7 +637,7 @@ footer img{
         font-size: 1.8em;
     }
     footer .adress{
-        margin-left: 15em;
+        margin-left: 5em;
     }
     footer .cajas{
         display: flex;
