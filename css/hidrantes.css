@@ -601,8 +601,58 @@ footer img{
         justify-content: center;
         text-align: center;
     }
-    #form span{
-        margin-left: 0px;
+    #form .box-left{
+        position: relative;
+        left: 20em  ;
     }
-
+    #form span{
+        margin-right: 30em;
+    }
+    #form .box-body p{
+        text-align: left;
+        font-size: 1.7em;
+    }
+    #form .box-middle-email p{
+        width: 20em;
+    }
+    #form .formulario{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    #form input{
+        width: 60em;
+        height: 4em;
+        margin-bottom: 1em;
+    }
+    #form .control1{
+        width: 40em;
+    }
+    #form .controls{
+        height: 15em;
+    }
+    #form .button{
+        margin-left: 0;
+    }
+    #form a{
+        font-size: 1.5em;
+    }
+    footer .div-footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    footer .adress{
+        margin-left: 8em;
+    }
+    footer a{
+        font-size: 1.8em;
+    }
+    footer .adress p{
+        font-size: 1.6em;
+    }
+    footer .box-box{
+        display: flex;
+        flex-direction: row;
+    }
 }
