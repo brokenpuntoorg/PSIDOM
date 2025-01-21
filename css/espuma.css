@@ -405,7 +405,7 @@ footer img{
         width: 30em;
         height: 15em;
         position: relative;
-        bottom: 20em;
+        bottom: 13em;
         margin-left: 0;
     }
     #hero h1{
@@ -589,17 +589,18 @@ footer img{
     #form .box-body{
         display: flex;
         flex-direction: row;
-        justi
         padding: 1em;
     }
     #form .box-left{
-        width: 15em;
+        width: 28em;
+        margin-left: 10em;
     }
     #form .box-right{
         margin-left: 15em;
     }
     #form p{
         font-size: 1.7em;
+        font-weight: bold;
         width: 25em;
     }
     #form span{
@@ -607,10 +608,22 @@ footer img{
         position: relative;
         left: -100;
     }
-    form .box-middle-one{
-        display: flex;
-        flex-direction: row;
-
+    #form .consulta input{
+        width: 60em;
+        height: 5em;
+        margin-bottom: 2em;
+    }
+    #form .consulta .control1{
+        width: 40em;
+    }
+    #form .consulta .controls{
+        height: 15em;
+    }
+    #form a{
+        margin-left: 0;
+        text-align: left;
+        position: relative;
+        right: 17em;
     }
     footer .div-footer{
         display: flex;
@@ -619,4 +632,11 @@ footer img{
         justify-content: center;
         text-align: center;
     }
+    footer .div-footer a{
+        font-size: 1.9em;
+    }
+    footer .div-footer p{
+        font-size: 1.5em;
+    }
+    
 }
