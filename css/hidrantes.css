@@ -21,6 +21,10 @@ b{
     font-size: 1.2em;
     font-weight: bold;
 }
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
 .button{
     padding: 15px 25px;
     background-color:  rgb(180, 48, 65);
@@ -380,4 +384,42 @@ footer img{
 }
 .caja:nth-child(2){
     margin-left: -18px;
+}
+
+@media (min-width:500px){
+    body{
+        cursor: pointer;
+    }
+    header nav{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        margin-left: 50em;
+    }
+    header a{
+        font-size: 1.8em;
+        margin-left: 3em;
+        padding-top: 1em;
+    }
+    header a:hover{
+        color: rgb(180, 48, 65);
+    }
+    header .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        margin-right: 5em;
+    }
+    #hero .container{
+        margin-left: 4em;
+    }
+    #hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+    }
+    #hero .logo{
+        margin-left: 0px;
+    }
 }
