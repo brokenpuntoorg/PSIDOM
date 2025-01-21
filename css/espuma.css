@@ -625,6 +625,12 @@ footer img{
         position: relative;
         right: 17em;
     }
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
     footer .div-footer{
         display: flex;
         flex-direction: row;
@@ -638,5 +644,11 @@ footer img{
     footer .div-footer p{
         font-size: 1.5em;
     }
-    
+    footer .red{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
 }
