@@ -410,3 +410,189 @@ footer img{
 .caja:nth-child(2){
     margin-left: -18px;
 }
+
+@media (min-width:500px){
+    h1{font-size: 5em;}
+    h2{font-size: 4em;}
+    h3{font-size: 3em;}
+    h4{font-size: 2.5em;}
+    p{font-size: 1.5em;}
+    a{font-size: 1.8em;}
+    li{font-size: 1.6em;}
+    b{font-size: 1.4em; font-weight: bold;}
+    body{cursor: pointer;}
+    .button{
+        padding: 1em 2em;
+        width: 20em;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 2em;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 1em;
+        position: absolute;
+        right: 3em;
+    }
+    header nav{
+        display: flex;
+    }
+    header nav a{
+        color: #fff;
+        margin-right: 2em;
+        text-decoration: none;
+    }
+    header nav a:hover{
+        color: rgb(180, 48, 65);
+    }
+    #hero{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,.5),
+            rgba(0,0,0,.5)
+        )
+        ,url(assets/bombas/3.webp);
+    }
+    #hero h1:hover{
+        color: rgb(180, 48, 65);
+    }
+    #hero .logo{
+        margin-left: 0em;
+        margin-bottom: 15em;
+        width: 25em;
+        height: 15em;
+    }
+    #hero .container{
+        margin-left: 3em;
+    }
+    #hero p{
+        padding: 3em 0em;
+    }
+    #cuarto p{
+        text-align: center;
+        width: 100%;
+    }
+    #cuarto .box-body{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    #cuarto .box-inside{
+        padding: 1em;
+        width: 33%;
+        margin-left: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #cuarto p{
+        text-align: justify;
+    }
+    #componentes .box-head p{
+        width: 100%;
+        margin-bottom: 5em;
+    }
+    #componentes .box-body{
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        justify-content: center;
+    }
+    #componentes .box-inside{
+        margin: 1em;
+        width: 25%;
+    }
+    #funcion p{
+        width: 100%;
+    }
+    #funcion .box-body{
+        width: 100%;
+    }
+    #funcion span{
+        color: rgb(180, 48, 65);
+        font-size: 2em;
+    }
+    #mantenimiento p{
+        width: 100%;
+    }
+    #mantenimiento .box-body{
+        display: flex;
+        flex-direction: row;
+    }
+    #mantenimiento .box-inside{
+        margin-left: 2em;
+    }
+    #mantenimiento h3{
+        font-size: 2.5em;
+    }
+    #mantenimiento  .box-icon b{
+        font-size: 1.2em;
+    }
+    #consideraciones b{
+        font-size: 1.2em;
+    }
+    #consideraciones h2{
+        text-align: center;
+    }
+    #form h2{
+        font-size: 4em;
+    }
+    #form .box-head p{
+        width: 100%;
+        font-size: 1.9em;
+    }
+    #form .box-body{
+        display: flex;
+        flex-direction: row;
+    }
+    #form .box-left, .box-right{
+        width: 50%;
+    }
+    #form .box-body p{
+        font-size: 1.8em;
+        text-align: left;
+    }
+    #form span{
+        margin-right: 43em;
+    }
+    #form .box-middle-email{
+        width: 50%;
+    }
+    #form .consulta input{
+        width: 60em;
+        height: 4em;
+        margin-bottom: 1em;
+    }
+    #form .consulta .control1{
+        width: 40em;
+    }
+    #form .consulta .controls{
+        height: 15em;
+    }
+    #form .button{
+        margin-left: 0px;
+    }
+    footer .div-footer{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    footer a{
+        font-size: 1.8em;
+    }
+    footer .adress p{
+        font-size: 1.8em;
+    }
+}
