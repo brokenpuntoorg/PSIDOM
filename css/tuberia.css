@@ -518,5 +518,31 @@ footer img{
     }
     #normativas{
         height: 100vh;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #normativas h2{
+        color: #fff;
+    }
+    #normativas li{
+        list-style: none;
+        text-align-last: left;
+        font-size: 2em;
+    }
+    #accesorios .box-head p{
+        width: 100%;
+        text-align: center;
+    }
+    #accesorios .box-body{
+        display: flex;
+        flex-direction: row;
+    }
+    #accesorios .box-body .box-inside{
+        width: 45%;
+        margin-left: auto;margin-right: auto;
+        margin-left: 2em;
+        display: flex;
+        flex-direction: column;
     }
 }
