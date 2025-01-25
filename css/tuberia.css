@@ -545,4 +545,35 @@ footer img{
         display: flex;
         flex-direction: column;
     }
+    #instalacion .box-head p{
+        width: 100%;
+        text-align: center;
+    }
+    #instalacion .box-body{
+        display: flex;
+        flex-direction: row;
+    }
+    #instalacion .box-inside{
+        margin-left: 2em;
+    }
+    #form h2{
+        font-size: 4em;
+    }
+    #form .box-head p{
+        width: 100%;
+    }
+    #form .box-body{
+        display: flex;
+        flex-direction: row;
+    }
+    #form .box-right, .box-left{
+        width: 50%  ;
+    }
+    footer .div-footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
 }
