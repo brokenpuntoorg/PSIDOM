@@ -411,7 +411,7 @@ footer img{
 @media (min-width:500px){
     h1{font-size: 5em;}
     h2{font-size: 4em;}
-    h3{font-size: 3em;}
+    h3{font-size: 2.7em;}
     h4{font-size: 2.5em;}
     p{font-size: 1.5em;}
     li{font-size: 1.5em;}
@@ -434,9 +434,8 @@ footer img{
     header a{
         color: #f0f0f0;
         text-decoration: none;
-        margin-left: 3em;
+        margin-left: 2em;
         margin-top: 1em;
-        font-size: 1.5em;
     }
     header a:hover{
         color: rgb(124, 17, 17);
@@ -452,5 +451,72 @@ footer img{
     #hero{
         height: 100vh;
     }
-    #hero 
+    #hero .container{
+        margin-left: 0;
+    }
+    #hero .logo{
+        position: relative;
+        right: 30em;
+        bottom: 20em;
+        width: 30em;
+    }
+    #hero h1{
+        margin-bottom: 1em;
+    }
+    #hero h1:hover{
+        color: rgb(180, 48, 65);
+    }
+    #hero p{
+        margin-top: 3em;
+    }
+    #tuberia p{
+        width: 100%;
+    }
+    #tipos{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #tipos p{
+        width: 100%;
+    }
+    #tipos .box-body{
+        display: flex;
+        flex-direction: row;
+        padding: 1em;
+    }
+    #tipos .box-inside{
+        width: 30%;
+        margin-left: 4em;
+    }
+    #tipos .box-inside li{
+        text-align: left;
+    }
+    #tipos .box-body1{
+        display: flex;
+        flex-direction: row;
+        padding: 1em;
+    } 
+    #tipos .box-body1 .box-inside{
+        width: 50%;
+    }
+    #normas{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #normas .box-head p{
+        width: 100%;
+    }
+    #normas .box-body{
+        display: flex;
+        flex-direction: row;
+    }
+    #normas .box-inside{
+        margin-left: 2em;
+        margin-bottom: 2em;
+    }
+    #normativas{
+        height: 100vh;
+    }
 }
