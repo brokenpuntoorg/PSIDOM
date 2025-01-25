@@ -567,8 +567,11 @@ footer img{
         flex-direction: row;
     }
     #form .box-right, .box-left{
-        width: 50%  ;
+        width: 50%;
+        margin-left: 2em;
+        background-color: red;
     }
+    #form .box-left
     footer .div-footer{
         display: flex;
         flex-direction: row;
