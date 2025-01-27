@@ -508,4 +508,23 @@ footer img{
    #hero h1:hover{
     color: rgb(180, 48, 65);
    }
+   #componentes .container{
+    width: 100%;
+   }
+   #riser b{
+    color: #000;
+   }
+   #riser p{
+    width: 100%;
+   }
+   #componentes .box-head b{
+    color: #000;
+   }
+   #componentes p{
+    width: 100%;
+   }
+   #componentes .box-body{
+    display: flex;
+    flex-direction: row;
+   }
 }
