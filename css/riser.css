@@ -508,9 +508,6 @@ footer img{
    #hero h1:hover{
     color: rgb(180, 48, 65);
    }
-   #componentes .container{
-    width: 100%;
-   }
    #riser b{
     color: #000;
    }
@@ -527,4 +524,21 @@ footer img{
     display: flex;
     flex-direction: row;
    }
+   #componentes .box-inside{
+    margin-left: 2em;
+   }
+   #componentes .container{
+    width: 100%;
+   }
+   #componentes b{
+    color: #000;
+   }
+   #componentes .box-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   }
+
 }
