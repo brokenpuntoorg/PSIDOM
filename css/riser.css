@@ -120,10 +120,11 @@ b{
     color:  rgb(180, 48, 65);
 }
 #componentes .button{
-    position: relative;
-    top: 30px;
-    left: 15vw;
-    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 1.5em;
 }
 #tipos{
     display: flex;
@@ -533,12 +534,80 @@ footer img{
    #componentes b{
     color: #000;
    }
-   #componentes .box-button{
+   #tipos .box-head p{
+    width: 100%;
+   }
+   #tipos b{
+    color: #000;
+   }
+   #tipos .box-body{
+    display: flex;
+    flex-direction: row;
+   }
+   #tipos .box-inside{
+    width: 50%;
+    margin-left: 2em;
+    padding: 1em 2em;
+   }
+   #tipos .container{
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     text-align: center;
-    align-items: center;
    }
-
+   #tipos a{
+    margin-right: 22em;
+   }
+   #diseño .box-head p{
+    width: 100%;
+    text-align: center;
+   }
+   #diseño .box-body{
+    display: flex;
+    flex-direction: row;
+   }
+   #diseño .box-inside{
+    padding: 1em;
+    margin-left: 2em;
+   }
+   #diseño a{
+    margin-right: 22em;
+   }
+   #normativas .box-head p{
+    width: 100%;
+    text-align: center;
+   }
+   #normativas li{
+    text-align: center;
+    list-style: none;
+   }
+   #normativas .box-body{
+    display: flex;
+    flex-direction: row;
+   }
+   #normativas .box-inside{
+    width: 50%;
+    margin-left: 2em;
+    padding: 1em;
+   }
+   #importancia{
+    display: flex;
+    flex-direction: column;
+   }
+   #importancia .box-head p{
+    width: 100%;
+   }
+   #importancia{
+    text-align: center;
+   }
+   #importancia li{
+    list-style: none;
+   }
+   #form h2{
+    font-size: 4em;
+   }
+   #form .box-head p{
+    width: 100%;
+   }
 }
