@@ -632,4 +632,28 @@ footer img{
     height: 4em;
     width: 60em;
    }
+   #form .control1{
+    width: 40em;
+   }
+   #form .controls{
+    height: 14em;
+   }
+   footer .div-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+   footer a{
+    font-size: 1.8em;
+   }
+   footer .adress p{
+    font-size: 1.6em;
+    margin-left: 2em;
+   }
+   footer .cajas{
+    display: flex;
+    flex-direction: row;
+   }
 }
