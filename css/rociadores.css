@@ -482,3 +482,158 @@ footer img{
 .caja:nth-child(2){
     margin-left: -18px;
 }
+
+@media (min-width:500px){
+    h1{font-size: 5em;}
+    h2{font-size: 4em;}
+    h3{font-size: 3em;}
+    h4{font-size: 2em;}
+    p{font-size: 1.7em;}
+    a{font-size: 1.9em;}
+    li{font-size: 1.5em;}
+    b{font-size: 1.3em;}
+    .button{
+        padding: 1em 2em;
+    }
+    body{
+        font-weight: 400;
+        cursor: pointer;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+       }
+       header nav{
+        display: flex;
+        position: absolute;
+       }
+       header a{
+        text-decoration: none;
+        color: #fff;
+        margin-left: 2em;
+        margin-top: 1em;
+       }
+       header a:hover{
+        color: rgb(180, 48, 65);
+       }
+       #hero{
+        height: 100vh;
+       }
+       #hero .container{
+        margin-left: 0em;
+       }
+       #hero .logo{
+        margin-left: 0em;
+        position: relative;
+        bottom: 15em;
+        width: 30em;
+       }
+       #hero h1:hover{
+        color: rgb(180, 48, 65);
+       }
+       #hero p{
+        margin-top: 4em;
+       }
+       #composicion .box-body{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+       }
+       #composicion .box-inside{
+        margin-left: 2em;
+       }
+       #composicion .container{
+        width: 100%;
+       }
+       #funcionamiento .box-body{
+        display: flex;
+        flex-direction: row;
+       }
+       #funcionamiento .box-inside{
+        margin-left: 2em;
+        padding: 1em;
+        width: 33%;
+       }
+       #funcionamiento{
+        height: 75vh;
+       }
+       #funcionamiento .box-button{
+        margin-top: 05em;
+       }
+       #tipos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       }
+       #tipos p{
+        width: 100%;
+       }
+       #tipos .box-body{
+        display: flex;
+        flex-direction: row;
+       }
+       #tipos .box-inside{
+        margin-left: 2em;
+        margin-bottom: 2em;
+        padding: 1em;
+       }
+       #tipos h3{
+        font-size: 3em;
+       }
+       #tipos b{
+        font-size: 1.1em;
+       }
+       #clasificacion h2{
+        font-size: 4em;
+       }
+       #clasificacion .box-head p{
+        width: 100%;
+       }
+       #clasificacion b{
+        font-size: 1.2em;
+       }
+       #clasificacion .box-body{
+        display: flex;
+        flex-direction: row;
+       }
+       #clasificacion .box-inside{
+        width: 50%;
+        margin-left: 2em;
+       }
+       #clasificacion{
+        height: 85vh;
+       }
+       #clasificacion .box-button{
+        margin-top: 05em;
+       }
+       #normativa li{
+        list-style: none;
+        font-size: 1.6em;
+       }
+       #normativa b{
+        font-size: 1.1em;
+       }
+       #normativa h3{
+        position: relative;
+        top: 1em;
+       }
+       #instalacion p{
+        width: 100%;
+       }
+       #instalacion .box-body{
+        display: flex;
+        flex-direction: row;
+       }
+       #instalacion .box-inside{
+        width: 33%;
+        margin-left: 2em;
+       }
+       #instalacion{
+        height: 90vh;
+       }
+      
+}
