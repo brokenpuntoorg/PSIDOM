@@ -635,5 +635,92 @@ footer img{
        #instalacion{
         height: 90vh;
        }
-      
+      #equipo{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+      #equipo .box-body{
+        display: flex;
+        flex-direction: row;
+      }
+      #equipo .box-inside{
+        padding: 1em;
+        margin-left: 2em;
+        text-align: left;
+      }
+      #equipo b{
+        font-size: 1em;
+      }
+      #beneficios p{
+        width: 100%;
+      }
+      #beneficios .box-body{
+        display: flex;
+        flex-direction: row;
+      }
+      #beneficios .box-inside{
+        margin-left: 2em;
+        margin-bottom: 2em;
+      }
+      #beneficios .box-inside h3{
+        font-size: 2.5em;
+      }
+      #form h2{
+        font-size: 4em;
+      }
+      #form .box-head p{
+        width: 100%;
+      }
+      #form .box-body{
+        display: flex;
+        flex-direction: row;
+      }
+      #form .box-left, .box-right{
+        width: 40%;
+        padding: 2em;
+      }
+      #form .box-left{
+        margin-left: 20em;
+      }
+      #form .box-right{
+        margin-right: 30em;
+      }
+      #form .box-middle-email p{
+        width: 20em;
+        font-weight: 200;
+      }
+      #form input{
+        height: 4.5em;
+        width: 60em;
+        margin-bottom: 1.4em;
+      }
+      #form .control1{
+        width: 40em;
+      }
+      #form .controls{
+        height: 14em;
+      }
+      #form .button{
+        margin-left: 0em;
+      }
+      footer .div-footer{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+        align-items:center;
+      }
+      footer a{
+        font-size: 1.9em;
+      }
+      footer .adress p{
+        font-size: 1.7em;
+      }
+      footer .cajas{
+        display: flex;
+        flex-direction: row;
+      }
+
+
 }
