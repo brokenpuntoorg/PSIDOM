@@ -649,7 +649,17 @@ footer img{
         display: flex;
         flex-direction: row;
     }
-    #seguridad .container h2{
+    #seguridad .box-inside{
+        margin-left: 2em;
+    }
+    #seguridad{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         text-align: center;
+    }
+    #seguridad h2{
+        text-align: right;
     }
 }
