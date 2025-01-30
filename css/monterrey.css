@@ -473,6 +473,9 @@ footer img{
 
 
 @media (min-width:500px){
+    body{
+        cursor: pointer;
+    }
     h1{font-size: 5em;}
     h2{font-size: 4em;}
     h3{font-size: 3em;}
@@ -540,6 +543,113 @@ footer img{
     #importancia .box-inside p{
         font-size: 1.5em;
     }
-    
+    #factores{
+        background-image:linear-gradient(
+            0deg,
+            rgba(0,0,0.5),
+            rgba(0,0,0,.5)
+        ) 
+        ,url(assets/monterrey/hero.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #factores h2:hover{
+        color: rgb(180, 48, 65);
+    }
+    #factores h3:hover{
+        color: rgb(180, 48, 65);
+    }
+    #factores .container span{
+        font-size: 5em;
+    }
+    #beneficios h2:hover{
+        color: rgb(180, 48, 65);
+    }
+    #beneficios p{
+        width: 100%;
+        text-align: center;
+        font-size: 1.8em;
+    }
+    #beneficios .box-inside p{
+        font-size: 1.8em;
+        text-align: left;
+    }
+    #tipos .box-body{
+        display: flex;
+        flex-direction: row;
+    }
+    #tipos .box-inside{
+        margin-left: 2em;
+    }
+    #sistemas .box-body{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #sistemas .box-icon{
+        width: 35em;
+        margin-left: 2em;
+        margin-bottom: 2em;
+        display: flex;
+        flex-direction: row;
+    }
+    #sistemas span{
+        margin-bottom: 3em;
+    }
+    #equipos .box-body{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #equipos .box-icon{
+        width: 38em;
+        margin-left: 2em;
+        margin-bottom: 2em;
+        display: flex;
+        flex-direction: row;
+    }
+    #equipos span{
+        margin-bottom: 3em;
+    }
+    #obra .box-body{
+        display: flex;
+        flex-direction: row;
+    }
+    #obra .box-inside{
+        width: 33%;
+        margin-left: 2em;
+    }
+    #obra p{
+        font-size: 1.3em;
+    }
+    #box-head h2{
+        width: 100%;
+        font-size: 3.5em;
+    }
+    #normas .box-body{
+        display: flex;
+        flex-direction: row;
+    }
+    #normas .box-inside{
+        width: 25%;
+        padding: 1em;
+    }
+    #normas h3{
+        font-size: 1.8em;
+    }
+    #normas p{
+        font-size: 1em;
+    }
+    #seguridad .box-body{
+        display: flex;
+        flex-direction: row;
+    }
+    #seguridad .container h2{
+        text-align: center;
     }
 }
