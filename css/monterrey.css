@@ -330,9 +330,9 @@ nav{
 #seguridad{
     display: flex;
     flex-direction: column;
-    align-items: left;
-    justify-content: left;
-    text-align-last: left;
+    align-items: center;
+    justify-content: center;
+    text-align-last: center;
     padding: 25px;
     background-image:linear-gradient(
         0deg,
@@ -351,6 +351,9 @@ nav{
     margin-bottom: 25px;
 }
 #seguridad h2{
+    text-align: center;
+}
+#seguridad h3{
     text-align: center;
 }
 #preguntas{
@@ -652,14 +655,9 @@ footer img{
     #seguridad .box-inside{
         margin-left: 2em;
     }
-    #seguridad{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+    #seguridad h2{
         text-align: center;
     }
-    #seguridad h2{
-        text-align: right;
-    }
+
+
 }
