@@ -658,6 +658,43 @@ footer img{
     #seguridad h2{
         text-align: center;
     }
+    #preguntas h2{
+        text-align: center;
+    }
+    #preguntas h2:hover{
+        color: rgb(180, 48, 65);
+    }
+    #preguntas .box-body{
+        display: flex;
+        flex-direction: row;
+    }
+    #preguntas .box-inside{
+        width: 50%;
+        margin-bottom: 2em;
+        margin-left: 2em;
+    }
+    #contacto .box-map{
+        width: 75%;
+    }
+    #contacto iframe{
+        width: 100%;
+    }
+    #contacto .box-body{
+        display: flex;
+        flex-direction: row;
+    }
+    #contacto .box-left, .box-right{
+        width: 50%;
+    }
+    #contacto .box-inside{
+        width: 75%;
+    }
+    footer .div-footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
 
 
 }
