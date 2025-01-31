@@ -446,7 +446,5 @@ footer img{
     #servicios .box-inside{
         width: 70em;
     }
-    #servicios .box-body:first-child{
-        margin-left: 50em;
-    }
+
 }
