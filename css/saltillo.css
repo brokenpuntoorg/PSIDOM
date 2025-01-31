@@ -125,10 +125,7 @@ section{
     margin-bottom: -55px;
     color:  rgb(180, 48, 65);
 }
-#servicios .principal{
-    color: black;
-    font-size: 2em;
-}
+
 #servicios .box-inside{
     background-color: white;
     color: black;
@@ -143,7 +140,6 @@ section{
 }
 #servicios p{
     font-weight: 300;
-    width: 270px;
     text-align: center;
 }
 #servicios b{
@@ -443,8 +439,59 @@ footer img{
         display: flex;
         flex-direction: row;
     }
-    #servicios .box-inside{
-        width: 70em;
+    #servicios p{
+        width: 23em;
+        font-size: 1.8em;
+    }
+    #servicios .box-body{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #servicios .box-icon{
+        height: 15em;
+    }
+    #componentes .box-inside{
+        margin-left: 2em;
+        margin-bottom: 2em;
+    }
+    #componentes .box-body{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #componentes .box-body p{
+        width: 30em;
+    }
+    #componentes h3{
+        margin: 0;
+        padding: 0;
+    }
+    #obra .box-body p{
+        width: 20em;
+    }
+    #obra .box-body{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #importancia{
+        height: 20vh;
+    }
+    #certificacion .box-icon{
+        width: 25%;
+    }
+    #certificacion .box-inside{
+        display: flex;
+        flex-direction: column;
+    }
+    #certificacion p{
+        width: 15em;
+    }
+    #certificacion h3{
+        width: 10em;
     }
 
 }
