@@ -534,8 +534,14 @@ footer img{
         align-items: center;
         text-align: center;
     }
-    footer .adress a{
-        font-weight: 1.8em;
+    footer{
+        height: 20vh;
+    }
+    footer a{
+        font-size: 1.8em;
+    }
+    footer .div-footer  p{
+        font-size: 1.6em;
     }
 
 }
