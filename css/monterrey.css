@@ -695,6 +695,12 @@ footer img{
         align-items: center;
         justify-content: center;
     }
+    footer a{
+        font-size: 1.8em;
+    }
+    footer .adress p{
+        font-size: 1.5em;
+    }
 
 
 }
