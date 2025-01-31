@@ -516,4 +516,26 @@ footer img{
         margin-left: 2em;
         margin-bottom: 2em;
     }
+    #contactanos .box-body{
+        display: flex;
+        flex-direction: row;
+    }
+    #contactanos .box-left{
+        width: 50%;
+    }
+    #contactanos iframe{
+        width: 40em;
+        height: 30em;
+    }
+    footer .div-footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    footer .adress a{
+        font-weight: 1.8em;
+    }
+
 }
