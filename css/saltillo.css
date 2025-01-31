@@ -431,4 +431,22 @@ footer img{
         font-size: 1.8em;
         list-style: none;
     }
+    #beneficios li{
+        font-size: 1.8em;
+        text-align: center;
+        list-style: none;
+    }
+    #servicios h2{
+        font-size: 4em;
+    }
+    #servicios .box-icon{
+        display: flex;
+        flex-direction: row;
+    }
+    #servicios .box-inside{
+        width: 70em;
+    }
+    #servicios .box-body:first-child{
+        margin-left: 50em;
+    }
 }
