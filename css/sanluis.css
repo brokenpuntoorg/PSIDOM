@@ -504,4 +504,154 @@ footer img{
         rgba(0,0,0,.5)
         ),url(assets/san-luis-potosi/hero2.png);
     }
+    #hero h1:hover{
+        color: rgb(180, 48, 65);
+    }
+    #importancia .box-inside{
+        width: 50%;
+        margin-left: 4em;
+    }
+    #importancia .img{
+        width: 40em;
+        height: 30em;
+        border-radius: 25px;
+        box-shadow: 5px 5px 5px 5px #000;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    #beneficios li{
+        text-align: center;
+        list-style: none;
+        font-size: 2em;
+    }
+    #servicios p{
+        font-size: 1.5em;
+    }
+    #servicios .box-body p{
+        font-size: 1.5em;
+    }
+    #servicios .box-inside{
+        width: 33%;
+        margin-left: 3em;
+        text-align: center;
+    }
+    #servicios li{
+        font-size: 1.4em;
+    }
+    #servicios a{
+        font-size: 1.8em;
+        text-align: center;
+    }
+    #sistemas .box-inside{
+        margin-left: 3em;
+        width: 50%;
+    }
+    #sistemas li{
+        font-size: 1.5em;
+    }
+    #sistemas h2{
+        font-size: 2.5em;
+    }
+    #sistemas p{
+        font-size: 1.5em;
+    }
+    #importancia1 .box-head p{
+        width: 100%;
+        font-size: 1.5em;
+    }
+    #importancia1 h2{
+        font-size: 1.9em;
+    }
+    #importancia .box-inside{
+        margin-left: 2em;
+        margin-bottom: 2em;
+    }
+    #importancia1 h3{
+        width: 15em;
+        font-size: 3em;
+    }
+    #importancia1 .box-icon{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    #importancia1 li{
+        font-size: 1.8em;
+        margin-left: auto;margin-right: auto;
+        width: 40em;
+    }
+    #importancia1 span{
+        display: none;
+    }
+    #obra p{
+        width: 100%;
+    }
+    #obra a{
+        font-size: 2.5em;
+    }
+    #obra .box-inside{
+        width: 33%;
+    }
+    #obra{
+        height: 100vh;
+    }
+    #nfpa{
+        background-color: #fff;
+        color: #000;
+    }
+    #nfpa .box-head p{
+        width: 100%;
+        font-weight: 400;
+    }
+    #nfpa .box-inside{
+        margin-left: 2em;
+    }
+    #nfpa .box-body p{
+        font-size: 1.2em;
+    }
+    #nfpa h3{
+        font-size: 1.6em;
+    }
+    #form h2{
+        font-size: 4em;
+    }
+    #form p{
+        width: 100%;
+    }
+    #form .box-right, .box-left{
+        width: 50%;
+    }
+    #form .box-middle-email p{
+        font-size: 1.5em;
+        font-weight: 400;
+        width: 20em;
+    }
+    #form input{
+        width: 60em;
+        height: 5em;
+        margin-bottom: 1.5em;
+    }
+    #form .control1{
+        width: 40em;
+    }
+    #form .controls{
+        height: 15em;
+    }
+    #form .button{
+        margin-left: 0;
+    }
+    footer .div-footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    footer a{
+        font-size: 1.8em;
+    }
+    footer .adress p{
+        font-size: 1.5em;
+    }
 }
