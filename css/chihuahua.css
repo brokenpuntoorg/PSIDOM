@@ -535,5 +535,20 @@ footer img{
         background-size: cover;
         height: 75vh;
     }
+    #servicios h2{
+        font-size: 4em;
+    }
+    #servicios .box-head p{
+        width: 100%;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    #servicios .box-inside{
+        width: 50%;
+        margin-bottom: 4em;
+    }
+    #servicios .box-inside h3{
+        margin: 0;
+    }
 }
     
