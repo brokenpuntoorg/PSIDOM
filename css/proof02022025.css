@@ -1,0 +1,17 @@
+*{box-sizing: border-box;}
+body{
+   background-color: #aaa;
+}
+main .section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main .one{
+    width: 100vw;
+    height: 10em;
+    background-color: #000;
+}
