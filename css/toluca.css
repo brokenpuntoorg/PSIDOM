@@ -596,6 +596,24 @@ footer img{
         font-size: 1.6em;
         color: rgb(180, 48, 65);
     }
-
+    #obra .box-head p{
+        width: 100%;
+        font-size: 1.3em;
+    }
+    #obra .box-inside{
+        width: 33%;
+        margin-left: 3em;
+        margin-bottom: 5em;
+    }
+    #obra .box-body p{
+        font-size: 1.2em;
+    }
+    #obra h3{
+        font-size: 2em;
+    }
+    #nfpa .box-body{
+        display: flex;
+        flex-direction: row;
+    }
 
 }
