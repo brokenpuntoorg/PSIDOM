@@ -500,6 +500,63 @@ footer img{
         bottom: 07em;
         right: 30em;
     }
+    #hero{
+        height: 100vh;
+    }
+    #importancia .box-left, .box-right{
+        width: 50%;
+        margin-left: 2em;
+    }
+    #importancia .img{
+        width: 40em;
+        height: 25em;
+    }
+    #importancia .box-left p{
+        font-size: 1.4em;
+        margin-right: 2em;
+    }
+    #importancia h2{
+        font-size: 4em  ;
+    }
+    #beneficios{
+        background-image: linear-gradient(
+            0deg, rgba(0,0,0,.5),
+            rgba(0,0,0,.5)
+        )
+        ,url(assets/toluca/a.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #fff;
+    }
+    #beneficios li{
+        text-align: center;
+        color: #fff;
+    }
+    #servicios .container{
+        width: 100%;
+    }
+    #servicios .container h2{
+        font-size: 4em;
+    }
+    #servicios .box-head p{
+        width: 100%;
+        font-size: 1.6em;
+        font-weight: 400;
+        margin-bottom: 5em;
+    }
+    #servicios .box-inside{
+        width: 33%;
+        margin-bottom: 5em;
+        margin-left: 3em;
+    }
+    #servicios .box-inside p{
+        font-size: 1em;
+    }
+    #servicios .box-inside li{
+        font-size: 1em;
+    }
+
 
 
 }
