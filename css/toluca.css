@@ -541,7 +541,7 @@ footer img{
     }
     #servicios .box-head p{
         width: 100%;
-        font-size: 1.6em;
+        font-size: 1.4em;
         font-weight: 400;
         margin-bottom: 5em;
     }
@@ -556,7 +556,46 @@ footer img{
     #servicios .box-inside li{
         font-size: 1em;
     }
-
+    #servicios h3{
+        font-size: 2em;
+    }
+    #deteccion .box-inside{
+        width: 50;
+    }
+    #deteccion p{
+        width: 30em;
+        font-size: 1.2em;
+    }
+    #deteccion li{
+        font-size: 1.2em;
+    }
+    #deteccion h3{
+        font-size: 1.9em;
+    }
+    #deteccion h3:hover{
+        color: rgb(180, 48, 65);
+    }
+    #deteccion span{
+        display: none;
+    }
+    #importancia p{
+        font-size: 1.2em;
+    }
+    #importancia h2{
+        font-size: 2em;
+    }
+    #importancia .box-foot h3{
+        font-size: 2.1em;
+        text-align: center;
+    }
+    #importancia .box-foot-body  li{
+        font-size: 1.3em;
+        text-align: left;
+    }
+    #importancia .box-foot-body li:hover{
+        font-size: 1.6em;
+        color: rgb(180, 48, 65);
+    }
 
 
 }
