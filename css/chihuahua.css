@@ -550,5 +550,55 @@ footer img{
     #servicios .box-inside h3{
         margin: 0;
     }
+    #nfpa .box-inside{
+        margin-left: 4em;
+        width: 25em;
+    }
+    #form h2{
+        font-size: 4em;
+    }
+    #form .box-head p{
+        width: 100%;
+        font-size: 1.5em;
+    }
+    #form .box-middle-email p{
+        width: 20em;
+        font-size: 1.2em;
+        font-weight: 300;
+    }
+    #form .box-left, .box-right{
+        width: 50%;
+        margin-left: 5em;
+    }
+    #form .box-left{
+        margin-top: 5em;
+    }
+    #form input{
+        width: 60em;
+        height: 4em;
+        margin-bottom: 1em;
+    }
+    #form .control1{
+        width: 40em;
+    }
+    #form .controls{
+        height: 16em;
+    }
+    #form a.button {
+        margin-left: 0;
+    }
+    footer .div-footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    footer a{
+        font-size: 1.7em;
+    }
+    footer .adress p{
+        font-size: 1.5em;
+    }
 }
     
