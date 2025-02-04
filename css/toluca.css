@@ -440,3 +440,66 @@ footer img{
 .caja:nth-child(2){
     margin-left: -18px;
 }
+
+
+@media (min-width:500px){
+    body{
+        cursor: pointer;
+    }
+    h1{font-size: 5em;}
+    h2{font-size: 4em;}
+    h3{font-size: 3em;}
+    h4{font-size: 2em;}
+    p{font-size: 1.5em;}
+    li{font-size: 1.8em;}
+    a{font-size: 1.8em;}
+    b{font-size: 1.2em;}
+    .button{padding: 1em 2em;}
+    .box-body{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .box-inside{
+        margin-left: 2em;
+        margin-bottom: 2em;
+    }
+    header nav{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        right: 5em;
+    }
+    header a{
+        margin-left: 3em;
+        margin-top: 1em;
+        font-weight: bold;
+    }
+    header a:hover{
+        color: rgb(180, 48, 65);
+    }
+    #hero .container{
+        margin-left: 5em;
+    }
+    #hero p{
+        font-size: 1.8em;
+    }
+    #hero a.button{
+        position: relative;
+        right: 20em;
+        padding: 1em 2em;
+    } 
+    #hero h1:hover{
+        color: rgb(180, 48, 65) ;
+    }
+    #hero .logo{
+        width: 20em;
+        position: relative;
+        bottom: 07em;
+        right: 30em;
+    }
+
+
+}
