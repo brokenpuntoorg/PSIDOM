@@ -615,6 +615,28 @@ footer img{
         display: flex;
         flex-direction: row;
     }
-    
+    #nfpa .box-inside{
+        margin-left: 2em;
+        margin-bottom: 2em;
+        width: 25%;
+    }
+    #nfpa .box-inside p{
+        font-size: 1em;
+    }
+    #preguntas .box-inside{
+        width: 50%;
+        margin:  0;
+        margin-left: 2em;
+        margin-bottom: 5em;
+    }
+    #preguntas p{
+        font-size: 1.2em;
+    }
+    #preguntas h3{
+        font-size: 1.5em;
+    }
+    #form h2{
+        font-size: 4em;
+    }
 
 }
