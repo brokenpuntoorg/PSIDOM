@@ -638,5 +638,45 @@ footer img{
     #form h2{
         font-size: 4em;
     }
+    #form p{
+        width: 100%;
+    }
+    #form .right, .box-left{
+        width: 50%;
+    }
+    #form .box-middle-email p{
+        font-size: 1.5em;
+        font-weight: 300;
+        width: 20em;
+    }
+    #form input{
+        width: 40em;
+        height: 5em;
+        margin-bottom: 1.2em;
+    }
+    #form .control1{
+        width: 30em;
+    }
+    #form .controls{
+        height: 17em;
+        width: 40em;
+    }
+    #form a.button{
+        margin-left: 0em;
+        font-size: 1.2em;
+    }
+    footer .div-footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align-last: left;
+    }
+    footer a{
+        font-size: 1.8em;
+    }
+    footer .adress p{
+        font-size: 1.4em;
+    }
 
 }
