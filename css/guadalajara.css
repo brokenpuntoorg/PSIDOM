@@ -489,4 +489,67 @@ footer img{
     #servicios h2{
         font-size: 4em;
     }
+    #servicios .box-header p{
+        text-align: center;
+    }
+    #servicios .box-inside{
+        width: 33%;
+        padding: 1em;
+        height: 19em;
+        margin-bottom: 5em;
+        margin-left: 2em;
+    }
+    #servicios li{
+        font-size: 1.2em;
+    }
+    #servicios h3{
+        font-size: 1.8em;
+    }
+    #obra .box-head p{
+        text-align: center;
+        font-size: 1.2em;
+        width: 100%;
+        font-weight: 400;
+        }
+        #obra .box-inside{
+            height: 17em;
+            margin-left: 2em;
+            margin-bottom: 5em;
+        }
+        #obra h3{
+            font-size: 1.8em;
+        }
+        #nfpa .box-head p{
+            width: 100%;
+        }
+        #nfpa .box-inside{
+            width: 25%;
+            margin-left: 2em;
+        }
+        #nfpa .box-inside p{
+            font-size: 1.2em;
+            text-align: justify;
+        }
+        #nfpa h3{
+            font-size: 1.5em;
+        }
+        #nfpa{
+            border-bottom: 2px solid rgb(180, 48, 65);
+        }
+        #preguntas .box-inside{
+            margin-left: 2em;
+            margin-bottom: 5em;
+            height: 10em;
+            width: 50%;
+        }
+        #preguntas .box-inside h3{
+            font-size: 1.5em;
+        }
+
+
+
+
+
+
+
 }
