@@ -41,13 +41,23 @@ nav{display: none;}
     color: white;
     text-align: left;
     cursor: pointer;
-    height: 85vh;
+    height: 100vh;
 }
 #importancia h2{
     color: rgb(4, 4, 59);
 }
 #importancia p{
     text-align: justify;
+}
+#hero .logo{
+    background-image: url(assets/chihuahua/logo.webp);
+    width: 150px;
+    height: 100px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 1em;
 }
 #importancia .img{
     width: 300px;
@@ -429,8 +439,12 @@ footer img{
     #hero .container{
         margin-left: 0px;
     }
+    #hero{
+        height: 100vh;
+        background-color: red;
+    }
     #hero .logo{
         position: relative;
-        bottom: 20em;
+        bottom: 40em;
     }
 }
