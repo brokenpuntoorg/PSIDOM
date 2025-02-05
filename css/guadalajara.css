@@ -444,7 +444,49 @@ footer img{
         background-color: red;
     }
     #hero .logo{
-        position: relative;
-        bottom: 40em;
+        position: absolute;
+        bottom: 37em;
+        width: 20em;
+        height: 10em;
+    }
+    #hero h1:hover{
+        color: rgb(180, 48, 65);
+    }
+    #importancia .box-inside{
+        width: 50%;
+    }
+    #importancia .img{
+        width: 20em;
+        height: 20em;
+        background-position: center center;
+        background-size: contain;
+    }
+    #proteccion .box-inside{
+        margin-left: 2em;
+        height: 25em;
+    }
+    #proteccion span{
+        display:  none;
+    }
+    #proteccion h3{
+        font-size: 2em;
+        margin: 0;
+    }
+    #beneficios{
+        background-color: rgb(11, 11, 109);
+        color: #fff;
+    }
+    #beneficios h2{
+        color: #fff;
+    }
+    #beneficios p{
+        font-size: 1.5em;
+    }
+    #beneficios li{
+        text-align: center;
+        list-style: none;
+    }
+    #servicios h2{
+        font-size: 4em;
     }
 }
