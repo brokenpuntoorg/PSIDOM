@@ -403,6 +403,9 @@ footer img{
         text-decoration: none;
         color: #fff;
     }
+    header a:hover{
+        color: rgb(180, 48, 65);
+    }
     #hero .container{
         margin-right: 20em;
         text-align: left;
@@ -412,12 +415,29 @@ footer img{
         bottom: 9em;
         right: 40em;
     }
+    #hero h1:hover{
+        color: rgb(180, 48, 65);
+    }
     #importancia .box-inside{
         width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
     #importancia .img{
-        margin-top: 5em;
         width: 30em;
         height: 20em;
+    }
+    #importancia p{
+        width: 30em;
+    }
+    #instalacion span{
+        display: none;
+    }
+    #instalacion h3{
+        font-size: 1.5em;
+        color: rgb(180, 48, 65);
     }
 }
