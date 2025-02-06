@@ -440,4 +440,45 @@ footer img{
         font-size: 1.5em;
         color: rgb(180, 48, 65);
     }
+    #servicios .box-head p{
+        width: 100%;
+        margin-bottom: 3em;
+    }
+    #servicios .box-body{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #servicios .box-inside p{
+        margin-left: 0;
+        width: 100%;
+    }
+    #obra{
+        height: 50vh;
+        background-position: center;
+        background-size: contain;
+        background-repeat: repeat;
+    }
+    #obra h2:hover{
+        color: rgb(180, 48, 65);
+    }
+    #obra a:hover{
+        color: rgb(180, 48, 65);
+    }
+    #nfpa .box-head p{
+        width: 100%;
+        font-weight: 400;
+        font-size: 1.4em;
+    }
+    #nfpa .nfpa, .fm{
+        background-size: contain;
+    }
+    #nfpa p{
+        text-align: justify;
+    }
+    #nfpa .box-inside{
+        width: 25%;
+    }
 }
