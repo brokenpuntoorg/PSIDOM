@@ -361,3 +361,63 @@ footer img{
 .caja:nth-child(2){
     margin-left: -18px;
 }
+
+@media (min-width:500px){
+    body{cursor: pointer;}
+    h1{font-size: 4em;}
+    h2{font-size: 3em;}
+    h3{font-size: 2em;}
+    h4{font-size: 1.3em;}
+    p{font-size: 1.2em;}
+    b{font-size: 1.2em;}
+    li{font-size: 1.2em;}
+    a{font-size: 1.2em; font-weight: bold;}
+    .button{padding: 1em 2em;}
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .container{
+        min-width: 500px;
+        margin: 0;
+    }
+    .box-body{
+        display: flex;
+        flex-direction: row;
+    }
+    .box-inside{
+        margin-left: 2em;
+        margin-bottom: 5em;
+    }
+    header nav{
+        display: flex;
+        position: absolute;
+        right: 5em;
+        top: 1em;  
+    }
+    header a{
+        margin-left: 2em;
+        text-decoration: none;
+        color: #fff;
+    }
+    #hero .container{
+        margin-right: 20em;
+        text-align: left;
+    }
+    #hero .logo{
+        position: relative;
+        bottom: 9em;
+        right: 40em;
+    }
+    #importancia .box-inside{
+        width: 50%;
+    }
+    #importancia .img{
+        margin-top: 5em;
+        width: 30em;
+        height: 20em;
+    }
+}
