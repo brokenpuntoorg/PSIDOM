@@ -481,4 +481,46 @@ footer img{
     #nfpa .box-inside{
         width: 25%;
     }
+    #form h2{
+        font-size: 4em;
+    }
+    #form .box-head p{
+        width: 100%;
+        font-size: 1.4em;
+    }
+    #form .box-left, .box-right{
+        width: 50%;
+    }
+    #form .box-middle-email p{
+        font-size: 1.3em;
+        font-weight: 300;
+        width: 15em;
+    }
+    #form input{
+        width: 50em;
+        height: 5em;
+        margin-bottom: 1em;
+    }
+    #form .control1{
+        width: 40em;
+    }
+    #form .controls{
+        height: 15em;
+    }
+    #form a.button{
+        margin-left: 0;
+    }
+    footer .div-footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    footer a{
+        font-size: 1.6em;
+    }
+    footer .adress p{
+        font-size: 1.4em;
+    }
 }
