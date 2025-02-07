@@ -412,4 +412,34 @@ footer img{
 
 @media (min-width:500px){
     body{cursor: pointer;}
+    h1{font-size: 5em;}
+    h2{font-size: 4em;}
+    h3{font-size: 3em;}
+    h4{font-size: 2em;}
+    p{font-size: 1.3em;}
+    b{font-size: 1.3em;}
+    li{font-size: 1.3em;}
+    a{font-size: 1.3em;}
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .box-body{
+        display: flex;
+        flex-direction: row;
+    }
+    .box-inside{
+        margin-left: 2em;
+        margin-bottom: 5em;
+    }
+    .container{
+        min-width: 500px;
+        margin: auto;
+    }
+    .butoon{
+        padding: 1em 2em;
+    }
 }
