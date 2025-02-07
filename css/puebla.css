@@ -423,13 +423,7 @@ footer img{
     b{font-size: 1.3em;}
     li{font-size: 1.3em;}
     a{font-size: 1.3em;}
-    section{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
+
     .box-body{
         display: flex;
         flex-direction: row;
@@ -571,6 +565,66 @@ footer img{
         width: 100%;
         text-align: center;
     }
+    #obra .box-inside{
+        width: 33.33%;
+    }
+    #obra h3{
+        color: #fff;
+        margin: 0;
+    }
+    #nfpa .box-head p{
+        width: 100%;
+        text-align: center;
+        font-weight: 33;
+    }
+    #nfpa .box-inside{
+        width: 25%;
+        margin-left: 2em;
+    }
+    #nfpa h3{
+        font-size: 2em;
+        margin-bottom: 1em;
+    }
+    #nfpa .box-inside p{
+        text-align: justify;
+    }
+    #form h2{
+        font-size: 4em;
+    }
+    #form .box-head p{
+        width: 100%;
+        font-size: 1.5em;
+    }
+    #form .box-right, .box-left{
+        width: 50%;
+    }
+    #form .box-middle-email p{
+        font-size: 1.3em;
+        font-weight: 300;
+    }
+    #form input{
+        height: 5em;
+        margin-bottom: 1em;
+        width: 50em;
+    }
+    #form .control1{
+        width: 40em;
+    }
+    #form a.button{
+        margin-left: 0;
+    }
+    footer .div-footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    footer a{
+        font-size: 1.6em;
+    }
+    footer .adress p{
+        font-size: 1.4em;
+    }
+
 
 
 
