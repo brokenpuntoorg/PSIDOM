@@ -9,7 +9,7 @@ body{
 }
 h1{font-size: 2em; color: rgb(10, 10, 77);}
 h2{font-size: 1.7em; color: rgb(10, 10, 77)}
-h3{font-size: 1.3em; color: rgb(10, 10, 77)}
+h3{font-size: 1.3em; color: #000}
 h4{font-size: 1.2em; color: rgb(10, 10, 77)}
 h5{font-size: 1.3em; color: rgb(10, 10, 77)}
 p{font-size: .9em; font-weight: 300;}
@@ -105,6 +105,7 @@ header nav{
     margin-bottom: -20px;
     text-align: left;
     margin-left: 60px;
+    color: #000;
 }
 #beneficios .box-icon p{
     text-align: left;
@@ -129,6 +130,7 @@ header nav{
 }
 #servicios .box-inside h3{
     margin-bottom: -15px;
+    color: #000;
 }
 #servicios .box-foot p{
     text-align: justify;
@@ -413,9 +415,10 @@ footer img{
 @media (min-width:500px){
     body{cursor: pointer;}
     h1{font-size: 5em;}
-    h2{font-size: 4em;}
-    h3{font-size: 3em;}
+    h2{font-size: 3em;}
+    h3{font-size: 3em;color: #000;}
     h4{font-size: 2em;}
+    h5{font-size: 1.7em;}
     p{font-size: 1.3em;}
     b{font-size: 1.3em;}
     li{font-size: 1.3em;}
@@ -432,7 +435,7 @@ footer img{
         flex-direction: row;
     }
     .box-inside{
-        margin-left: 2em;
+        margin-left: 1em;
         margin-bottom: 5em;
     }
     .container{
@@ -442,4 +445,135 @@ footer img{
     .butoon{
         padding: 1em 2em;
     }
+    header nav{
+        display: flex;
+        position: absolute;
+        right: 5em;
+        top: 1em;
+    }
+    header a{
+        font-weight: bold;
+        margin-left: 3em;
+    }
+    header a:hover{
+        color: rgb(180, 48, 65);
+    }
+    #hero .container{
+        margin-left: 2em;
+    }
+    #hero h1, h5{
+        width: 100%;
+        color: #fff;
+    }
+    #hero h1:hover{
+        color: rgb(180, 48, 65);
+    }
+    #hero a.button{
+        position: relative;
+        top: 2em;
+        right: 25em;
+    }
+    #hero .logo{
+        position: relative;
+        bottom: 09em;
+        right: 30em;
+    }
+    #importancia .box-head p{
+        width: 100%;
+    }
+    #importancia .box-inside{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        touch-action: ;
+    }
+    #importancia h2{
+        width: 100%;
+        font-size: 3em;
+    }
+    #importancia .img{
+        width: 30em;
+        height: 20em;
+        margin-left: 2em;
+    }
+    #beneficios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #beneficios .box-body{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+    #beneficios h3{
+        color: #000;
+        font-size: 1.7em;
+    }
+    #beneficios span{
+        display: none;
+    }
+    #beneficios .box-icon{
+        border: 1px solid#000;
+        padding: 1em;
+        border-radius: 15px;
+        margin-left: 2em;
+    }
+    #servicios h2{
+        margin-top: 2em;
+    }
+    #servicios .box-head p{
+        width: 100%;
+        text-align: center;
+    }
+    #servicios .box-inside{
+        margin: 0;
+        padding-left: 1em;
+        margin-bottom: 3em;
+        margin-left: 2em;
+        width: 33.33%;
+    }
+    #servicios .box-inside h3{
+        margin: 0;
+        font-size: 2em;
+    }
+    #servicios .box-in{
+        width: 300%;
+    }
+    #disponibilidad .box-inside{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #recomendaciones{
+        height: 50vh;
+    }
+    #recomendaciones span{
+        display: none;
+    } 
+    #recomendaciones h4{
+        font-size: 3em;
+        text-align: center;
+    }
+    #recomendaciones li{
+        text-align: center;
+        list-style: none;
+        font-size: 1.8em;
+    }
+    #obra .box-head p{
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+
+
 }
