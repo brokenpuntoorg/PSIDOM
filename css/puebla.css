@@ -407,3 +407,9 @@ footer img{
 .caja:nth-child(2){
     margin-left: -18px;
 }
+
+
+
+@media (min-width:500px){
+    body{cursor: pointer;}
+}
