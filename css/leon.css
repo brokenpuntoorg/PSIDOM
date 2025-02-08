@@ -491,6 +491,44 @@ footer img{
     #importancia h2:hover{
         color: rgb(180, 48, 65);
     }
+    #factores li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+    #factores span{
+        display: none;
+    }
+    #factores h3{
+        color: #fff;
+    }
+    #factores h3:hover{
+        color: rgb(180, 48, 65);
+    }
+    #factores li:hover{
+        font-size: 2em;
+    }
+    #beneficios p{
+        width: 100%;
+    }
+    #beneficios .box-body li{
+        font-size: 1.8em;
+        margin-bottom: 1em;
+        font-weight: bold;
+    }
+    #beneficios .box-body ol{
+        margin-left: auto;margin-right: auto;
+    }
+    #servicios span{
+        display: none;
+    }
+    #servicios .box-inside{
+        width: 50%;
+    }
 
 
 
