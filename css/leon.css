@@ -529,6 +529,83 @@ footer img{
     #servicios .box-inside{
         width: 50%;
     }
+    #servicios .box-icon a{
+        font-size: 2em;
+        margin-bottom: 1em  ;
+    }
+    #servicios .box-icon{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+    }
+    #mantenimiento .box-head p{
+        width: 100%;
+        margin-bottom: 2em;
+        text-align: center;
+    }
+    #mantenimiento h3{
+        font-size: 2em;
+    }
+    #obra .box-inside{
+        margin: 0;
+        width: 33.33%;
+        padding: 0 1em;
+        height: 23em;
+        margin-left: 2em;
+    }
+    #obra h3{
+        font-size: 2em;
+        margin: 0;
+    }
+    #obra{
+        height: 100vh;
+    }
+    #obra .box-head p{
+        width: 100%;
+    }
+    #importancia1 .box-head p{
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    #importancia1 .box-inside{
+        width: 25%;
+    }
+    #importancia1 .box-inside p{
+        text-align: justify;
+        font-size: 1.2em;
+    }
+    #importancia1 h3{
+        font-size: 1.7em;
+    }
+    #preguntas h3{
+        font-size: 1.7em;
+    }
+    #preguntas .box-inside{
+        width: 50%;
+    }
+    #form .box-head p{
+        width: 100%;
+        text-align: center;
+    }
+    #form .box-body{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #form .box-middle-one{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 20em;
+    }
+
+
+     
 
 
 
