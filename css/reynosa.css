@@ -483,4 +483,7 @@ footer img{
     #beneficios ol li:hover{
         font-size: 2em;
     }
+    #servicios .box-head p{
+        width: 100%;
+    }
 }
