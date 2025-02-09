@@ -436,6 +436,13 @@ footer img{
         margin-left: 2em;
         margin-bottom: 5em;
     }
+    .button{
+        padding: 1em 2em;
+    }
+    .button:hover{
+        background-color: rgb(14, 14, 58);
+        color: #fff;
+    }
     header nav{
         display: flex;
         position: absolute;
@@ -456,5 +463,24 @@ footer img{
     }
     #hero h1{
         width: 100%;
+    }
+    #importancia .box-head p{
+        width: 100%;
+    }
+    #importancia .box-inside{
+        width: 50%;
+    }
+    #importancia .img{
+        width: 40em;
+        height: 20em;
+    }
+    #beneficios ol li{
+        text-align: center;
+        list-style: none;
+        font-size: 1.6em;
+        font-weight: bold;
+    }
+    #beneficios ol li:hover{
+        font-size: 2em;
     }
 }
