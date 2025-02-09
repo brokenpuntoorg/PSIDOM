@@ -486,4 +486,30 @@ footer img{
     #servicios .box-head p{
         width: 100%;
     }
+    #servicios h3{
+        font-size: 1.9em;
+        margin: 0;
+    }
+    #disponibilidad h3{
+        font-size: 3em;
+    }
+    #disponibilidad .box-inside{
+        width: 50%;
+        margin-left: 2em;
+    }
+    #recomendaciones span{
+        display: none;
+    }
+    #recomendaciones h4{
+        font-size: 4em;
+    }
+    #recomendaciones h4:hover{
+        color: rgb(180, 48, 65);
+    }
+    #recomendaciones .box-list li{
+        text-align: center;
+       font-size: 1.9em;
+       list-style: none;
+    }
+
 }
