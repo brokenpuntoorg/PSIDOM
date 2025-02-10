@@ -464,6 +464,9 @@ footer img{
     #hero h1{
         width: 100%;
     }
+    #hero h1:hover{
+        color: rgb(180, 48, 65);
+    }
     #importancia .box-head p{
         width: 100%;
     }
@@ -510,6 +513,80 @@ footer img{
         text-align: center;
        font-size: 1.9em;
        list-style: none;
+    }
+    #recomendaciones h4{
+        margin: 0;
+    }
+    #obra .box-head p{
+        width: 100%;
+        margin-bottom: 5em;
+    }
+    #obra h3{
+        margin: 0;
+    }
+    #nfpa .box-head p{
+        width: 100%;
+    }
+    #nfpa h3{
+        font-size: 2em;
+    }
+    #nfpa .box-inside p{
+        font-size: 1.3em;
+        width: 16em;
+    }
+    #nfpa .box-body{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+    }
+    #form h2{
+        font-size: 4em;
+    }
+    #form .box-head p{
+        width: 100%;
+        text-align: center;
+        font-size: 1.8em;
+    }
+    #form .box-left, .box-right{
+        width: 50%;
+    }
+    #form .box-left{
+        margin-top: 5em;
+    }
+    #form .box-middle-one p{
+        font-size: 1.2em;
+    }
+    #form .box-middle-email p{
+        font-size: 1.2em;
+        font-weight: 300;
+        width: 20em;
+    }
+    #form input{
+        width: 50em;
+        height: 5em;
+        margin-bottom: 1em;
+    }
+    #form .control1{
+        width: 40em;
+    }
+    #form a.button{
+        margin-left: 0em;
+    }
+    footer .div-footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    footer a{
+        font-size: 1.6em;
+    }
+    footer a:hover{
+        color: #fff;
+    }
+    footer .adress p{
+        font-size: 1.5em;
     }
 
 }
