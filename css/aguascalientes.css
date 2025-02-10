@@ -458,3 +458,88 @@ footer img{
 .caja:nth-child(2){
     margin-left: -18px;
 }
+
+@media (min-width:500px){
+    body{cursor: pointer;}
+    h1{font-size: 5em;}
+    h2{font-size: 4em;}
+    h3{font-size: 3em;}
+    h4{font-size: 3em;}
+    h5{font-size: 2em;}
+    p{font-size: 1.5em;}
+    a{font-size: 1.3em;}
+    li{font-size: 1.3em;}
+    b{font-size: 1em;}
+    .button{padding: 1em 2em;}
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .box-body{
+        display: flex;
+        flex-direction: row;
+    }
+    .box-inside{
+        margin-left: 2em;
+        margin-bottom: 5em;
+    }
+    header nav{
+        display: flex;
+        position: absolute;
+        right: 5em;
+        top: 1em;
+    }
+    header a{
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: 3em;
+    }
+    header a:hover{
+        color: rgb(180, 48, 65);
+    }
+    #hero .container{
+        margin-left: 2em;
+    }
+    #hero h1:hover{
+        color: rgb(180, 48, 65);
+    }
+    #hero a.button{
+        margin-left: 0;
+    }
+    #hero .logo{
+        margin-left: 0;
+    }
+    #hero{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,.5),
+            rgba(0,0,0,.5)
+        ),url(assets/aguascalientes/2.jpg);
+        background-position: center center;
+        background-size: cover;
+        height: 100vh;
+    }
+    #importancia .box-head p{
+        width: 100%;
+    }
+    #importancia h3{
+        width: 100%;
+    }
+    #importancia .box-body p{
+        width: 50%;
+        margin-top: 2em;
+    }
+    #importancia .box-body .img{
+        width: 40em;
+        height: 20em;
+        margin-top: 2em;
+        margin-left: 2em;
+        background-position: center center;
+        background-size: cover;
+    }
+
+}
