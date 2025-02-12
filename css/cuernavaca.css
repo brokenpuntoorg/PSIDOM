@@ -444,4 +444,29 @@ footer img{
         justify-content: center;
         align-items: center;
     }
+    header nav{
+        display: flex;
+        position: absolute;
+        top: 1em;
+        right: 5em;
+    }
+    header a{
+        text-decoration: none;
+        margin-left: 3em;
+    }
+    header a:hover{
+        color: rgb(180, 48, 65);
+    }
+    #hero .container{
+        margin-left: 2em;
+    }
+    #hero .logo{
+        position: relative;
+        bottom: 8em;
+        right: 40em;
+    }
+    #hero a.button{
+        position: relative;
+        right: 23em;
+    }
 }
