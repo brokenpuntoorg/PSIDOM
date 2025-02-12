@@ -230,19 +230,6 @@ header nav{
     font-weight: 400;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 #form{
     background-color: rgb(14, 14, 58);
     color: white;
@@ -426,4 +413,35 @@ footer img{
 }
 .caja:nth-child(2){
     margin-left: -18px;
+}
+@media (min-width:500px){
+    body{
+        cursor: pointer;
+    }
+    h1{font-size: 5em;}
+    h2{font-size: 4em;}
+    h3{font-size: 3em;}
+    h4{font-size: 2em;}
+    h5{font-size: 1.8em;}
+    p{font-size: 1.3em;}
+    b{font-size: 1.2em;}
+    li{font-size: 1.3em;}
+    a{font-size: 1.5em;}
+    .button{padding: 1em 2em;}
+    .box-body{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    .box-inside{
+        margin-left: 2em;
+        margin-bottom: 5em;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
 }
