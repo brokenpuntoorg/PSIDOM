@@ -437,6 +437,10 @@ footer img{
         margin-left: 2em;
         margin-bottom: 5em;
     }
+    .container{
+        min-width: 500px;
+        margin: auto;
+    }
     section{
         display: flex;
         flex-direction: column;
