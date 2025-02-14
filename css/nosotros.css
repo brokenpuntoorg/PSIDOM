@@ -289,7 +289,10 @@ footer .link{
     .button{
         padding: 1em 2em;
         font-weight: bold;
-        color: #fff;}
+        color: #fff;
+        position: relative;
+        top: 2em;
+    }
     header nav{
         display: flex;
         position: absolute;
@@ -327,25 +330,34 @@ footer .link{
     #quienes .box-inside{
         width: 50%;
     }
+    #quienes .img{
+        width: 30em;
+        height: 20em;
+    }
+
     #quienes p{
         font-size: 1.2em;
+        margin: 0;
     }
     #quienes .box-icon{
         display: flex;
         flex-direction: row;
         align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 110%;
     }
     #quienes h5{
         font-size: 1.2em;
         width: 20em;
     }
     #quienes .logopsi{
-        width: 10em;
-        height: 10em;
+        width: 7em;
+        height: 7em;
     }
     #quienes .logodom{
-        width: 12em;
-        height: 10em;
+        width: 8em;
+        height: 7em;
     }
     
 
