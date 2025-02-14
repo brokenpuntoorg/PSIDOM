@@ -281,9 +281,6 @@ footer .link{
     .box-body{
         display: flex;
         flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
     }
     .box-inside{
         margin-left: 2em;
@@ -320,6 +317,37 @@ footer .link{
         height: 10em;
         margin-left: 5em;
     }
+    #quienes h2{
+        font-size: 1.8em;
+        color: rgb(180, 48, 65);
+        margin: 0;
+        margin-bottom: 2em;
+        margin-left: -2em;
+    }
+    #quienes .box-inside{
+        width: 50%;
+    }
+    #quienes p{
+        font-size: 1.2em;
+    }
+    #quienes .box-icon{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #quienes h5{
+        font-size: 1.2em;
+        width: 20em;
+    }
+    #quienes .logopsi{
+        width: 10em;
+        height: 10em;
+    }
+    #quienes .logodom{
+        width: 12em;
+        height: 10em;
+    }
+    
 
 }
 
