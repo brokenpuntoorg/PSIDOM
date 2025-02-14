@@ -182,11 +182,126 @@ footer .box-icon{
     body{cursor: pointer;}
     h1{font-size: 5em;}
     h2{font-size: 4em;}
-    h3{font-size: 3em;}
+    h3{font-size: 2em;}
     h4{font-size: 2em;}
     h5{font-size: 2em;}
     p{font-size: 1.5em;}
-    li{font-size: 1.5em;}
+    li{font-size: 1.3em;}
     a{font-size: 1.5em;}
     b{font-size: 1.2em;}
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .box-body{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .box-inside{
+        margin-left: 2em;
+        margin-top: 5em;
+    }
+    .container{
+        min-width: 500px;
+        margin: auto;
+    }
+    header nav{
+        display: flex;
+        position: absolute;
+        right: 5em;
+        top: 1em;
+    }
+    header a{
+        font-weight: bold;
+        margin-left: 2em;
+    }
+    header a:hover{
+        color: rgb(180, 48, 65);
+    }
+    #hero{
+        height: 100vh;
+    }
+    #hero .container{
+        margin-left: 5em;
+    }
+    #hero .logo{
+        margin-left: 0;
+        width: 15em;
+        height: 10em;
+        position: relative;
+    }
+    #hero h1:hover{
+        color: rgb(180, 48, 65);
+    }
+    #proyectos h2:hover{
+        color: #000;
+    }
+    #proyectos h5:hover{
+        font-size: 3em;
+        color: rgb(180, 48, 65);
+    }
+    #proyectos .box-body{
+        border: 0px;
+    }
+    #proyectos .box-img1:hover{
+        width: 30em;
+    }
+    #proyectos .box-img2:hover{
+        width: 30em;
+    }
+    #proyectos .box-img3:hover{
+        width: 30em;
+    }
+    #proyectos .box-img4:hover{
+        width: 30em;
+    }
+    #proyectos .box-img5:hover{
+        width: 30em;
+    }
+    #proyectos .box-inside{
+        margin-left: 5em;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #proyectos h3:hover{
+        color: rgb(180, 48, 65);
+    }
+    #proyectos h3{
+        width: 20em;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    footer li{
+        font-weight: 200;
+    }
+    footer .box-inside{
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    footer h5{
+        color: rgb(180, 48, 65);
+        font-size: 1.5em;
+    }
+    footer li{
+        font-size: 1.2em;
+    }
 }
