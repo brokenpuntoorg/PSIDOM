@@ -376,6 +376,43 @@ footer .link{
     }
     #porque{
         display: flex;
+        flex-direction: row;
+    }
+    #porque .box-body1{
+        display: flex;
+        flex-direction: row;
+    }
+    #porque .box-inside{
+        margin-left: 2em;
+        border-radius: 15px;
+        border: 1px solid #fff;
+        box-shadow: 5px 5px 5px 5px ;
+    }
+    #porque .box-inside:hover{
+        width: 20em;
+        height: 20em;
+    }
+    #list li:hover{
+        color: rgb(180, 48, 65);
+    }
+    footer a{
+        font-size: 1.4em;
+        margin: 0;
+    }
+    footer p{
+        font-size: 1.2em;
+        margin: 0;
+    }
+    footer li{
+        font-size: 1.2em;
+        margin: 0;
+    }
+    footer ol{
+        margin: 0;
+        margin-left: -1em;
+    }
+    footer .box-inside{
+        width: 25%;
     }
 }
 
