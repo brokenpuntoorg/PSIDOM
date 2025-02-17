@@ -226,6 +226,7 @@ footer .link{
         position: relative;
         right: 8em;
         top: 20em;
+        width: 10em;
     }
     #form form{
         display: flex;
@@ -246,5 +247,5 @@ footer .link{
         display: flex;
         flex-direction: column;
     }
-    
+
 }
