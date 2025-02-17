@@ -367,13 +367,6 @@ footer .link{
         justify-content: center;
         text-align: center;
     }
-    #nosotros .box-body{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
     #nosotros p{
         width: 22em;
         font-size: 1.2em;
@@ -381,11 +374,8 @@ footer .link{
     #nosotros .box-inside h3{
         font-size: 1.8em;
     }
-    #nosotros .img2{
-        position: relative;
-        left: 20em;
+    #porque{
+        display: flex;
     }
-    
-
 }
 
