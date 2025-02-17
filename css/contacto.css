@@ -224,12 +224,22 @@ footer .link{
     }
     #form .img{
         position: relative;
-        right: 14em;
-        top: 5em;
+        right: 8em;
+        top: 20em;
     }
     #form form{
         display: flex;
         flex-direction: column;
+        width: 50em;
+    }
+    #form h4{
+        text-align: center;
+    }
+    #form input{
+        width: 60em;
+    }
+    #form a{
+        width: 10em;
     }
 
 
