@@ -178,10 +178,10 @@ footer .link{
     h1{font-size: 5em;}
     h2{font-size: 4em;}
     h3{font-size: 3em;}
-    h4{font-size: 3em;}
-    h5{font-size: 2.5em;}
-    p{font-size: 1.2em;}
-    li{font-size: 1.2em;}
+    h4{font-size: 1.7em;}
+    h5{font-size: 1.4em;}
+    p{font-size: 1.3em;}
+    li{font-size: 1.3em;}
     a{font-size: 1.6em;}
     .button{padding: 1em 2em;}
     section{
@@ -244,9 +244,48 @@ footer .link{
     #form a{
         width: 10em;
     }
-    .box-body1{
+    #form .box-body1{
+        display: flex;
+        flex-direction: row;
+    }
+    #form .box-inside{
+        width: 33%;
+        height: 20em;
+    }
+    #form h3{
+        font-size: 1.9em;
+    }
+    #form a{
+        font-size: 1.7em;
+    }
+    #contactos .box-body{
         display: flex;
         flex-direction: column;
     }
+    #contactos .box-inside{
+        width: 70em;
+    }
+    #contactos .box-icon li{
+        font-weight: 300;
+        font-size: 1.2em;
+    }
 
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0;
+    }
+    footer a{
+        margin: 0;
+    }
+    footer ul{
+        margin: 0;
+    }
+    footer li{
+        margin: 0;
+    }
+    footer .box-inside{
+        width: 25%;
+    }
 }
