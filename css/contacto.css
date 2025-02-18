@@ -225,8 +225,9 @@ footer .link{
     #form .img{
         position: relative;
         right: 8em;
-        top: 20em;
-        width: 10em;
+        top: 15em;
+        width: 17em;
+        height: 33em;
     }
     #form form{
         display: flex;
